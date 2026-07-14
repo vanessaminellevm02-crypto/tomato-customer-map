@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo-1",
+    "name": "Esempio Cliente Attivo",
+    "status": "ATTIVO",
+    "city": "Padova",
+    "province": "PD",
+    "region": "Veneto",
+    "lat": 45.4064,
+    "lng": 11.8768
+  },
+  {
+    "id": "demo-2",
+    "name": "Esempio Cliente Inattivo",
+    "status": "INATTIVO",
+    "city": "Milano",
+    "province": "MI",
+    "region": "Lombardia",
+    "lat": 45.4642,
+    "lng": 9.19
+  },
+  {
+    "id": "demo-3",
+    "name": "Esempio Cliente Stand By",
+    "status": "STAND BY",
+    "city": "Bologna",
+    "province": "BO",
+    "region": "Emilia-Romagna",
+    "lat": 44.4949,
+    "lng": 11.3426
+  }
+]

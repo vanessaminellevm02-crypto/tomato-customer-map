@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tomato Customer Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand"><span>🍅</span><div><h1>Tomato Customer Map</h1><p>Distribuzione geografica clienti</p></div></div>
+  <div class="kpis">
+    <div class="kpi"><strong id="total">0</strong><span>Totali</span></div>
+    <div class="kpi"><strong id="visible">0</strong><span>Visibili</span></div>
+    <div class="kpi green"><strong id="active">0</strong><span>Attivi</span></div>
+    <div class="kpi red"><strong id="inactive">0</strong><span>Inattivi</span></div>
+    <div class="kpi orange"><strong id="standby">0</strong><span>Stand by</span></div>
+    <div class="kpi"><strong id="mapped">0</strong><span>Localizzati</span></div>
+  </div>
+  <div class="controls">
+    <input id="search" placeholder="Cerca locale, città, provincia…">
+    <select id="status"><option value="">Tutti gli stati</option><option>ATTIVO</option><option>INATTIVO</option><option>STAND BY</option></select>
+    <select id="region"><option value="">Tutte le regioni</option></select>
+    <button id="reset">Reimposta filtri</button>
+  </div>
+  <div class="legend"><span><i class="dot green-bg"></i>Attivi</span><span><i class="dot red-bg"></i>Inattivi</span><span><i class="dot orange-bg"></i>Stand by</span></div>
+  <div id="statusBox" class="statusbox">Caricamento database…</div>
+</aside>
+<main id="map"></main>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body></html>
