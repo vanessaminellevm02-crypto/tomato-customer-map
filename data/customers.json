@@ -5005,7 +5005,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-472",
+    "id": "customer-473",
     "name": "2ue punto zero",
     "contact": "Diego Tommaselli",
     "status": "ATTIVO",
@@ -5016,7 +5016,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-475",
+    "id": "customer-476",
     "name": "Caffe pasticceria Nelly",
     "contact": "Riccardo Zennaro",
     "status": "ATTIVO",
@@ -5027,7 +5027,7 @@
     "lng": 12.3105232
   },
   {
-    "id": "customer-476",
+    "id": "customer-478",
     "name": "Tonnarello Calisto - Tonnarello San Pietro",
     "contact": "Andrea Tulli",
     "status": "ATTIVO",
@@ -5038,7 +5038,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-477",
+    "id": "customer-479",
     "name": "Quinto miglio - veneranda",
     "contact": "Giacomo Zambelli",
     "status": "ATTIVO",
@@ -5049,7 +5049,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-478",
+    "id": "customer-480",
     "name": "Osteria Montellori",
     "contact": "Francesco Pannullo",
     "status": "ATTIVO",
@@ -5060,7 +5060,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-480",
+    "id": "customer-484",
     "name": "Giurges Pub",
     "contact": "Luca Mattei",
     "status": "ATTIVO",
@@ -5071,7 +5071,18 @@
     "lng": 12.9037518
   },
   {
-    "id": "customer-482",
+    "id": "customer-486",
+    "name": "Pizzeria Zero Otto Uno",
+    "contact": "Sergio Gargiulo",
+    "status": "ATTIVO",
+    "city": "Treviso",
+    "province": "TV",
+    "region": "Veneto",
+    "lat": 45.6658505,
+    "lng": 12.2455414
+  },
+  {
+    "id": "customer-487",
     "name": "Il Cervo - Casa Newton",
     "contact": "Sabina De Gregori",
     "status": "ATTIVO",
@@ -5082,7 +5093,7 @@
     "lng": 10.5232396
   },
   {
-    "id": "customer-485",
+    "id": "customer-490",
     "name": "Basilico Pizzeria e Braceria siciilina - Basilico asporto",
     "contact": "Rosalia Rizzo (Luca benfante)",
     "status": "ATTIVO",
@@ -5093,7 +5104,7 @@
     "lng": 13.3524434
   },
   {
-    "id": "customer-486",
+    "id": "customer-491",
     "name": "Le savocherie",
     "contact": "Salvatore Savoca",
     "status": "ATTIVO",
@@ -5104,7 +5115,7 @@
     "lng": 13.3524434
   },
   {
-    "id": "customer-487",
+    "id": "customer-492",
     "name": "Bagno Corrado",
     "contact": "Ilio Ospici",
     "status": "ATTIVO",
@@ -5115,7 +5126,7 @@
     "lng": 14.2487679
   },
   {
-    "id": "customer-488",
+    "id": "customer-493",
     "name": "Trex Ristoforno Caffè",
     "contact": "Tommaso Tresoldi",
     "status": "ATTIVO",
@@ -5126,7 +5137,7 @@
     "lng": 8.2874026
   },
   {
-    "id": "customer-490",
+    "id": "customer-495",
     "name": "Pizzeria Bellagrò",
     "contact": "Pasquale Caprarella",
     "status": "ATTIVO",
@@ -5137,7 +5148,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-494",
+    "id": "customer-499",
     "name": "L'oster",
     "contact": "Raffaele Rocche",
     "status": "ATTIVO",
@@ -5148,7 +5159,7 @@
     "lng": 9.6698727
   },
   {
-    "id": "customer-496",
+    "id": "customer-501",
     "name": "Tre Garibaldini",
     "contact": "Ilaria Venturini",
     "status": "ATTIVO",
@@ -5159,7 +5170,7 @@
     "lng": 10.7917191
   },
   {
-    "id": "customer-497",
+    "id": "customer-502",
     "name": "MuroFrari - MuroSanStae",
     "contact": "Giacomo Zammattio",
     "status": "ATTIVO",
@@ -5170,7 +5181,7 @@
     "lng": 12.3105232
   },
   {
-    "id": "customer-498",
+    "id": "customer-503",
     "name": "Nosh Verona - Nosh Padova",
     "contact": "Lei Pin Xu",
     "status": "ATTIVO",
@@ -5181,7 +5192,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-499",
+    "id": "customer-506",
     "name": "Enfant Prodige Brasserie",
     "contact": "Francesco Fava - Fabio Panizzo",
     "status": "ATTIVO",
@@ -5192,7 +5203,7 @@
     "lng": 12.2455414
   },
   {
-    "id": "customer-502",
+    "id": "customer-509",
     "name": "Coce Pescara  - DOC",
     "contact": "Elio di Donato",
     "status": "ATTIVO",
@@ -5203,7 +5214,7 @@
     "lng": 14.2059269
   },
   {
-    "id": "customer-503",
+    "id": "customer-510",
     "name": "La solita zuppa",
     "contact": "Andrea Paracchini",
     "status": "ATTIVO",
@@ -5214,7 +5225,7 @@
     "lng": 11.3316533
   },
   {
-    "id": "customer-504",
+    "id": "customer-511",
     "name": "Primo Miglio - Caffè Cavour",
     "contact": "Samuele Fantini",
     "status": "ATTIVO",
@@ -5225,7 +5236,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-505",
+    "id": "customer-512",
     "name": "Cibus Hostaria Romana",
     "contact": "Alessandro Serrentino",
     "status": "ATTIVO",
@@ -5236,7 +5247,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-509",
+    "id": "customer-516",
     "name": "The Gelatist Appia Nuova",
     "contact": "Cesare Toffolon",
     "status": "ATTIVO",
@@ -5247,7 +5258,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-510",
+    "id": "customer-517",
     "name": "The Gelatist Torino",
     "contact": "Cesare Toffolon",
     "status": "ATTIVO",
@@ -5258,7 +5269,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-511",
+    "id": "customer-518",
     "name": "The Gelatist Corso 74 - The Gelatist Nazionale 19 - The Gelatisti Quattrofontane",
     "contact": "Cesare Toffolon",
     "status": "ATTIVO",
@@ -5269,7 +5280,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-512",
+    "id": "customer-519",
     "name": "The Gelatist Corso 294 - The Gelatist Trevi 95",
     "contact": "Cesare Marconi",
     "status": "ATTIVO",
@@ -5280,7 +5291,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-513",
+    "id": "customer-520",
     "name": "Largo Galeffi Firenze",
     "contact": "Lapo Gaetani Lovatelli (Andrea Palma)",
     "status": "ATTIVO",
@@ -5291,7 +5302,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-514",
+    "id": "customer-521",
     "name": "Tenuta Monticello e Turnaindrè",
     "contact": "Siro Orlando",
     "status": "ATTIVO",
@@ -5302,7 +5313,7 @@
     "lng": 8.619655
   },
   {
-    "id": "customer-515",
+    "id": "customer-522",
     "name": "Fermento Officina Zero",
     "contact": "Maria Monaco (Davide Cicciarella)",
     "status": "ATTIVO",
@@ -5313,7 +5324,7 @@
     "lng": 14.7307524
   },
   {
-    "id": "customer-518",
+    "id": "customer-526",
     "name": "Biga genio e farina - Madonnina",
     "contact": "Federico Mangano (Stefano Parisi)",
     "status": "ATTIVO",
@@ -5324,7 +5335,7 @@
     "lng": 13.3524434
   },
   {
-    "id": "customer-519",
+    "id": "customer-527",
     "name": "Makai Saronno",
     "contact": "Gianluca Lionetto",
     "status": "ATTIVO",
@@ -5335,7 +5346,7 @@
     "lng": 9.0345548
   },
   {
-    "id": "customer-520",
+    "id": "customer-528",
     "name": "Treviso Tiramisù",
     "contact": "Elisa Menuzzo (Federica tasca)",
     "status": "ATTIVO",
@@ -5346,7 +5357,7 @@
     "lng": 12.2455414
   },
   {
-    "id": "customer-522",
+    "id": "customer-530",
     "name": "Raffaello's Street Cafè",
     "contact": "Stefano Rossetti",
     "status": "ATTIVO",
@@ -5357,7 +5368,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-524",
+    "id": "customer-532",
     "name": "Hosteria Il Punto Rosa",
     "contact": "Edoardo Trentin",
     "status": "ATTIVO",
@@ -5368,7 +5379,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-527",
+    "id": "customer-535",
     "name": "L'Orso - L'Orso in Duomo - L'Orso in Teglia",
     "contact": "Gianluca Arcovito",
     "status": "ATTIVO",
@@ -5379,7 +5390,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-529",
+    "id": "customer-537",
     "name": "Alla Magnatora",
     "contact": "Gabriele Stazi",
     "status": "ATTIVO",
@@ -5390,7 +5401,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-530",
+    "id": "customer-539",
     "name": "La vaca loka",
     "contact": "Silva Keyserling",
     "status": "ATTIVO",
@@ -5401,7 +5412,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-531",
+    "id": "customer-540",
     "name": "Magnino Bistrot",
     "contact": "Marco Nencini",
     "status": "ATTIVO",
@@ -5412,7 +5423,7 @@
     "lng": 11.3316533
   },
   {
-    "id": "customer-532",
+    "id": "customer-541",
     "name": "La Peniche - Meat Mama",
     "contact": "Emiliano Della Bona",
     "status": "ATTIVO",
@@ -5423,7 +5434,7 @@
     "lng": 10.1395519
   },
   {
-    "id": "customer-534",
+    "id": "customer-543",
     "name": "Pasticceria Magrì",
     "contact": "Maurilio Moscato",
     "status": "ATTIVO",
@@ -5434,7 +5445,7 @@
     "lng": 13.3524434
   },
   {
-    "id": "customer-535",
+    "id": "customer-544",
     "name": "R2M Capital",
     "contact": "Antonio Romano ",
     "status": "ATTIVO",
@@ -5445,7 +5456,7 @@
     "lng": 13.3524434
   },
   {
-    "id": "customer-536",
+    "id": "customer-545",
     "name": "Alpemare beach",
     "contact": "Luca Giglioli (Alessandro Luchetti)",
     "status": "ATTIVO",
@@ -5456,7 +5467,7 @@
     "lng": 10.4018624
   },
   {
-    "id": "customer-538",
+    "id": "customer-547",
     "name": "Mitili&Mitili Spezia - Mitili&Mitili Lerici",
     "contact": "Sara Panarelli (Filippo Cozzani)",
     "status": "ATTIVO",
@@ -5467,7 +5478,7 @@
     "lng": 9.9099135
   },
   {
-    "id": "customer-539",
+    "id": "customer-548",
     "name": "MT Pizza Via Deledda",
     "contact": "Roberto Minna",
     "status": "ATTIVO",
@@ -5478,7 +5489,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-540",
+    "id": "customer-549",
     "name": "MT Pizza Via Acqui",
     "contact": "Roberto Minna",
     "status": "ATTIVO",
@@ -5489,7 +5500,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-542",
+    "id": "customer-551",
     "name": "L'Bacaro de' Bischeri",
     "contact": "Willy Zipoli (Ambra Bencini)",
     "status": "ATTIVO",
@@ -5500,7 +5511,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-543",
+    "id": "customer-552",
     "name": "Verace Elettrica",
     "contact": "Antonino Russo",
     "status": "ATTIVO",
@@ -5511,7 +5522,7 @@
     "lng": 15.5542082
   },
   {
-    "id": "customer-549",
+    "id": "customer-558",
     "name": "Casa Ruggeri Monterotondo",
     "contact": "Simone Ruggeri",
     "status": "ATTIVO",
@@ -5522,7 +5533,7 @@
     "lng": 12.6183967
   },
   {
-    "id": "customer-550",
+    "id": "customer-559",
     "name": "Pastificio Ratanà",
     "contact": "Cesare Battisti",
     "status": "ATTIVO",
@@ -5533,7 +5544,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-551",
+    "id": "customer-560",
     "name": "Silvano Vini e Cibi al banco",
     "contact": "Cesare Battisti",
     "status": "ATTIVO",
@@ -5544,7 +5555,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-552",
+    "id": "customer-561",
     "name": "Cuti Lisci",
     "contact": "Alessandro Tomasello",
     "status": "ATTIVO",
@@ -5555,7 +5566,7 @@
     "lng": 15.0873718
   },
   {
-    "id": "customer-554",
+    "id": "customer-563",
     "name": "MisCatena",
     "contact": "Sara Zambon",
     "status": "ATTIVO",
@@ -5566,7 +5577,7 @@
     "lng": 10.2332031
   },
   {
-    "id": "customer-555",
+    "id": "customer-564",
     "name": "Duccio Street Food",
     "contact": "Fabio Iacuzzo",
     "status": "ATTIVO",
@@ -5577,7 +5588,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-558",
+    "id": "customer-567",
     "name": "Bar Moro - Vineria La Marra",
     "contact": "Antonio Zizzari",
     "status": "ATTIVO",
@@ -5588,7 +5599,7 @@
     "lng": 18.1718482
   },
   {
-    "id": "customer-559",
+    "id": "customer-568",
     "name": "Porca Loca Pizzeria",
     "contact": "Davide Serrau",
     "status": "ATTIVO",
@@ -5599,7 +5610,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-560",
+    "id": "customer-569",
     "name": "Sciuè Washington",
     "contact": "Luca Albano Sarno",
     "status": "ATTIVO",
@@ -5610,7 +5621,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-561",
+    "id": "customer-570",
     "name": "Sciuè Premuda",
     "contact": "Luca Albano Sarno",
     "status": "ATTIVO",
@@ -5621,7 +5632,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-563",
+    "id": "customer-572",
     "name": "Tenuta Guerritore",
     "contact": "Marina Agnese Guerritore - Giovanni Sullutrone",
     "status": "ATTIVO",
@@ -5632,7 +5643,7 @@
     "lng": 14.7594542
   },
   {
-    "id": "customer-564",
+    "id": "customer-573",
     "name": "Tagliatelleria",
     "contact": "Mattia Ruocco",
     "status": "ATTIVO",
@@ -5643,7 +5654,7 @@
     "lng": 10.9255707
   },
   {
-    "id": "customer-566",
+    "id": "customer-575",
     "name": "Coaster Roma - Coaster Nettuno",
     "contact": "Matteo Cicconi",
     "status": "ATTIVO",
@@ -5654,7 +5665,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-568",
+    "id": "customer-577",
     "name": "Alla corte dei Bicchi",
     "contact": "Fabrizio Bicchierai",
     "status": "ATTIVO",
@@ -5665,7 +5676,7 @@
     "lng": 10.7917191
   },
   {
-    "id": "customer-570",
+    "id": "customer-579",
     "name": "Birradrome",
     "contact": "Davide Petricone",
     "status": "ATTIVO",
@@ -5676,7 +5687,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-574",
+    "id": "customer-583",
     "name": "Il Batti becco",
     "contact": "Cinzia Ciattaglia",
     "status": "ATTIVO",
@@ -5687,7 +5698,7 @@
     "lng": 13.5170982
   },
   {
-    "id": "customer-575",
+    "id": "customer-584",
     "name": "Bottega Morri",
     "contact": "Diego Morri",
     "status": "ATTIVO",
@@ -5698,7 +5709,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-576",
+    "id": "customer-585",
     "name": "Ciuri - cucina siciliana",
     "contact": "Roberto Gentile",
     "status": "ATTIVO",
@@ -5709,7 +5720,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-577",
+    "id": "customer-586",
     "name": "Boma Mare Club",
     "contact": "Giovanni Porfilio",
     "status": "ATTIVO",
@@ -5720,7 +5731,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-578",
+    "id": "customer-587",
     "name": "Cica Pescheria con cucina",
     "contact": "Raffaele De Lucia",
     "status": "ATTIVO",
@@ -5731,7 +5742,7 @@
     "lng": 14.7594542
   },
   {
-    "id": "customer-581",
+    "id": "customer-590",
     "name": "Pizzeria avalon centro - Pizzeria avalon Baraccola",
     "contact": "Lorenzo Stecconi",
     "status": "ATTIVO",
@@ -5742,7 +5753,7 @@
     "lng": 13.5170982
   },
   {
-    "id": "customer-584",
+    "id": "customer-593",
     "name": "Piacere Totò - Burger Bros",
     "contact": "Antonio Maio",
     "status": "ATTIVO",
@@ -5753,7 +5764,18 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-586",
+    "id": "customer-595",
+    "name": "Basara Sushi",
+    "contact": "",
+    "status": "ATTIVO",
+    "city": "Milano",
+    "province": "MI",
+    "region": "Lombardia",
+    "lat": 45.4641943,
+    "lng": 9.1896346
+  },
+  {
+    "id": "customer-597",
     "name": "Rumagna trattoria contemporanea",
     "contact": "Pasquale Di Feo",
     "status": "ATTIVO",
@@ -5764,7 +5786,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-587",
+    "id": "customer-598",
     "name": "La Tavolaccia - Bagno isola",
     "contact": "Pasquale Di Feo",
     "status": "ATTIVO",
@@ -5775,7 +5797,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-588",
+    "id": "customer-599",
     "name": "Insolita Trattoria",
     "contact": "Lorenzo Romano",
     "status": "ATTIVO",
@@ -5786,7 +5808,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-589",
+    "id": "customer-600",
     "name": "I Bugianen",
     "contact": "Tommaso Pianta",
     "status": "ATTIVO",
@@ -5797,7 +5819,7 @@
     "lng": 8.556336
   },
   {
-    "id": "customer-590",
+    "id": "customer-601",
     "name": "Famelico Restaurant",
     "contact": "Piero Ciucci",
     "status": "ATTIVO",
@@ -5808,7 +5830,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-592",
+    "id": "customer-603",
     "name": "Ristorante Carnosa",
     "contact": "Anita Nuzzi",
     "status": "ATTIVO",
@@ -5819,7 +5841,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-593",
+    "id": "customer-604",
     "name": "Fish Ham Burger & Fry",
     "contact": "Mahdi Taheri",
     "status": "ATTIVO",
@@ -5830,7 +5852,7 @@
     "lng": 13.5170982
   },
   {
-    "id": "customer-596",
+    "id": "customer-607",
     "name": "Novabé",
     "contact": "Stefania Sità",
     "status": "ATTIVO",
@@ -5841,7 +5863,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-598",
+    "id": "customer-609",
     "name": "Quercia Matta",
     "contact": "Gianni Acciai",
     "status": "ATTIVO",
@@ -5852,7 +5874,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-599",
+    "id": "customer-610",
     "name": "Trattoria Cirio",
     "contact": "Federico Allegri",
     "status": "ATTIVO",
@@ -5863,7 +5885,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-601",
+    "id": "customer-612",
     "name": "Ilios Chiabrera - Ilios Colli Albani",
     "contact": "Roberta De Felice",
     "status": "ATTIVO",
@@ -5874,7 +5896,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-602",
+    "id": "customer-613",
     "name": "Pirru Pizza & Drink",
     "contact": "Luca Pirruccio",
     "status": "ATTIVO",
@@ -5885,7 +5907,18 @@
     "lng": 10.6304971
   },
   {
-    "id": "customer-603",
+    "id": "customer-614",
+    "name": "Ristorante Vicolo Colombina - Zarden - Ristorante Serra Sole - Circolo Bononia",
+    "contact": "Franco Rinaldi (Irene Ingrediente Italia)",
+    "status": "ATTIVO",
+    "city": "Bologna",
+    "province": "BO",
+    "region": "Emilia-Romagna",
+    "lat": 44.4938203,
+    "lng": 11.3426327
+  },
+  {
+    "id": "customer-615",
     "name": "Ti Puglio",
     "contact": "Andrea Casali",
     "status": "ATTIVO",
@@ -5896,7 +5929,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-604",
+    "id": "customer-616",
     "name": "Bei Signori",
     "contact": "Matteo Grandi",
     "status": "ATTIVO",
@@ -5907,7 +5940,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-605",
+    "id": "customer-617",
     "name": "FOC Comfort food",
     "contact": "Christian Sangermano",
     "status": "ATTIVO",
@@ -5918,7 +5951,7 @@
     "lng": 12.5684371
   },
   {
-    "id": "customer-607",
+    "id": "customer-619",
     "name": "La Gavitella Restaurant & Beach",
     "contact": "Salvatore De Lucia",
     "status": "ATTIVO",
@@ -5929,7 +5962,7 @@
     "lng": 14.7594542
   },
   {
-    "id": "customer-609",
+    "id": "customer-621",
     "name": "Shelter - Harbour cocktail bar - Edelweiss",
     "contact": "Nazzareno Catalucci",
     "status": "ATTIVO",
@@ -5940,7 +5973,7 @@
     "lng": 13.6170263
   },
   {
-    "id": "customer-610",
+    "id": "customer-622",
     "name": "Jodok - Bistrolinda - Mosso",
     "contact": "Francesco Roberto",
     "status": "ATTIVO",
@@ -5951,7 +5984,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-611",
+    "id": "customer-623",
     "name": "Bif La Fiorentina",
     "contact": "Alberto Costa",
     "status": "ATTIVO",
@@ -5962,7 +5995,7 @@
     "lng": 9.8217022
   },
   {
-    "id": "customer-612",
+    "id": "customer-624",
     "name": "Osteria Il Viandante",
     "contact": "Giuliano Campani",
     "status": "ATTIVO",
@@ -5973,7 +6006,7 @@
     "lng": 11.1137389
   },
   {
-    "id": "customer-613",
+    "id": "customer-625",
     "name": "Il Santo mica tanto",
     "contact": "Matteo Giuseppe Granero",
     "status": "ATTIVO",
@@ -5984,7 +6017,7 @@
     "lng": 8.4810315
   },
   {
-    "id": "customer-616",
+    "id": "customer-628",
     "name": "Ristorante interno camping Marina di Venezia",
     "contact": "Dino Rossetto",
     "status": "ATTIVO",
@@ -5995,7 +6028,7 @@
     "lng": 10.2371064
   },
   {
-    "id": "customer-617",
+    "id": "customer-629",
     "name": "Ristorante Bar inerno camping Sant'Angelo Village",
     "contact": "Dino Rossetto",
     "status": "ATTIVO",
@@ -6006,7 +6039,7 @@
     "lng": 10.2371064
   },
   {
-    "id": "customer-618",
+    "id": "customer-630",
     "name": "XXL Live Music bistrot",
     "contact": "Leonardo Antonio Palmisano (Steven Epifani)",
     "status": "ATTIVO",
@@ -6017,7 +6050,7 @@
     "lng": 17.9454957
   },
   {
-    "id": "customer-619",
+    "id": "customer-631",
     "name": "Pilade Pub",
     "contact": "Matteo Giambiaso",
     "status": "ATTIVO",
@@ -6028,7 +6061,7 @@
     "lng": 8.4810315
   },
   {
-    "id": "customer-621",
+    "id": "customer-633",
     "name": "Granofino Food House",
     "contact": "Luana Caratozzolo (Mario Ciulla)",
     "status": "ATTIVO",
@@ -6039,7 +6072,7 @@
     "lng": 13.57465
   },
   {
-    "id": "customer-623",
+    "id": "customer-635",
     "name": "Tap House",
     "contact": "Andrea Trovato",
     "status": "ATTIVO",
@@ -6050,7 +6083,7 @@
     "lng": 15.0873718
   },
   {
-    "id": "customer-624",
+    "id": "customer-636",
     "name": "RistoAllegretti",
     "contact": "Maurizio Di Flamminio",
     "status": "ATTIVO",
@@ -6061,7 +6094,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-625",
+    "id": "customer-637",
     "name": "I Due Carrettieri Pizza & Cucina",
     "contact": "Nicola Caliolo",
     "status": "ATTIVO",
@@ -6072,7 +6105,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-626",
+    "id": "customer-638",
     "name": "Bali Beach",
     "contact": "Alessio Barone",
     "status": "ATTIVO",
@@ -6083,7 +6116,7 @@
     "lng": 8.4810315
   },
   {
-    "id": "customer-630",
+    "id": "customer-642",
     "name": "Cala Madonnina",
     "contact": "Valentina Fellini",
     "status": "ATTIVO",
@@ -6094,7 +6127,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-631",
+    "id": "customer-643",
     "name": "Comparello Bello",
     "contact": "Claudio D'Agata",
     "status": "ATTIVO",
@@ -6105,7 +6138,7 @@
     "lng": 15.5542082
   },
   {
-    "id": "customer-632",
+    "id": "customer-644",
     "name": "Rovèscio - food and lounge",
     "contact": "Piero Ciucci",
     "status": "ATTIVO",
@@ -6116,7 +6149,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-636",
+    "id": "customer-648",
     "name": "Guglie Enoteca ristorante",
     "contact": "Richard Prima",
     "status": "ATTIVO",
@@ -6127,7 +6160,7 @@
     "lng": 10.3091256
   },
   {
-    "id": "customer-637",
+    "id": "customer-649",
     "name": "Ciao! La Bruschetta",
     "contact": "Raffaele Di Cesare",
     "status": "ATTIVO",
@@ -6138,7 +6171,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-638",
+    "id": "customer-650",
     "name": "Il Sal8 - Bar agricolo",
     "contact": "Giulio Neri",
     "status": "ATTIVO",
@@ -6149,7 +6182,7 @@
     "lng": 11.1137389
   },
   {
-    "id": "customer-639",
+    "id": "customer-651",
     "name": "Bistrot Il Battistero - Enoteca Sotto al Duomo",
     "contact": "Francois Alain Henri (Angela Vanni)",
     "status": "ATTIVO",
@@ -6160,7 +6193,7 @@
     "lng": 10.9255707
   },
   {
-    "id": "customer-641",
+    "id": "customer-653",
     "name": "Mai Tai Porto Frailis",
     "contact": "Michele Fanni",
     "status": "ATTIVO",
@@ -6171,7 +6204,7 @@
     "lng": 9.6591551
   },
   {
-    "id": "customer-643",
+    "id": "customer-655",
     "name": "Pepe Nero - Pepe in Loggia - Kokos",
     "contact": "Stefania Bacelin",
     "status": "ATTIVO",
@@ -6182,7 +6215,7 @@
     "lng": 12.2455414
   },
   {
-    "id": "customer-648",
+    "id": "customer-660",
     "name": "Associazione Culturale Comala ETS",
     "contact": "Andrea Pino",
     "status": "ATTIVO",
@@ -6193,7 +6226,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-649",
+    "id": "customer-661",
     "name": "Araldo Arte del gusto",
     "contact": "Vittorio Squaranti",
     "status": "ATTIVO",
@@ -6204,7 +6237,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-650",
+    "id": "customer-662",
     "name": "Antonio Il Macellaio",
     "contact": "Maria Stracuzzi (Marco Antonio Tesoriero)",
     "status": "ATTIVO",
@@ -6215,7 +6248,7 @@
     "lng": 15.5542082
   },
   {
-    "id": "customer-653",
+    "id": "customer-665",
     "name": "Soul Club Spirits & food",
     "contact": "Alush Hisi",
     "status": "ATTIVO",
@@ -6226,7 +6259,7 @@
     "lng": 12.2017617
   },
   {
-    "id": "customer-656",
+    "id": "customer-668",
     "name": "Ammari",
     "contact": "Marcella Scattina",
     "status": "ATTIVO",
@@ -6237,7 +6270,7 @@
     "lng": 15.0873718
   },
   {
-    "id": "customer-658",
+    "id": "customer-670",
     "name": "Ristorante Cantine Milano",
     "contact": "Angelo Altieri",
     "status": "ATTIVO",
@@ -6248,7 +6281,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-659",
+    "id": "customer-671",
     "name": "Tenuta agricola Buglioni - Locanda Buglioni - Osteria Porta Borsari - Bacaro Del Mona - Archivio - Osteria Curtina",
     "contact": "Mariano Buglioni",
     "status": "ATTIVO",
@@ -6259,7 +6292,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-660",
+    "id": "customer-672",
     "name": "Risotteria Porto Mancino",
     "contact": "Jacopo Iannuzzi",
     "status": "INATTIVO",
@@ -6270,7 +6303,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-661",
+    "id": "customer-673",
     "name": "Risotteria Porto Mancino",
     "contact": "Jacopo Iannuzzi",
     "status": "INATTIVO",
@@ -6281,7 +6314,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-663",
+    "id": "customer-675",
     "name": "20MQ",
     "contact": "Mattia Liuzzi",
     "status": "INATTIVO",
@@ -6292,7 +6325,7 @@
     "lng": 16.8620293
   },
   {
-    "id": "customer-670",
+    "id": "customer-683",
     "name": "La Pinna Rossa",
     "contact": "Ritvan Zeneli",
     "status": "INATTIVO",
@@ -6303,7 +6336,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-671",
+    "id": "customer-684",
     "name": "Duccio Street Food",
     "contact": "Fabio Iacuzzo",
     "status": "INATTIVO",
@@ -6314,7 +6347,7 @@
     "lng": 11.2556404
   },
   {
-    "id": "customer-673",
+    "id": "customer-686",
     "name": "Comparello Bello sulla spiaggia",
     "contact": "Claudio D'Agata",
     "status": "INATTIVO",
@@ -6325,7 +6358,7 @@
     "lng": 15.5542082
   },
   {
-    "id": "customer-674",
+    "id": "customer-687",
     "name": "Ristorante Bagno Delfino",
     "contact": "Luca Vece",
     "status": "INATTIVO",
@@ -6336,7 +6369,7 @@
     "lng": 10.1395519
   },
   {
-    "id": "customer-675",
+    "id": "customer-688",
     "name": "Tagliato Mare",
     "contact": "Walter Ragnoli",
     "status": "INATTIVO",
@@ -6347,7 +6380,7 @@
     "lng": 8.651038
   },
   {
-    "id": "customer-676",
+    "id": "customer-689",
     "name": "BVB Sport - Food & Event",
     "contact": "Roberto Quinteri",
     "status": "INATTIVO",
@@ -6358,7 +6391,7 @@
     "lng": 9.6698727
   },
   {
-    "id": "customer-679",
+    "id": "customer-692",
     "name": "Agriconvivio",
     "contact": "Francesca Gerbasio",
     "status": "INATTIVO",
@@ -6369,7 +6402,7 @@
     "lng": 14.7594542
   },
   {
-    "id": "customer-680",
+    "id": "customer-693",
     "name": "Palazzo Presta",
     "contact": "Eugenia Inguscio",
     "status": "INATTIVO",
@@ -6380,7 +6413,7 @@
     "lng": 18.1718482
   },
   {
-    "id": "customer-681",
+    "id": "customer-694",
     "name": "Foodisfaction",
     "contact": "Alessio Sermoneta Marocchi",
     "status": "INATTIVO",
@@ -6391,7 +6424,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-682",
+    "id": "customer-695",
     "name": "Macaco Vibes",
     "contact": "Andrea Moro (Lorenzo Tabarrini)",
     "status": "INATTIVO",
@@ -6402,7 +6435,7 @@
     "lng": 12.041273
   },
   {
-    "id": "customer-684",
+    "id": "customer-698",
     "name": "The frame - Mirage beach club - Villa Conti - San Giorgio - Octopus - Cardinale Vino e Cucina",
     "contact": "Iacopo Devoti (Matteo Paganini)",
     "status": "INATTIVO",
@@ -6413,7 +6446,7 @@
     "lng": 12.5684371
   },
   {
-    "id": "customer-685",
+    "id": "customer-699",
     "name": "Fiorio - Remember - De Amicis",
     "contact": "Simone fusca",
     "status": "INATTIVO",
@@ -6424,7 +6457,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-686",
+    "id": "customer-700",
     "name": "Hotel Villa Bella",
     "contact": "Alessio Miatton",
     "status": "STAND BY",
@@ -6435,7 +6468,7 @@
     "lng": 10.9924122
   },
   {
-    "id": "customer-688",
+    "id": "customer-702",
     "name": "Biga genio e farina - Madonnina",
     "contact": "Federico Mangano (Stefano Parisi)",
     "status": "STAND BY",
@@ -6446,7 +6479,7 @@
     "lng": 13.3524434
   },
   {
-    "id": "customer-689",
+    "id": "customer-703",
     "name": "Assatrasi - Dispensa Sicana",
     "contact": "Niki Spatoliatore",
     "status": "STAND BY",
@@ -6457,7 +6490,7 @@
     "lng": 12.7116255
   },
   {
-    "id": "customer-691",
+    "id": "customer-705",
     "name": "Piacere Totò - Burger Bros",
     "contact": "Antonio Maio",
     "status": "STAND BY",
@@ -6468,7 +6501,7 @@
     "lng": 12.4829321
   },
   {
-    "id": "customer-692",
+    "id": "customer-706",
     "name": "Spiller Beer",
     "contact": "Franco Tartaglia",
     "status": "STAND BY",
@@ -6479,7 +6512,7 @@
     "lng": 9.1896346
   },
   {
-    "id": "customer-693",
+    "id": "customer-707",
     "name": "Fermento Social Bistrot",
     "contact": "Matteo Triscornia",
     "status": "STAND BY",
@@ -6490,7 +6523,7 @@
     "lng": 10.1395519
   },
   {
-    "id": "customer-695",
+    "id": "customer-709",
     "name": "Il Gambero - Antica osteria Caran",
     "contact": "Diego Sommovigo",
     "status": "STAND BY",
@@ -6501,7 +6534,7 @@
     "lng": 9.8217022
   },
   {
-    "id": "customer-696",
+    "id": "customer-710",
     "name": "XXL live music bistrot",
     "contact": "Leonardo Antonio Palmisano (Steven Epifani)",
     "status": "STAND BY",
@@ -6512,7 +6545,7 @@
     "lng": 17.9454957
   },
   {
-    "id": "customer-697",
+    "id": "customer-712",
     "name": "Ciccia Sfizi Gourmet",
     "contact": "Luciano Incani",
     "status": "STAND BY",
@@ -6523,7 +6556,7 @@
     "lng": 7.6824892
   },
   {
-    "id": "customer-698",
+    "id": "customer-714",
     "name": "Pizzeria Luigi Teperino 2.0",
     "contact": "Luigi Teperino",
     "status": "STAND BY",
@@ -6534,7 +6567,7 @@
     "lng": 10.9255707
   },
   {
-    "id": "customer-699",
+    "id": "customer-715",
     "name": "Ristorante da Giustina",
     "contact": "Antonella Orazi",
     "status": "STAND BY",
@@ -6545,7 +6578,7 @@
     "lng": 13.5170982
   },
   {
-    "id": "customer-701",
+    "id": "customer-717",
     "name": "Soul Club Spirits & Food",
     "contact": "Alush Hisi",
     "status": "STAND BY",
@@ -6556,7 +6589,7 @@
     "lng": 12.2017617
   },
   {
-    "id": "customer-702",
+    "id": "customer-718",
     "name": "Il Ninfeo - Terme di Stigliano",
     "contact": "Mario Gargallo",
     "status": "STAND BY",
@@ -6567,7 +6600,7 @@
     "lng": 11.0969262
   },
   {
-    "id": "customer-703",
+    "id": "customer-719",
     "name": "Batticarne",
     "contact": "Jonny Di Marco",
     "status": "STAND BY",
