@@ -9,7 +9,7 @@
     "city": "Verona",
     "province": "Verona",
     "region": "Veneto",
-    "indirizzo": "",
+    "indirizzo": "VIA DEI DA PRATA, 24",
     "piva_clean": "04868180268",
     "Cliente": "BASTIAN S.R.L.",
     "Indirizzo cliente": "VIA DEI DA PRATA, 24",
@@ -19,8 +19,10 @@
     "Indirizzo extra": "",
     "Paese": "Italia",
     "CF": "04868180268",
-    "lat": 45.4424977,
-    "lng": 10.9857377
+    "name": "Osteria Bastian",
+    "nome": "Osteria Bastian",
+    "lat": 45.6851608,
+    "lng": 12.2466798
   },
   {
     "row_number": 3,
@@ -34,6 +36,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02932580356",
+    "name": "Bolle Quadre",
+    "nome": "Bolle Quadre",
     "lat": 44.6086674,
     "lng": 10.5940667
   },
@@ -49,6 +53,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01624940506",
+    "name": "Ganzo",
+    "nome": "Ganzo",
     "lat": 42.7902379,
     "lng": 10.3402239
   },
@@ -64,6 +70,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "02126310859",
+    "name": "Marea",
+    "nome": "Marea",
     "lat": 38.1732691,
     "lng": 14.8951639
   },
@@ -79,6 +87,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "05232200658",
+    "name": "Re Denari",
+    "nome": "Re Denari",
     "lat": 40.4194416,
     "lng": 15.3106085
   },
@@ -94,6 +104,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "00286360110",
+    "name": "Hotel Porto Roca",
+    "nome": "Hotel Porto Roca",
     "lat": 44.1465216,
     "lng": 9.6555583
   },
@@ -109,6 +121,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "13077081001",
+    "name": "Mr Brown Pub",
+    "nome": "Mr Brown Pub",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -124,6 +138,8 @@
     "region": "Abruzzo",
     "indirizzo": "",
     "piva_clean": "01291810222",
+    "name": "Alla Brace",
+    "nome": "Alla Brace",
     "lat": 42.3102619,
     "lng": 13.9575901
   },
@@ -139,6 +155,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "01878420221",
+    "name": "Ristorante Alfio",
+    "nome": "Ristorante Alfio",
     "lat": 45.9864208,
     "lng": 10.9262986
   },
@@ -154,6 +172,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "00862190980",
+    "name": "Parco La Quiete",
+    "nome": "Parco La Quiete",
     "lat": 44.1131762,
     "lng": 9.9599823
   },
@@ -169,6 +189,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "00166440222",
+    "name": "Albergo Ai Spiazzi",
+    "nome": "Albergo Ai Spiazzi",
     "lat": 46.2154357,
     "lng": 11.1207858
   },
@@ -184,6 +206,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04490520261",
+    "name": "Kapuziner Hof",
+    "nome": "Kapuziner Hof",
     "lat": 45.9452729,
     "lng": 12.3481258
   },
@@ -199,6 +223,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "02296610906",
+    "name": "Terra Nostra",
+    "nome": "Terra Nostra",
     "lat": 40.206006,
     "lng": 18.2505893
   },
@@ -214,6 +240,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01839060496",
+    "name": "Il Rifrullo",
+    "nome": "Il Rifrullo",
     "lat": 43.2710888,
     "lng": 10.5461343
   },
@@ -229,6 +257,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "00702590399",
+    "name": "Radicchio Rosso",
+    "nome": "Radicchio Rosso",
     "lat": 44.3640607,
     "lng": 12.0590095
   },
@@ -244,6 +274,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03672320789",
+    "name": "Ristorante Victoria",
+    "nome": "Ristorante Victoria",
     "lat": 44.4938203,
     "lng": 11.3426327
   },
@@ -259,6 +291,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "04120130986",
+    "name": "Circus Cafè",
+    "nome": "Circus Cafè",
     "lat": 43.9465433,
     "lng": 12.630749
   },
@@ -274,6 +308,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01429030529",
+    "name": "Osteria da Trombicche",
+    "nome": "Osteria da Trombicche",
     "lat": 43.1672059,
     "lng": 11.467561
   },
@@ -289,6 +325,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "04758200168",
+    "name": "Fabbrica",
+    "nome": "Fabbrica",
     "lat": 44.3535145,
     "lng": 11.7141233
   },
@@ -304,6 +342,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02116100443",
+    "name": "Passione carnale",
+    "nome": "Passione carnale",
     "lat": 42.9525328,
     "lng": 13.8807144
   },
@@ -319,6 +359,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02298880200",
+    "name": "Da Rita sul Mincio",
+    "nome": "Da Rita sul Mincio",
     "lat": 45.3545182,
     "lng": 10.7423903
   },
@@ -334,6 +376,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15433901004",
+    "name": "Pico's",
+    "nome": "Pico's",
     "lat": 41.4509361,
     "lng": 13.5593827
   },
@@ -349,6 +393,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "07186170481",
+    "name": "Trattoria Mamma Gina",
+    "nome": "Trattoria Mamma Gina",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -364,6 +410,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02970060352",
+    "name": "Grani antichi",
+    "nome": "Grani antichi",
     "lat": 43.4714722,
     "lng": 10.6797912
   },
@@ -379,6 +427,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "11516880967",
+    "name": "Il Panino",
+    "nome": "Il Panino",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -394,6 +444,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "02549630925",
+    "name": "Sa Cardiga e Su Pisci",
+    "nome": "Sa Cardiga e Su Pisci",
     "lat": 39.2560813,
     "lng": 9.575808
   },
@@ -409,6 +461,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "06374410485",
+    "name": "Aran Island Irish pub",
+    "nome": "Aran Island Irish pub",
     "lat": 43.8216342,
     "lng": 11.1366776
   },
@@ -424,6 +478,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "01522310190",
+    "name": "Gabbiano 1983",
+    "nome": "Gabbiano 1983",
     "lat": 42.9192633,
     "lng": 13.4291919
   },
@@ -439,6 +495,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "02295460410",
+    "name": "Gente di Mare",
+    "nome": "Gente di Mare",
     "lat": 40.5488156,
     "lng": 17.0805801
   },
@@ -454,6 +512,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02295460410",
+    "name": "Falco Vallugola",
+    "nome": "Falco Vallugola",
     "lat": 43.9668745,
     "lng": 12.7563105
   },
@@ -469,6 +529,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03900110408",
+    "name": "Taverna Pesci in faccia",
+    "nome": "Taverna Pesci in faccia",
     "lat": 43.9639933,
     "lng": 12.7441515
   },
@@ -484,6 +546,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "12137260969",
+    "name": "Cactus Milano",
+    "nome": "Cactus Milano",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -499,6 +563,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "03887080921",
+    "name": "Kremet",
+    "nome": "Kremet",
     "lat": 39.2171994,
     "lng": 9.113311
   },
@@ -514,6 +580,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02187010364",
+    "name": "Pasticceria La Golosa",
+    "nome": "Pasticceria La Golosa",
     "lat": 45.2914622,
     "lng": 11.780612
   },
@@ -529,6 +597,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02766710798",
+    "name": "Il Semaforo",
+    "nome": "Il Semaforo",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -544,6 +614,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01782100513",
+    "name": "Las Vegas Tuscany",
+    "nome": "Las Vegas Tuscany",
     "lat": 43.9357181,
     "lng": 11.0941473
   },
@@ -559,6 +631,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "02247610039",
+    "name": "La Rampolina",
+    "nome": "La Rampolina",
     "lat": 45.8869641,
     "lng": 8.5219325
   },
@@ -574,6 +648,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "03160840272",
+    "name": "Vecia Cavana",
+    "nome": "Vecia Cavana",
     "lat": 45.4371908,
     "lng": 12.3345898
   },
@@ -589,6 +665,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "03852190960",
+    "name": "Sotto Sopra",
+    "nome": "Sotto Sopra",
     "lat": 45.4424977,
     "lng": 10.9857377
   },
@@ -604,6 +682,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02071820399",
+    "name": "Aloha Beach",
+    "nome": "Aloha Beach",
     "lat": 44.3640607,
     "lng": 12.0590095
   },
@@ -619,6 +699,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "03780980136",
+    "name": "A-Rete",
+    "nome": "A-Rete",
     "lat": 40.5488156,
     "lng": 17.0805801
   },
@@ -634,6 +716,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "03131420303",
+    "name": "Capitan Morgan",
+    "nome": "Capitan Morgan",
     "lat": 45.690161,
     "lng": 13.1407655
   },
@@ -649,6 +733,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "06381810826",
+    "name": "Sapurito",
+    "nome": "Sapurito",
     "lat": 38.1112268,
     "lng": 13.3524434
   },
@@ -664,6 +750,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "01524800115",
+    "name": "Pizza Calda",
+    "nome": "Pizza Calda",
     "lat": 45.6496485,
     "lng": 13.7772781
   },
@@ -679,6 +767,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "09259681006",
+    "name": "Hotel Mirage Cortina",
+    "nome": "Hotel Mirage Cortina",
     "lat": 46.5685125,
     "lng": 12.1323186
   },
@@ -694,6 +784,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "08178930965",
+    "name": "Gandula",
+    "nome": "Gandula",
     "lat": 45.596435,
     "lng": 9.0780147
   },
@@ -709,6 +801,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "03303430213",
+    "name": "L'angolo di Marì",
+    "nome": "L'angolo di Marì",
     "lat": 46.422819,
     "lng": 11.3347713
   },
@@ -724,6 +818,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "03479220174",
+    "name": " da Sandro",
+    "nome": " da Sandro",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -739,6 +835,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "01909750430",
+    "name": "Officina Bistrot",
+    "nome": "Officina Bistrot",
     "lat": 44.4938203,
     "lng": 11.3426327
   },
@@ -754,6 +852,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02129440430",
+    "name": "Arturo Mare",
+    "nome": "Arturo Mare",
     "lat": 42.9525328,
     "lng": 13.8807144
   },
@@ -769,6 +869,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02444100461",
+    "name": "Tito del Molo",
+    "nome": "Tito del Molo",
     "lat": 43.8672392,
     "lng": 10.2506055
   },
@@ -784,6 +886,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "03439780481",
+    "name": "Ristorante Paoli",
+    "nome": "Ristorante Paoli",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -799,6 +903,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04851930265",
+    "name": "Bar Secret Cafè",
+    "nome": "Bar Secret Cafè",
     "lat": 45.6934783,
     "lng": 11.8722511
   },
@@ -814,6 +920,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "08023520961",
+    "name": "Deus Cafe",
+    "nome": "Deus Cafe",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -829,6 +937,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "01099920256",
+    "name": "Nogherazza",
+    "nome": "Nogherazza",
     "lat": 46.2805407,
     "lng": 12.0789137
   },
@@ -844,6 +954,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "04240050403",
+    "name": "La taverna degli artisti",
+    "nome": "La taverna degli artisti",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -859,6 +971,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01185231212",
+    "name": "Terrazza Belvedere",
+    "nome": "Terrazza Belvedere",
     "lat": 43.4714722,
     "lng": 10.6797912
   },
@@ -874,6 +988,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01477890527",
+    "name": "Il Fondo",
+    "nome": "Il Fondo",
     "lat": 44.575685,
     "lng": 11.3648104
   },
@@ -889,6 +1005,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "01801030469",
+    "name": "Europa",
+    "nome": "Europa",
     "lat": 45.7795805,
     "lng": 10.425873
   },
@@ -904,6 +1022,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "00228340592",
+    "name": "Hotel Fogliano",
+    "nome": "Hotel Fogliano",
     "lat": 41.4595261,
     "lng": 13.0125912
   },
@@ -919,6 +1039,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "13053990019",
+    "name": "Coltura",
+    "nome": "Coltura",
     "lat": 46.0536,
     "lng": 10.777272
   },
@@ -934,6 +1056,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "",
+    "name": "Panfuwa",
+    "nome": "Panfuwa",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -949,6 +1073,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "",
+    "name": "Panfuwa",
+    "nome": "Panfuwa",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -964,6 +1090,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "00589000256",
+    "name": "Hotel Beppe Sello",
+    "nome": "Hotel Beppe Sello",
     "lat": 46.5685125,
     "lng": 12.1323186
   },
@@ -979,6 +1107,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "18023621008",
+    "name": "80 Fame",
+    "nome": "80 Fame",
     "lat": 45.391408,
     "lng": 11.8058487
   },
@@ -994,6 +1124,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "13008461009",
+    "name": "Due di picche",
+    "nome": "Due di picche",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -1009,6 +1141,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14795491001",
+    "name": "Brillo Restaurant",
+    "nome": "Brillo Restaurant",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1024,6 +1158,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02986330732",
+    "name": "C'è pizza per te",
+    "nome": "C'è pizza per te",
     "lat": 45.5347926,
     "lng": 9.2371764
   },
@@ -1039,6 +1175,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "09458070019",
+    "name": "Zero 121",
+    "nome": "Zero 121",
     "lat": 45.41811,
     "lng": 10.0752034
   },
@@ -1054,6 +1192,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "00776060147",
+    "name": "Braceria del Crotto",
+    "nome": "Braceria del Crotto",
     "lat": 46.1313095,
     "lng": 9.5696759
   },
@@ -1069,6 +1209,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "08413981005",
+    "name": "C'è pizza per te",
+    "nome": "C'è pizza per te",
     "lat": 45.5347926,
     "lng": 9.2371764
   },
@@ -1084,6 +1226,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "04699950236",
+    "name": "Gelateria Snoopy",
+    "nome": "Gelateria Snoopy",
     "lat": 45.5984024,
     "lng": 9.1194356
   },
@@ -1099,6 +1243,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "06438390822",
+    "name": "Don Carmelo",
+    "nome": "Don Carmelo",
     "lat": 45.7836083,
     "lng": 13.4130187
   },
@@ -1114,6 +1260,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02437900232",
+    "name": "Le Rasole",
+    "nome": "Le Rasole",
     "lat": 45.5787967,
     "lng": 10.6848253
   },
@@ -1129,6 +1277,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02744780228",
+    "name": "Mochela",
+    "nome": "Mochela",
     "lat": 45.886548,
     "lng": 11.0452369
   },
@@ -1144,6 +1294,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "09437220966",
+    "name": "Signor Pizza",
+    "nome": "Signor Pizza",
     "lat": 45.611932,
     "lng": 8.8518269
   },
@@ -1159,6 +1311,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "01742740083",
+    "name": "Pizzeria Il Campione",
+    "nome": "Pizzeria Il Campione",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1174,6 +1328,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "08544830014",
+    "name": "Gran Bar Torino",
+    "nome": "Gran Bar Torino",
     "lat": 45.0957237,
     "lng": 7.5254027
   },
@@ -1189,6 +1345,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02241250816",
+    "name": "Boca ristorante - pizzeria",
+    "nome": "Boca ristorante - pizzeria",
     "lat": 45.644988,
     "lng": 11.7818926
   },
@@ -1204,6 +1362,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "14168201003",
+    "name": "Casa Del Gusto",
+    "nome": "Casa Del Gusto",
     "lat": 40.6942622,
     "lng": 14.6398879
   },
@@ -1219,6 +1379,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "01869410090",
+    "name": "Ciro Pizza",
+    "nome": "Ciro Pizza",
     "lat": 44.6400802,
     "lng": 7.8588018
   },
@@ -1234,6 +1396,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "01433160098",
+    "name": "La dolce vita",
+    "nome": "La dolce vita",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1249,6 +1413,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "01869410090",
+    "name": "Bonzo",
+    "nome": "Bonzo",
     "lat": 45.3700638,
     "lng": 7.2816333
   },
@@ -1264,6 +1430,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02454270221",
+    "name": "Maso Palù",
+    "nome": "Maso Palù",
     "lat": 45.8079885,
     "lng": 10.9444371
   },
@@ -1279,6 +1447,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17931191005",
+    "name": "Domò Sushi",
+    "nome": "Domò Sushi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1294,6 +1464,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17931201002",
+    "name": "Domò Sushi",
+    "nome": "Domò Sushi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1309,6 +1481,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "12991950010",
+    "name": "Cos 'e Pazz",
+    "nome": "Cos 'e Pazz",
     "lat": 40.6482139,
     "lng": 14.7004154
   },
@@ -1324,6 +1498,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "04029590041",
+    "name": "Infernot",
+    "nome": "Infernot",
     "lat": 45.58425,
     "lng": 8.545997
   },
@@ -1339,6 +1515,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "04095360048",
+    "name": "Ristorante 4 stagioni",
+    "nome": "Ristorante 4 stagioni",
     "lat": 45.2590302,
     "lng": 8.8590602
   },
@@ -1354,6 +1532,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04927240285",
+    "name": "Sì Padova",
+    "nome": "Sì Padova",
     "lat": 45.2270539,
     "lng": 11.533658
   },
@@ -1369,6 +1549,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "04953961002",
+    "name": "Trattoria da Riccardo",
+    "nome": "Trattoria da Riccardo",
     "lat": 40.264752,
     "lng": 8.522719
   },
@@ -1384,6 +1566,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03827460828",
+    "name": "Pizzeria Maiori",
+    "nome": "Pizzeria Maiori",
     "lat": 45.6272691,
     "lng": 9.0345548
   },
@@ -1399,6 +1583,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "01445790296",
+    "name": "Il Gusto della Scelta",
+    "nome": "Il Gusto della Scelta",
     "lat": 45.5346227,
     "lng": 11.8933845
   },
@@ -1414,6 +1600,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "03258500986",
+    "name": "Ristorante La Bianca",
+    "nome": "Ristorante La Bianca",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1429,6 +1617,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "01852540432",
+    "name": "Pop Cafè",
+    "nome": "Pop Cafè",
     "lat": 43.1357641,
     "lng": 13.0683092
   },
@@ -1444,6 +1634,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "07864620013",
+    "name": "Gelateria Via Mazzini",
+    "nome": "Gelateria Via Mazzini",
     "lat": 44.4938203,
     "lng": 11.3426327
   },
@@ -1459,6 +1651,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "08641551216",
+    "name": "Mercato Pompeiano",
+    "nome": "Mercato Pompeiano",
     "lat": 40.7491267,
     "lng": 14.5006415
   },
@@ -1474,6 +1668,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "06876040483",
+    "name": "Babae",
+    "nome": "Babae",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -1489,6 +1685,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "15446271007",
+    "name": "Patio",
+    "nome": "Patio",
     "lat": 44.4025183,
     "lng": 8.6831317
   },
@@ -1504,6 +1702,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "14135760966",
+    "name": "U spinnu",
+    "nome": "U spinnu",
     "lat": 40.7831498,
     "lng": 14.7557301
   },
@@ -1519,6 +1719,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "02934240991",
+    "name": "Mellon Bistrot",
+    "nome": "Mellon Bistrot",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -1534,6 +1736,8 @@
     "region": "Umbria",
     "indirizzo": "",
     "piva_clean": "23230000220",
+    "name": "Porca Vacca",
+    "nome": "Porca Vacca",
     "lat": 43.1070321,
     "lng": 12.4029962
   },
@@ -1549,6 +1753,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "01634730053",
+    "name": "Vicolo Battisti",
+    "nome": "Vicolo Battisti",
     "lat": 45.332162,
     "lng": 8.556336
   },
@@ -1564,6 +1770,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "08103150150",
+    "name": "Pasticceria Cucchi",
+    "nome": "Pasticceria Cucchi",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -1579,6 +1787,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "01241890258",
+    "name": "Ristorante La Culla",
+    "nome": "Ristorante La Culla",
     "lat": 45.0932785,
     "lng": 8.7313479
   },
@@ -1594,6 +1804,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "13604151004",
+    "name": "Ristorante Cleto",
+    "nome": "Ristorante Cleto",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1609,6 +1821,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "03288420601",
+    "name": "Dal Patricano",
+    "nome": "Dal Patricano",
     "lat": 41.592217,
     "lng": 13.243998
   },
@@ -1624,6 +1838,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03409160177",
+    "name": "Cinema Moretto",
+    "nome": "Cinema Moretto",
     "lat": 45.7795805,
     "lng": 10.425873
   },
@@ -1639,6 +1855,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "04056740923",
+    "name": "Da Tore al Poetto",
+    "nome": "Da Tore al Poetto",
     "lat": 39.2171994,
     "lng": 9.113311
   },
@@ -1654,6 +1872,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03805211202",
+    "name": "Casa Merlò",
+    "nome": "Casa Merlò",
     "lat": 44.4355622,
     "lng": 10.4032946
   },
@@ -1669,6 +1889,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02731990228",
+    "name": "Osteria da Carpano",
+    "nome": "Osteria da Carpano",
     "lat": 46.4228762,
     "lng": 11.7207601
   },
@@ -1684,6 +1906,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "01188580268",
+    "name": "Forno",
+    "nome": "Forno",
     "lat": 46.3573442,
     "lng": 11.6893656
   },
@@ -1699,6 +1923,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "03554830988",
+    "name": "Dopolavoro",
+    "nome": "Dopolavoro",
     "lat": 40.6358599,
     "lng": 17.6884975
   },
@@ -1714,6 +1940,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "08904180968",
+    "name": "Forno Ambrosiano",
+    "nome": "Forno Ambrosiano",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -1729,6 +1957,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "00140940495",
+    "name": "Il Romito",
+    "nome": "Il Romito",
     "lat": 42.7902379,
     "lng": 10.3402239
   },
@@ -1744,6 +1974,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04694290232",
+    "name": "Osteria Scalin",
+    "nome": "Osteria Scalin",
     "lat": 45.4424977,
     "lng": 10.9857377
   },
@@ -1759,6 +1991,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "03901120653",
+    "name": "Le bontà del capo",
+    "nome": "Le bontà del capo",
     "lat": 40.6176092,
     "lng": 14.5725004
   },
@@ -1774,6 +2008,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "08693660014",
+    "name": "Colapasta",
+    "nome": "Colapasta",
     "lat": 45.0775473,
     "lng": 7.5724262
   },
@@ -1789,6 +2025,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "12458330961",
+    "name": "Pan Milano",
+    "nome": "Pan Milano",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -1804,6 +2042,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "01822930093",
+    "name": "Zelo Gelateria",
+    "nome": "Zelo Gelateria",
     "lat": 44.2334238,
     "lng": 8.2525727
   },
@@ -1819,6 +2059,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02603630183",
+    "name": "Al vita ristorante",
+    "nome": "Al vita ristorante",
     "lat": 45.0368546,
     "lng": 9.1378251
   },
@@ -1834,6 +2076,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "02424390751",
+    "name": "Baia di Gallipoli",
+    "nome": "Baia di Gallipoli",
     "lat": 40.0546937,
     "lng": 17.975785
   },
@@ -1849,6 +2093,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02767660422",
+    "name": "Nido del corvo",
+    "nome": "Nido del corvo",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -1864,6 +2110,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "04225850363",
+    "name": "Pizza Da Giulio",
+    "nome": "Pizza Da Giulio",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1879,6 +2127,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14518241006",
+    "name": "La Gallina Bianca",
+    "nome": "La Gallina Bianca",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1894,6 +2144,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "06295780651",
+    "name": "Mamma Mò",
+    "nome": "Mamma Mò",
     "lat": 38.1112268,
     "lng": 13.3524434
   },
@@ -1909,6 +2161,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "15754891008",
+    "name": "Magazzino",
+    "nome": "Magazzino",
     "lat": 44.3511373,
     "lng": 9.1524917
   },
@@ -1924,6 +2178,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "14019491001",
+    "name": "Laboratorio",
+    "nome": "Laboratorio",
     "lat": 46.6488791,
     "lng": 12.0270407
   },
@@ -1939,6 +2195,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14833171003",
+    "name": "The Gelatist Tritone",
+    "nome": "The Gelatist Tritone",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1954,6 +2212,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "13731941004",
+    "name": "The Gelatist Nazionale 160",
+    "nome": "The Gelatist Nazionale 160",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -1969,6 +2229,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "08738961211",
+    "name": "Panamar",
+    "nome": "Panamar",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -1984,6 +2246,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02482320229",
+    "name": "Pizzeria La Pineta",
+    "nome": "Pizzeria La Pineta",
     "lat": 44.0796519,
     "lng": 10.0977529
   },
@@ -1999,6 +2263,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02908400274",
+    "name": "L'Altro Fragile",
+    "nome": "L'Altro Fragile",
     "lat": 45.4210325,
     "lng": 12.0940512
   },
@@ -2014,6 +2280,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "09169580017",
+    "name": "L'Angolo Partenopeo",
+    "nome": "L'Angolo Partenopeo",
     "lat": 45.022097,
     "lng": 7.5793974
   },
@@ -2029,6 +2297,8 @@
     "region": "Abruzzo",
     "indirizzo": "",
     "piva_clean": "04438270755",
+    "name": "Bar pizzeria del Corso",
+    "nome": "Bar pizzeria del Corso",
     "lat": 42.18814,
     "lng": 14.540819
   },
@@ -2044,6 +2314,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02483290504",
+    "name": "Pizzeria Aria",
+    "nome": "Pizzeria Aria",
     "lat": 43.4714722,
     "lng": 10.6797912
   },
@@ -2059,6 +2331,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02853590186",
+    "name": "Trattoria Angolo di casa",
+    "nome": "Trattoria Angolo di casa",
     "lat": 45.0368546,
     "lng": 9.1378251
   },
@@ -2074,6 +2348,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "01830870497",
+    "name": "La Cambusa",
+    "nome": "La Cambusa",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -2089,6 +2365,8 @@
     "region": "Molise",
     "indirizzo": "",
     "piva_clean": "03603280920",
+    "name": "Osteria Paradiso",
+    "nome": "Osteria Paradiso",
     "lat": 41.6495092,
     "lng": 14.2080618
   },
@@ -2104,6 +2382,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02075900221",
+    "name": "Gambrinus",
+    "nome": "Gambrinus",
     "lat": 42.7902379,
     "lng": 10.3402239
   },
@@ -2119,6 +2399,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "12034061007",
+    "name": "Trattoria Filù",
+    "nome": "Trattoria Filù",
     "lat": 41.8383835,
     "lng": 12.83105
   },
@@ -2134,6 +2416,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02849670993",
+    "name": "Panozzo",
+    "nome": "Panozzo",
     "lat": 45.6693837,
     "lng": 11.5417067
   },
@@ -2149,6 +2433,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "12397471009",
+    "name": "La bottega della Birra",
+    "nome": "La bottega della Birra",
     "lat": 40.624906,
     "lng": 14.374836
   },
@@ -2164,6 +2450,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16011891005",
+    "name": "Osteria Il Riposto",
+    "nome": "Osteria Il Riposto",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2179,6 +2467,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03801260120",
+    "name": "Makai Busto",
+    "nome": "Makai Busto",
     "lat": 45.611932,
     "lng": 8.8518269
   },
@@ -2194,6 +2484,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03990480133",
+    "name": "Makai Meda",
+    "nome": "Makai Meda",
     "lat": 45.6625046,
     "lng": 9.1567532
   },
@@ -2209,6 +2501,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "06572180823",
+    "name": "Pizzeria Frida",
+    "nome": "Pizzeria Frida",
     "lat": 38.1112268,
     "lng": 13.3524434
   },
@@ -2224,6 +2518,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "07037530826",
+    "name": "Enzima",
+    "nome": "Enzima",
     "lat": 45.8655249,
     "lng": 10.8055902
   },
@@ -2239,6 +2535,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02909550218",
+    "name": "Pizzeria da Angelo",
+    "nome": "Pizzeria da Angelo",
     "lat": 45.683616,
     "lng": 11.379245
   },
@@ -2254,6 +2552,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "03661790273",
+    "name": "I Grulli Ristorante",
+    "nome": "I Grulli Ristorante",
     "lat": 45.5347443,
     "lng": 12.6538449
   },
@@ -2269,6 +2569,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "07237790824",
+    "name": "Ciurma",
+    "nome": "Ciurma",
     "lat": 38.1112268,
     "lng": 13.3524434
   },
@@ -2284,6 +2586,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "04494960406",
+    "name": "Barrumba Rimini",
+    "nome": "Barrumba Rimini",
     "lat": 43.9465433,
     "lng": 12.630749
   },
@@ -2299,6 +2603,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "03267360216",
+    "name": "Ristorante La Cacciatora",
+    "nome": "Ristorante La Cacciatora",
     "lat": 46.2154357,
     "lng": 11.1207858
   },
@@ -2314,6 +2620,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "03182590244",
+    "name": "Ristorante Ai Sette Santi",
+    "nome": "Ristorante Ai Sette Santi",
     "lat": 45.6348591,
     "lng": 11.4063543
   },
@@ -2329,6 +2637,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02304230598",
+    "name": "Pasticceria Somma",
+    "nome": "Pasticceria Somma",
     "lat": 45.6836207,
     "lng": 8.7070874
   },
@@ -2344,6 +2654,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "03312770922",
+    "name": "Sa Schironada",
+    "nome": "Sa Schironada",
     "lat": 39.2171994,
     "lng": 9.113311
   },
@@ -2359,6 +2671,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02524590441",
+    "name": "Vizi e Sfizi",
+    "nome": "Vizi e Sfizi",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -2374,6 +2688,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01054480114",
+    "name": "Johnnie Fox's Pub",
+    "nome": "Johnnie Fox's Pub",
     "lat": 44.0796519,
     "lng": 10.0977529
   },
@@ -2389,6 +2705,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17563781008",
+    "name": "Dal Bolognese",
+    "nome": "Dal Bolognese",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2404,6 +2722,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "04821870237",
+    "name": "La Vecchia Rama",
+    "nome": "La Vecchia Rama",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2419,6 +2739,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "04952470237",
+    "name": "La Piazzetta",
+    "nome": "La Piazzetta",
     "lat": 43.4677993,
     "lng": 11.0432115
   },
@@ -2434,6 +2756,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "05021650238",
+    "name": "Il Mastino Bistrot",
+    "nome": "Il Mastino Bistrot",
     "lat": 45.4424977,
     "lng": 10.9857377
   },
@@ -2449,6 +2773,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04494180237",
+    "name": "Locanda degli Scaligeri",
+    "nome": "Locanda degli Scaligeri",
     "lat": 45.4424977,
     "lng": 10.9857377
   },
@@ -2464,6 +2790,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "05077700234",
+    "name": "L'Angolo di Cavour",
+    "nome": "L'Angolo di Cavour",
     "lat": 45.4424977,
     "lng": 10.9857377
   },
@@ -2479,6 +2807,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15064731001",
+    "name": "La Polledrara",
+    "nome": "La Polledrara",
     "lat": 41.8060233,
     "lng": 13.0580683
   },
@@ -2494,6 +2824,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "03452400835",
+    "name": "La Vela",
+    "nome": "La Vela",
     "lat": 46.3617871,
     "lng": 12.1948314
   },
@@ -2509,6 +2841,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14892741001",
+    "name": "Aromaticus",
+    "nome": "Aromaticus",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2524,6 +2858,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "12486150969",
+    "name": "Smashers",
+    "nome": "Smashers",
     "lat": 45.0677551,
     "lng": 7.6824892
   },
@@ -2539,6 +2875,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "12643210151",
+    "name": "Da Giuliano",
+    "nome": "Da Giuliano",
     "lat": 45.7940318,
     "lng": 11.7562674
   },
@@ -2554,6 +2892,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "03710110838",
+    "name": "Duomo",
+    "nome": "Duomo",
     "lat": 43.9357181,
     "lng": 11.0941473
   },
@@ -2569,6 +2909,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01550170110",
+    "name": "La Marinella",
+    "nome": "La Marinella",
     "lat": 42.4338317,
     "lng": 11.1237128
   },
@@ -2584,6 +2926,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "14468301008",
+    "name": "Ristorante Mucca Pazza",
+    "nome": "Ristorante Mucca Pazza",
     "lat": 44.2334238,
     "lng": 8.2525727
   },
@@ -2599,6 +2943,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "04053581007",
+    "name": "Ristorante Mucca Pazza",
+    "nome": "Ristorante Mucca Pazza",
     "lat": 44.2334238,
     "lng": 8.2525727
   },
@@ -2614,6 +2960,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "04912290964",
+    "name": "La Dogana del Buongusto",
+    "nome": "La Dogana del Buongusto",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -2629,6 +2977,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "02770110340",
+    "name": "Mama",
+    "nome": "Mama",
     "lat": 38.2208049,
     "lng": 15.2415129
   },
@@ -2644,6 +2994,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "01884910934",
+    "name": "Molo",
+    "nome": "Molo",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -2659,6 +3011,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "01216560456",
+    "name": "Ristorante Venezia",
+    "nome": "Ristorante Venezia",
     "lat": 46.0634632,
     "lng": 13.2358377
   },
@@ -2674,6 +3028,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "00583600309",
+    "name": "Al Grop",
+    "nome": "Al Grop",
     "lat": 46.1273936,
     "lng": 13.2140999
   },
@@ -2689,6 +3045,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "01349220325",
+    "name": "Biancospino",
+    "nome": "Biancospino",
     "lat": 41.4471008,
     "lng": 12.6285618
   },
@@ -2704,6 +3062,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "10491090014",
+    "name": "Quadrilatero",
+    "nome": "Quadrilatero",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -2719,6 +3079,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "09997500963",
+    "name": "Il circolino",
+    "nome": "Il circolino",
     "lat": 45.8066913,
     "lng": 12.2063158
   },
@@ -2734,6 +3096,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "13064221008",
+    "name": "Latteria",
+    "nome": "Latteria",
     "lat": 43.954248,
     "lng": 11.3864681
   },
@@ -2749,6 +3113,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14316001008",
+    "name": "Meo Pinelli",
+    "nome": "Meo Pinelli",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2764,6 +3130,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "06977040481",
+    "name": "Ristorante La Petite",
+    "nome": "Ristorante La Petite",
     "lat": 44.0796519,
     "lng": 10.0977529
   },
@@ -2779,6 +3147,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "12065701000",
+    "name": "Rosso",
+    "nome": "Rosso",
     "lat": 46.2067143,
     "lng": 8.2544931
   },
@@ -2794,6 +3164,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "08165930010",
+    "name": "Ristorante Freidour",
+    "nome": "Ristorante Freidour",
     "lat": 44.979742,
     "lng": 7.376717
   },
@@ -2809,6 +3181,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "10429900961",
+    "name": "Route 66 American Diner",
+    "nome": "Route 66 American Diner",
     "lat": 38.1112268,
     "lng": 13.3524434
   },
@@ -2824,6 +3198,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01969750494",
+    "name": "Blue Bandit",
+    "nome": "Blue Bandit",
     "lat": 42.7781822,
     "lng": 10.1533197
   },
@@ -2839,6 +3215,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16430111001",
+    "name": "Vinificio",
+    "nome": "Vinificio",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2854,6 +3232,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15589151008",
+    "name": "Pastificio San Lorenzo",
+    "nome": "Pastificio San Lorenzo",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -2869,6 +3249,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "02191070966",
+    "name": "L'ancora ristorante",
+    "nome": "L'ancora ristorante",
     "lat": 41.0242566,
     "lng": 14.4970522
   },
@@ -2884,6 +3266,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "01888120126",
+    "name": "Villa porta Tiffany",
+    "nome": "Villa porta Tiffany",
     "lat": 45.9989084,
     "lng": 8.739907
   },
@@ -2899,6 +3283,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "04119361212",
+    "name": "Palazzo Vialdo",
+    "nome": "Palazzo Vialdo",
     "lat": 40.7879211,
     "lng": 14.3682813
   },
@@ -2914,6 +3300,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "07630050727",
+    "name": "Rampavilla",
+    "nome": "Rampavilla",
     "lat": 40.9685142,
     "lng": 17.1150442
   },
@@ -2929,6 +3317,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "02262140847",
+    "name": "Trattoria Pizzeria Da Mimmo",
+    "nome": "Trattoria Pizzeria Da Mimmo",
     "lat": 37.3122991,
     "lng": 13.57465
   },
@@ -2944,6 +3334,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01900020478",
+    "name": "Osteria Il Bivio",
+    "nome": "Osteria Il Bivio",
     "lat": 43.883179,
     "lng": 10.7709533
   },
@@ -2959,6 +3351,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "12343510967",
+    "name": "Poke Moon",
+    "nome": "Poke Moon",
     "lat": 45.7795805,
     "lng": 10.425873
   },
@@ -2974,6 +3368,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02519500223",
+    "name": "Tinka Bar",
+    "nome": "Tinka Bar",
     "lat": 45.512581,
     "lng": 10.115467
   },
@@ -2989,6 +3385,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "01749940886",
+    "name": "Marisco",
+    "nome": "Marisco",
     "lat": 36.9257118,
     "lng": 14.7307524
   },
@@ -3004,6 +3402,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "01107200030",
+    "name": "Pizzeria Pan Pan",
+    "nome": "Pizzeria Pan Pan",
     "lat": 45.4371908,
     "lng": 12.3345898
   },
@@ -3019,6 +3419,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "03970350405",
+    "name": "Lièvita",
+    "nome": "Lièvita",
     "lat": 44.0796519,
     "lng": 10.0977529
   },
@@ -3034,6 +3436,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "09018651217",
+    "name": "Capo Horn",
+    "nome": "Capo Horn",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -3049,6 +3453,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "05110030755",
+    "name": "Al Ventuno",
+    "nome": "Al Ventuno",
     "lat": 40.1522173,
     "lng": 18.2260628
   },
@@ -3064,6 +3470,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "05110030755",
+    "name": "Branci",
+    "nome": "Branci",
     "lat": 40.1522173,
     "lng": 18.2260628
   },
@@ -3079,6 +3487,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "04292410273",
+    "name": "La Tavernetta",
+    "nome": "La Tavernetta",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3094,6 +3504,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "00733820161",
+    "name": "Bar Flora",
+    "nome": "Bar Flora",
     "lat": 45.7566557,
     "lng": 9.7542192
   },
@@ -3109,6 +3521,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "06221220962",
+    "name": "Ratanà",
+    "nome": "Ratanà",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3124,6 +3538,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "11994710967",
+    "name": "Remulass",
+    "nome": "Remulass",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3139,6 +3555,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "06945751219",
+    "name": "Nonna Titti",
+    "nome": "Nonna Titti",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -3154,6 +3572,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "10410271216",
+    "name": "Nonna Titti",
+    "nome": "Nonna Titti",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -3169,6 +3589,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "09187111217",
+    "name": "Nonna Titti",
+    "nome": "Nonna Titti",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -3184,6 +3606,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "08107451216",
+    "name": "Eccellenze della Costiera",
+    "nome": "Eccellenze della Costiera",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -3199,6 +3623,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "02625890609",
+    "name": "Domus Hernica",
+    "nome": "Domus Hernica",
     "lat": 41.6912736,
     "lng": 13.4176298
   },
@@ -3214,6 +3640,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02804510424",
+    "name": "Trattoria da Nordio",
+    "nome": "Trattoria da Nordio",
     "lat": 43.4801189,
     "lng": 13.2187279
   },
@@ -3229,6 +3657,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "05070020267",
+    "name": "Al Catenaccio",
+    "nome": "Al Catenaccio",
     "lat": 43.9589031,
     "lng": 10.2332031
   },
@@ -3244,6 +3674,8 @@
     "region": "Abruzzo",
     "indirizzo": "",
     "piva_clean": "01739320081",
+    "name": "Al solito posto Pub",
+    "nome": "Al solito posto Pub",
     "lat": 42.3524491,
     "lng": 13.5732906
   },
@@ -3259,6 +3691,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02737720413",
+    "name": "L'insalatiere",
+    "nome": "L'insalatiere",
     "lat": 43.8424173,
     "lng": 13.0146632
   },
@@ -3274,6 +3708,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "10049860967",
+    "name": "Sciuè Navigli",
+    "nome": "Sciuè Navigli",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3289,6 +3725,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "09175550962",
+    "name": "Sciuè Solari",
+    "nome": "Sciuè Solari",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3304,6 +3742,8 @@
     "region": "Valle d'Aosta / Vallée d'Aoste",
     "indirizzo": "",
     "piva_clean": "07930350967",
+    "name": "Trattoria Praetoria",
+    "nome": "Trattoria Praetoria",
     "lat": 45.7373075,
     "lng": 7.3204025
   },
@@ -3319,6 +3759,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "03594840161",
+    "name": "Ombra",
+    "nome": "Ombra",
     "lat": 45.1621424,
     "lng": 8.2874026
   },
@@ -3334,6 +3776,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "04032540124",
+    "name": "Evoluzione Panino",
+    "nome": "Evoluzione Panino",
     "lat": 45.9989084,
     "lng": 8.739907
   },
@@ -3349,6 +3793,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "04076751207",
+    "name": "Maestrale Braceria di Pesce",
+    "nome": "Maestrale Braceria di Pesce",
     "lat": 44.5466843,
     "lng": 11.1933259
   },
@@ -3364,6 +3810,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "01231980226",
+    "name": "Villa Giara",
+    "nome": "Villa Giara",
     "lat": 37.7979221,
     "lng": 12.4342091
   },
@@ -3379,6 +3827,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08778020720",
+    "name": "Porto Franco",
+    "nome": "Porto Franco",
     "lat": 41.1257843,
     "lng": 16.8620293
   },
@@ -3394,6 +3844,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "00463290452",
+    "name": "Ristorante Da Riccà",
+    "nome": "Ristorante Da Riccà",
     "lat": 44.0359323,
     "lng": 10.1395519
   },
@@ -3409,6 +3861,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "11040500966",
+    "name": "Chez Louis",
+    "nome": "Chez Louis",
     "lat": 43.7939893,
     "lng": 7.6731108
   },
@@ -3424,6 +3878,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "02295720060",
+    "name": "Cantine del Gavi",
+    "nome": "Cantine del Gavi",
     "lat": 44.6886154,
     "lng": 8.8061389
   },
@@ -3439,6 +3895,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "09563500967",
+    "name": "Pane e Trita",
+    "nome": "Pane e Trita",
     "lat": 45.649723,
     "lng": 9.2053999
   },
@@ -3454,6 +3912,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "08772810969",
+    "name": "Pane e Trita",
+    "nome": "Pane e Trita",
     "lat": 45.649723,
     "lng": 9.2053999
   },
@@ -3469,6 +3929,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "02474170905",
+    "name": "Cafè Principe Umberto",
+    "nome": "Cafè Principe Umberto",
     "lat": 40.9232659,
     "lng": 9.5027442
   },
@@ -3484,6 +3946,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02815160227",
+    "name": "Savot",
+    "nome": "Savot",
     "lat": 45.31515,
     "lng": 7.305909
   },
@@ -3499,6 +3963,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16260501008",
+    "name": "Il Locandiere De Core e De Panza",
+    "nome": "Il Locandiere De Core e De Panza",
     "lat": 41.791521,
     "lng": 13.174394
   },
@@ -3514,6 +3980,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16350031007",
+    "name": "Orma Roma",
+    "nome": "Orma Roma",
     "lat": 42.0517987,
     "lng": 12.6183967
   },
@@ -3529,6 +3997,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "02978090302",
+    "name": "Il Bacaro Foresto",
+    "nome": "Il Bacaro Foresto",
     "lat": 46.0634632,
     "lng": 13.2358377
   },
@@ -3544,6 +4014,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04552390405",
+    "name": "La Birreria",
+    "nome": "La Birreria",
     "lat": 45.4371908,
     "lng": 12.3345898
   },
@@ -3559,6 +4031,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02543030395",
+    "name": "La Birreria",
+    "nome": "La Birreria",
     "lat": 45.4371908,
     "lng": 12.3345898
   },
@@ -3574,6 +4048,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "10493640964",
+    "name": "Bettolina",
+    "nome": "Bettolina",
     "lat": 39.443245,
     "lng": 9.540751
   },
@@ -3589,6 +4065,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "13091261001",
+    "name": "Pizzeria di Quartiere",
+    "nome": "Pizzeria di Quartiere",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3604,6 +4082,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03249710157",
+    "name": "Locanda Rosetta",
+    "nome": "Locanda Rosetta",
     "lat": 45.3746994,
     "lng": 9.000605
   },
@@ -3619,6 +4099,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "13854861005",
+    "name": "Trattoria Papa Re",
+    "nome": "Trattoria Papa Re",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3634,6 +4116,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "05053820261",
+    "name": "Barba Blu",
+    "nome": "Barba Blu",
     "lat": 45.5347443,
     "lng": 12.6538449
   },
@@ -3649,6 +4133,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "01765680499",
+    "name": "Le Chicche",
+    "nome": "Le Chicche",
     "lat": 44.3640607,
     "lng": 12.0590095
   },
@@ -3664,6 +4150,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "01656510938",
+    "name": "Birreria Dolomiti",
+    "nome": "Birreria Dolomiti",
     "lat": 45.830401,
     "lng": 11.7370814
   },
@@ -3679,6 +4167,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "03574341206",
+    "name": "Parlor",
+    "nome": "Parlor",
     "lat": 40.1522173,
     "lng": 18.2260628
   },
@@ -3694,6 +4184,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "07818961216",
+    "name": "Il Brigante",
+    "nome": "Il Brigante",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3709,6 +4201,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "06865201005",
+    "name": "Centrale 97",
+    "nome": "Centrale 97",
     "lat": 45.7307833,
     "lng": 11.5025855
   },
@@ -3724,6 +4218,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01276420492",
+    "name": "Pizzeria Da Nanni",
+    "nome": "Pizzeria Da Nanni",
     "lat": 43.1607424,
     "lng": 10.6110056
   },
@@ -3739,6 +4235,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "04341370262",
+    "name": "Pizzeria Cip Ciop",
+    "nome": "Pizzeria Cip Ciop",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3754,6 +4252,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "03588660542",
+    "name": "Degusto",
+    "nome": "Degusto",
     "lat": 45.0677551,
     "lng": 7.6824892
   },
@@ -3769,6 +4269,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "12126020012",
+    "name": "Touberi Torino",
+    "nome": "Touberi Torino",
     "lat": 45.0677551,
     "lng": 7.6824892
   },
@@ -3784,6 +4286,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "04323380404",
+    "name": "Jam Session",
+    "nome": "Jam Session",
     "lat": 44.1999283,
     "lng": 12.3969692
   },
@@ -3799,6 +4303,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "03202150649",
+    "name": "MAMA Food",
+    "nome": "MAMA Food",
     "lat": 45.690161,
     "lng": 13.1407655
   },
@@ -3814,6 +4320,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03772070839",
+    "name": "I Portici",
+    "nome": "I Portici",
     "lat": 44.6649513,
     "lng": 10.1165079
   },
@@ -3829,6 +4337,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "06826461219",
+    "name": "Casa Artiano",
+    "nome": "Casa Artiano",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3844,6 +4354,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02090390382",
+    "name": "01:13:00",
+    "nome": "01:13:00",
     "lat": 44.20051,
     "lng": 11.1226693
   },
@@ -3859,6 +4371,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02187540368",
+    "name": "Fuoriporta",
+    "nome": "Fuoriporta",
     "lat": 43.6056068,
     "lng": 10.9712484
   },
@@ -3874,6 +4388,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "03420920138",
+    "name": "Osteria La Lanterna",
+    "nome": "Osteria La Lanterna",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -3889,6 +4405,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "07424170483",
+    "name": "Ristorante il Foyer",
+    "nome": "Ristorante il Foyer",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3904,6 +4422,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "11281320965",
+    "name": "Ambrée",
+    "nome": "Ambrée",
     "lat": 45.5761735,
     "lng": 9.3509475
   },
@@ -3919,6 +4439,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "09883281009",
+    "name": "Il Locale",
+    "nome": "Il Locale",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3934,6 +4456,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "10089151210",
+    "name": "Impasto",
+    "nome": "Impasto",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -3949,6 +4473,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "03129560604",
+    "name": "Pizzeria Gianpà",
+    "nome": "Pizzeria Gianpà",
     "lat": 41.4925576,
     "lng": 13.8305297
   },
@@ -3964,6 +4490,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "11516880967",
+    "name": "Il Panino",
+    "nome": "Il Panino",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -3979,6 +4507,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "02516610033",
+    "name": "Casa della capra",
+    "nome": "Casa della capra",
     "lat": 45.9684109,
     "lng": 8.4537412
   },
@@ -3994,6 +4524,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14191951004",
+    "name": "Insieme al pane",
+    "nome": "Insieme al pane",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -4009,6 +4541,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03764311209",
+    "name": "La Sberla Bistrot",
+    "nome": "La Sberla Bistrot",
     "lat": 44.4938203,
     "lng": 11.3426327
   },
@@ -4024,6 +4558,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "02430680567",
+    "name": "Ristorante Le Contrade",
+    "nome": "Ristorante Le Contrade",
     "lat": 45.9548046,
     "lng": 12.5034415
   },
@@ -4039,6 +4575,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "10700810962",
+    "name": "Officina della birra",
+    "nome": "Officina della birra",
     "lat": 45.5372394,
     "lng": 9.1889678
   },
@@ -4054,6 +4592,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "03999010121",
+    "name": "Laguna Blu",
+    "nome": "Laguna Blu",
     "lat": 44.3893419,
     "lng": 8.6428599
   },
@@ -4069,6 +4609,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "03024200994",
+    "name": "Polleria Parodi",
+    "nome": "Polleria Parodi",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -4084,6 +4626,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "04380550279",
+    "name": "Pizza Diamante",
+    "nome": "Pizza Diamante",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -4099,6 +4643,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "02633700998",
+    "name": "Ristorante Rapalà",
+    "nome": "Ristorante Rapalà",
     "lat": 44.3492083,
     "lng": 9.2316102
   },
@@ -4114,6 +4660,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "03834110920",
+    "name": "Relax Wine Bar",
+    "nome": "Relax Wine Bar",
     "lat": 39.2399728,
     "lng": 9.1880967
   },
@@ -4129,6 +4677,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "01485610495",
+    "name": "La Lampara",
+    "nome": "La Lampara",
     "lat": 44.40726,
     "lng": 8.9338624
   },
@@ -4144,6 +4694,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "07409920969",
+    "name": "L'Oro di Napoli",
+    "nome": "L'Oro di Napoli",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -4159,6 +4711,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "06375150486",
+    "name": "Trattoria Zazà",
+    "nome": "Trattoria Zazà",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -4174,6 +4728,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "00938191004",
+    "name": "Sfizio",
+    "nome": "Sfizio",
     "lat": 37.5023612,
     "lng": 15.0873718
   },
@@ -4189,6 +4745,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "06908751008",
+    "name": "Antico Caffe San Pietro",
+    "nome": "Antico Caffe San Pietro",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -4204,6 +4762,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01304210550",
+    "name": "Il convento",
+    "nome": "Il convento",
     "lat": 42.7751102,
     "lng": 11.2878044
   },
@@ -4219,6 +4779,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02570620225",
+    "name": "Lago di tenno",
+    "nome": "Lago di tenno",
     "lat": 45.9364699,
     "lng": 10.8160329
   },
@@ -4234,6 +4796,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "03706710260",
+    "name": "Trattoria Cima",
+    "nome": "Trattoria Cima",
     "lat": 45.9163158,
     "lng": 12.0273735
   },
@@ -4249,6 +4813,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "01935070993",
+    "name": "Pizzeria Piro Piro",
+    "nome": "Pizzeria Piro Piro",
     "lat": 40.0562972,
     "lng": 15.4564941
   },
@@ -4264,6 +4830,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "00673781209",
+    "name": "Garani Pastry & Bistrot",
+    "nome": "Garani Pastry & Bistrot",
     "lat": 44.593288,
     "lng": 11.3670334
   },
@@ -4279,6 +4847,8 @@
     "region": "Abruzzo",
     "indirizzo": "",
     "piva_clean": "00929140671",
+    "name": "Tiziano Gelateria",
+    "nome": "Tiziano Gelateria",
     "lat": 42.3479974,
     "lng": 14.318084
   },
@@ -4294,6 +4864,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15862451000",
+    "name": "Loft 84",
+    "nome": "Loft 84",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -4309,6 +4881,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02075360491",
+    "name": "Manalù",
+    "nome": "Manalù",
     "lat": 42.7902379,
     "lng": 10.3402239
   },
@@ -4324,6 +4898,8 @@
     "region": "Calabria",
     "indirizzo": "",
     "piva_clean": "02724650904",
+    "name": "Piperita Patty",
+    "nome": "Piperita Patty",
     "lat": 39.1873894,
     "lng": 16.8782819
   },
@@ -4339,6 +4915,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04483780278",
+    "name": "Brace e Fantasia",
+    "nome": "Brace e Fantasia",
     "lat": 45.4227642,
     "lng": 12.036263
   },
@@ -4354,6 +4932,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "04184900043",
+    "name": "Da Costa",
+    "nome": "Da Costa",
     "lat": 38.1937571,
     "lng": 15.5542082
   },
@@ -4369,6 +4949,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01708580228",
+    "name": "Al cavalletto",
+    "nome": "Al cavalletto",
     "lat": 44.0193599,
     "lng": 10.2286951
   },
@@ -4384,6 +4966,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02965710904",
+    "name": "Pistacchio",
+    "nome": "Pistacchio",
     "lat": 45.4424977,
     "lng": 10.9857377
   },
@@ -4399,6 +4983,8 @@
     "region": "Calabria",
     "indirizzo": "",
     "piva_clean": "02024670248",
+    "name": "Ristorante Giada",
+    "nome": "Ristorante Giada",
     "lat": 38.5533147,
     "lng": 15.9386835
   },
@@ -4414,6 +5000,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02701630127",
+    "name": "Ristorante I Fontanili",
+    "nome": "Ristorante I Fontanili",
     "lat": 45.3795269,
     "lng": 9.026332
   },
@@ -4429,6 +5017,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02307280228",
+    "name": "Fabbrica",
+    "nome": "Fabbrica",
     "lat": 44.3535145,
     "lng": 11.7141233
   },
@@ -4444,6 +5034,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "01593840224",
+    "name": "Ai Conti",
+    "nome": "Ai Conti",
     "lat": 45.9318708,
     "lng": 10.9171966
   },
@@ -4459,6 +5051,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "10421130963",
+    "name": "Zoo Comunale",
+    "nome": "Zoo Comunale",
     "lat": 37.9003731,
     "lng": 12.7116255
   },
@@ -4474,6 +5068,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02925540276",
+    "name": "Ristorante Pizzeria La Pergola",
+    "nome": "Ristorante Pizzeria La Pergola",
     "lat": 45.9433882,
     "lng": 10.2371064
   },
@@ -4489,6 +5085,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "01545730432",
+    "name": "Centrale Macerata",
+    "nome": "Centrale Macerata",
     "lat": 43.4035085,
     "lng": 13.5486016
   },
@@ -4504,6 +5102,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "06495490481",
+    "name": "Gastone Firenze",
+    "nome": "Gastone Firenze",
     "lat": 43.7697955,
     "lng": 11.2556404
   },
@@ -4519,6 +5119,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "05592620651",
+    "name": "Osteria Nonna Maria",
+    "nome": "Osteria Nonna Maria",
     "lat": 40.4194416,
     "lng": 15.3106085
   },
@@ -4534,6 +5136,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02048890202",
+    "name": "Bar Adriano",
+    "nome": "Bar Adriano",
     "lat": 45.1692628,
     "lng": 10.6708365
   },
@@ -4549,6 +5153,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "12791320018",
+    "name": "Reborneat",
+    "nome": "Reborneat",
     "lat": 45.0677551,
     "lng": 7.6824892
   },
@@ -4564,6 +5170,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02316610506",
+    "name": "Osteria Il Granaio",
+    "nome": "Osteria Il Granaio",
     "lat": 43.4714722,
     "lng": 10.6797912
   },
@@ -4579,6 +5187,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16295581009",
+    "name": "Molino Roma",
+    "nome": "Molino Roma",
     "lat": 42.035122,
     "lng": 12.712681
   },
@@ -4594,6 +5204,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16878021001",
+    "name": "Molino Roma",
+    "nome": "Molino Roma",
     "lat": 42.035122,
     "lng": 12.712681
   },
@@ -4609,6 +5221,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15570661007",
+    "name": "Molino Roma",
+    "nome": "Molino Roma",
     "lat": 42.035122,
     "lng": 12.712681
   },
@@ -4624,6 +5238,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14370511009",
+    "name": "Molino Roma",
+    "nome": "Molino Roma",
     "lat": 42.035122,
     "lng": 12.712681
   },
@@ -4639,6 +5255,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14912181006",
+    "name": "Molino Roma",
+    "nome": "Molino Roma",
     "lat": 42.035122,
     "lng": 12.712681
   },
@@ -4654,6 +5272,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "04697950402",
+    "name": "Birgo Burger",
+    "nome": "Birgo Burger",
     "lat": 43.9465433,
     "lng": 12.630749
   },
@@ -4669,6 +5289,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "01994340444",
+    "name": "Beluga Beach Restaurant",
+    "nome": "Beluga Beach Restaurant",
     "lat": 42.9836864,
     "lng": 13.8487843
   },
@@ -4684,6 +5306,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16940351006",
+    "name": "Gotha Beach",
+    "nome": "Gotha Beach",
     "lat": 41.9537219,
     "lng": 12.0734646
   },
@@ -4699,6 +5323,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "06685170968",
+    "name": "Iguazu",
+    "nome": "Iguazu",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -4714,6 +5340,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03657550244",
+    "name": "Qubò",
+    "nome": "Qubò",
     "lat": 44.4938203,
     "lng": 11.3426327
   },
@@ -4729,6 +5357,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "00958800328",
+    "name": "Bajta Fattoria Carsica",
+    "nome": "Bajta Fattoria Carsica",
     "lat": 45.7472432,
     "lng": 13.7307526
   },
@@ -4744,6 +5374,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "02412510568",
+    "name": "Ristorante Il Pirata",
+    "nome": "Ristorante Il Pirata",
     "lat": 42.120845,
     "lng": 15.5043104
   },
@@ -4759,6 +5391,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "13390831009",
+    "name": "La Pucceria",
+    "nome": "La Pucceria",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -4774,6 +5408,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02084660477",
+    "name": "Casa Lola",
+    "nome": "Casa Lola",
     "lat": 42.883729,
     "lng": 11.273537
   },
@@ -4789,6 +5425,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "01161750250",
+    "name": "La Fenadora",
+    "nome": "La Fenadora",
     "lat": 45.9973627,
     "lng": 11.8016309
   },
@@ -4804,6 +5442,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03273640601",
+    "name": "Tricolore",
+    "nome": "Tricolore",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -4819,6 +5459,8 @@
     "region": "Calabria",
     "indirizzo": "",
     "piva_clean": "02369500398",
+    "name": "Ondina",
+    "nome": "Ondina",
     "lat": 39.1873894,
     "lng": 16.8782819
   },
@@ -4834,6 +5476,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "01801440197",
+    "name": "Kimera",
+    "nome": "Kimera",
     "lat": 41.1257843,
     "lng": 16.8620293
   },
@@ -4849,6 +5493,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "13259510157",
+    "name": "Flanagan's Pub",
+    "nome": "Flanagan's Pub",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -4864,6 +5510,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02546880226",
+    "name": "Baita Lino Brach",
+    "nome": "Baita Lino Brach",
     "lat": 46.4878005,
     "lng": 11.6981304
   },
@@ -4879,6 +5527,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01444290918",
+    "name": "Sa pezza orrostu",
+    "nome": "Sa pezza orrostu",
     "lat": 39.9266045,
     "lng": 9.6591551
   },
@@ -4894,6 +5544,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08020110725",
+    "name": "Frizz Cafè",
+    "nome": "Frizz Cafè",
     "lat": 40.9522369,
     "lng": 17.299948
   },
@@ -4909,6 +5561,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08269150721",
+    "name": "Frizz Cafè",
+    "nome": "Frizz Cafè",
     "lat": 40.9522369,
     "lng": 17.299948
   },
@@ -4924,6 +5578,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08368040724",
+    "name": "Frizz Cafè",
+    "nome": "Frizz Cafè",
     "lat": 40.9522369,
     "lng": 17.299948
   },
@@ -4939,6 +5595,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02449980511",
+    "name": "Rabbit Rabbit Bistrot",
+    "nome": "Rabbit Rabbit Bistrot",
     "lat": 43.5171442,
     "lng": 11.7639282
   },
@@ -4954,6 +5612,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "10808110968",
+    "name": "Reginè",
+    "nome": "Reginè",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -4969,6 +5629,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02793500220",
+    "name": "North pub",
+    "nome": "North pub",
     "lat": 45.886747,
     "lng": 10.8457733
   },
@@ -4984,6 +5646,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04548620279",
+    "name": "Sabbia e Sale",
+    "nome": "Sabbia e Sale",
     "lat": 45.2179083,
     "lng": 12.2270656
   },
@@ -4999,6 +5663,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02771420227",
+    "name": "Trattoria Sant'Alessandro",
+    "nome": "Trattoria Sant'Alessandro",
     "lat": 45.886747,
     "lng": 10.8457733
   },
@@ -5014,6 +5680,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "01001210036",
+    "name": "Ristorante SS Trinità",
+    "nome": "Ristorante SS Trinità",
     "lat": 46.0135287,
     "lng": 10.1391747
   },
@@ -5029,6 +5697,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "17574011007",
+    "name": "Da Bottò",
+    "nome": "Da Bottò",
     "lat": 45.6552178,
     "lng": 8.1604172
   },
@@ -5044,6 +5714,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "01690060932",
+    "name": "Caffe pasticceria del cuore",
+    "nome": "Caffe pasticceria del cuore",
     "lat": 46.0094105,
     "lng": 12.6038808
   },
@@ -5059,6 +5731,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02996810905",
+    "name": "Bar Paguro",
+    "nome": "Bar Paguro",
     "lat": 44.6086674,
     "lng": 10.5940667
   },
@@ -5074,6 +5748,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02364650503",
+    "name": "Il Casale",
+    "nome": "Il Casale",
     "lat": 43.6773749,
     "lng": 13.2105712
   },
@@ -5089,6 +5765,8 @@
     "region": "Valle d'Aosta / Vallée d'Aoste",
     "indirizzo": "",
     "piva_clean": "01046220073",
+    "name": "Il Punto Gi",
+    "nome": "Il Punto Gi",
     "lat": 45.6971464,
     "lng": 6.9182886
   },
@@ -5104,6 +5782,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "02828640041",
+    "name": "Sabocafè",
+    "nome": "Sabocafè",
     "lat": 44.6138134,
     "lng": 7.6412661
   },
@@ -5119,6 +5799,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03393911205",
+    "name": "Ristorante Molino Rosso",
+    "nome": "Ristorante Molino Rosso",
     "lat": 44.3535145,
     "lng": 11.7141233
   },
@@ -5134,6 +5816,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01461530915",
+    "name": "Mario Miele - Sapori di Casa",
+    "nome": "Mario Miele - Sapori di Casa",
     "lat": 39.9266045,
     "lng": 9.6591551
   },
@@ -5149,6 +5833,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01535540916",
+    "name": "Geppos",
+    "nome": "Geppos",
     "lat": 39.9266045,
     "lng": 9.6591551
   },
@@ -5164,6 +5850,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "03479970273",
+    "name": "Marien Platz",
+    "nome": "Marien Platz",
     "lat": 46.6559296,
     "lng": 11.2301833
   },
@@ -5179,6 +5867,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "02613900220",
+    "name": "Osteria Del Maso",
+    "nome": "Osteria Del Maso",
     "lat": 46.1003255,
     "lng": 11.016808
   },
@@ -5194,6 +5884,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04088460235",
+    "name": "Corte Pellegrini",
+    "nome": "Corte Pellegrini",
     "lat": 45.4275708,
     "lng": 11.0958165
   },
@@ -5209,6 +5901,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "03069690596",
+    "name": "Arte bona",
+    "nome": "Arte bona",
     "lat": 41.590639,
     "lng": 12.829048
   },
@@ -5224,6 +5918,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "18209711003",
+    "name": "Ci Garba",
+    "nome": "Ci Garba",
     "lat": 44.5259967,
     "lng": 9.387267
   },
@@ -5239,6 +5935,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "13300230011",
+    "name": "Barbagnam",
+    "nome": "Barbagnam",
     "lat": 45.0677551,
     "lng": 7.6824892
   },
@@ -5254,6 +5952,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15495571000",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5269,6 +5969,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16354411007",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5284,6 +5986,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17362051009",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5299,6 +6003,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "14077101005",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5314,6 +6020,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17869961007",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5329,6 +6037,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "09651240963",
+    "name": "Brugola e Pachino",
+    "nome": "Brugola e Pachino",
     "lat": 45.6784049,
     "lng": 9.1181696
   },
@@ -5344,6 +6054,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "13674771004",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5359,6 +6071,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "05520180653",
+    "name": "Botte Piccola",
+    "nome": "Botte Piccola",
     "lat": 45.9562503,
     "lng": 12.6597197
   },
@@ -5374,6 +6088,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "11034891009",
+    "name": "Cuoco e Camicia",
+    "nome": "Cuoco e Camicia",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5389,6 +6105,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02186711202",
+    "name": "Pizzeria Itaca",
+    "nome": "Pizzeria Itaca",
     "lat": 44.5630515,
     "lng": 11.271693
   },
@@ -5404,6 +6122,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "03223670591",
+    "name": "Savage",
+    "nome": "Savage",
     "lat": 43.9465433,
     "lng": 12.630749
   },
@@ -5419,6 +6139,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "",
+    "name": "Grotta Marcello",
+    "nome": "Grotta Marcello",
     "lat": 39.2171994,
     "lng": 9.113311
   },
@@ -5434,6 +6156,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "01379470527",
+    "name": "L'altro Cantuccio",
+    "nome": "L'altro Cantuccio",
     "lat": 43.0945279,
     "lng": 11.7826795
   },
@@ -5449,6 +6173,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "04437100755",
+    "name": "Krifò",
+    "nome": "Krifò",
     "lat": 40.206006,
     "lng": 18.2505893
   },
@@ -5464,6 +6190,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04098240270",
+    "name": "Al Profeta",
+    "nome": "Al Profeta",
     "lat": 45.4371908,
     "lng": 12.3345898
   },
@@ -5479,6 +6207,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "01825240888",
+    "name": "La Sirenetta",
+    "nome": "La Sirenetta",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -5494,6 +6224,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "08689291212",
+    "name": "Dal compa",
+    "nome": "Dal compa",
     "lat": 40.624906,
     "lng": 14.374836
   },
@@ -5509,6 +6241,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "03029230210",
+    "name": "Baia Blu Beach",
+    "nome": "Baia Blu Beach",
     "lat": 44.0736073,
     "lng": 9.9099135
   },
@@ -5524,6 +6258,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "11999130963",
+    "name": "Petra caffè",
+    "nome": "Petra caffè",
     "lat": 46.5177697,
     "lng": 11.5027759
   },
@@ -5539,6 +6275,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "01488660117",
+    "name": "Il Lagora",
+    "nome": "Il Lagora",
     "lat": 44.238366,
     "lng": 9.6912326
   },
@@ -5554,6 +6292,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "01079420160",
+    "name": "La Ciotola",
+    "nome": "La Ciotola",
     "lat": 45.7566557,
     "lng": 9.7542192
   },
@@ -5569,6 +6309,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "02390190466",
+    "name": "La Lanterna",
+    "nome": "La Lanterna",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5584,6 +6326,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "23843631205",
+    "name": "Mostarda 22",
+    "nome": "Mostarda 22",
     "lat": 44.2227278,
     "lng": 12.041273
   },
@@ -5599,6 +6343,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "13458940965",
+    "name": "Gli Scogli",
+    "nome": "Gli Scogli",
     "lat": 43.1385337,
     "lng": 13.2248354
   },
@@ -5614,6 +6360,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "02793170909",
+    "name": "140 Grammi",
+    "nome": "140 Grammi",
     "lat": 39.2171994,
     "lng": 9.113311
   },
@@ -5629,6 +6377,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "01468250111",
+    "name": "Al Gabbiano",
+    "nome": "Al Gabbiano",
     "lat": 45.4371908,
     "lng": 12.3345898
   },
@@ -5644,6 +6394,8 @@
     "region": "Trentino-Alto Adige/Südtirol",
     "indirizzo": "",
     "piva_clean": "01345580227",
+    "name": "Home Stube",
+    "nome": "Home Stube",
     "lat": 46.2142157,
     "lng": 10.789424
   },
@@ -5659,6 +6411,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02647350749",
+    "name": "Locanda del Porto",
+    "nome": "Locanda del Porto",
     "lat": 43.9668745,
     "lng": 12.7563105
   },
@@ -5674,6 +6428,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "03252070598",
+    "name": "Vulcano",
+    "nome": "Vulcano",
     "lat": 38.48137,
     "lng": 14.9396624
   },
@@ -5689,6 +6445,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "02785710183",
+    "name": "Il Pilota",
+    "nome": "Il Pilota",
     "lat": 45.8402724,
     "lng": 11.2474383
   },
@@ -5704,6 +6462,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17196111003",
+    "name": "Piadineria Artigianale",
+    "nome": "Piadineria Artigianale",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5719,6 +6479,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "00060590627",
+    "name": "Antum Hotel",
+    "nome": "Antum Hotel",
     "lat": 41.2476307,
     "lng": 14.7057054
   },
@@ -5734,6 +6496,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "05226800281",
+    "name": "Boho Padova",
+    "nome": "Boho Padova",
     "lat": 45.391408,
     "lng": 11.8058487
   },
@@ -5749,6 +6513,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02057430387",
+    "name": "Ars et Labor",
+    "nome": "Ars et Labor",
     "lat": 44.6086674,
     "lng": 10.5940667
   },
@@ -5764,6 +6530,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "07261710482",
+    "name": "Celestino",
+    "nome": "Celestino",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5779,6 +6547,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "08943030018",
+    "name": "Il convito della Venaria",
+    "nome": "Il convito della Venaria",
     "lat": 45.1348114,
     "lng": 7.6268658
   },
@@ -5794,6 +6564,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01807460678",
+    "name": "Locanda del Convento",
+    "nome": "Locanda del Convento",
     "lat": 40.1416861,
     "lng": 8.651038
   },
@@ -5809,6 +6581,8 @@
     "region": "Toscana",
     "indirizzo": "",
     "piva_clean": "02395420975",
+    "name": "I Vivai",
+    "nome": "I Vivai",
     "lat": 43.9357181,
     "lng": 11.0941473
   },
@@ -5824,6 +6598,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "12125920962",
+    "name": "Crotto Quartino",
+    "nome": "Crotto Quartino",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -5839,6 +6615,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "13055170966",
+    "name": "Panfuwa",
+    "nome": "Panfuwa",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -5854,6 +6632,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03899470128",
+    "name": "Pizzeria Sara",
+    "nome": "Pizzeria Sara",
     "lat": 45.599487,
     "lng": 10.0649179
   },
@@ -5869,6 +6649,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "01590060115",
+    "name": "Aqua",
+    "nome": "Aqua",
     "lat": 43.9465433,
     "lng": 12.630749
   },
@@ -5884,6 +6666,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01599890926",
+    "name": "Poppy's",
+    "nome": "Poppy's",
     "lat": 39.165332,
     "lng": 8.527834
   },
@@ -5899,6 +6683,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "02304040922",
+    "name": "Hotel Aquadulci",
+    "nome": "Hotel Aquadulci",
     "lat": 38.944031,
     "lng": 8.863544
   },
@@ -5914,6 +6700,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "08641551216",
+    "name": "Mercato Pompeiano",
+    "nome": "Mercato Pompeiano",
     "lat": 40.7491267,
     "lng": 14.5006415
   },
@@ -5929,6 +6717,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "12458330961",
+    "name": "Pan Milano",
+    "nome": "Pan Milano",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -5944,6 +6734,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02603630183",
+    "name": "Al vita ristorante",
+    "nome": "Al vita ristorante",
     "lat": 45.0368546,
     "lng": 9.1378251
   },
@@ -5959,6 +6751,8 @@
     "region": "Sicilia",
     "indirizzo": "",
     "piva_clean": "07237790824",
+    "name": "Ciurma",
+    "nome": "Ciurma",
     "lat": 38.1112268,
     "lng": 13.3524434
   },
@@ -5974,6 +6768,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "01736810332",
+    "name": "Zenzero",
+    "nome": "Zenzero",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -5989,6 +6785,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "04756900611",
+    "name": "Greeat",
+    "nome": "Greeat",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -6004,6 +6802,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "09289041213",
+    "name": "Greeat",
+    "nome": "Greeat",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -6019,6 +6819,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "02896440605",
+    "name": "Pasticceria Toto Anagni",
+    "nome": "Pasticceria Toto Anagni",
     "lat": 41.7447015,
     "lng": 13.1526343
   },
@@ -6034,6 +6836,8 @@
     "region": "Valle d'Aosta / Vallée d'Aoste",
     "indirizzo": "",
     "piva_clean": "01043320074",
+    "name": "Lino's Restaurant",
+    "nome": "Lino's Restaurant",
     "lat": 45.911551,
     "lng": 7.6192547
   },
@@ -6049,6 +6853,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "10700810962",
+    "name": "Officina della birra",
+    "nome": "Officina della birra",
     "lat": 45.5372394,
     "lng": 9.1889678
   },
@@ -6064,6 +6870,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "10089151210",
+    "name": "Impasto",
+    "nome": "Impasto",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -6079,6 +6887,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "10741670961",
+    "name": "La Birreria Italiana",
+    "nome": "La Birreria Italiana",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -6094,6 +6904,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "16011891005",
+    "name": "Osteria il riposto",
+    "nome": "Osteria il riposto",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -6109,6 +6921,8 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "02647350749",
+    "name": "Locanda Del Porto",
+    "nome": "Locanda Del Porto",
     "lat": 43.9668745,
     "lng": 12.7563105
   },
@@ -6124,6 +6938,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08020110725",
+    "name": "Frizz Cafè",
+    "nome": "Frizz Cafè",
     "lat": 40.9522369,
     "lng": 17.299948
   },
@@ -6139,6 +6955,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08269150721",
+    "name": "Frizz Cafè",
+    "nome": "Frizz Cafè",
     "lat": 40.9522369,
     "lng": 17.299948
   },
@@ -6154,6 +6972,8 @@
     "region": "Puglia",
     "indirizzo": "",
     "piva_clean": "08368040724",
+    "name": "Frizz Cafè",
+    "nome": "Frizz Cafè",
     "lat": 40.9522369,
     "lng": 17.299948
   },
@@ -6169,6 +6989,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "02595540200",
+    "name": "Ristorante Pizzeria La Colonna",
+    "nome": "Ristorante Pizzeria La Colonna",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -6184,6 +7006,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "02572610208",
+    "name": "I Feudi",
+    "nome": "I Feudi",
     "lat": 45.1692628,
     "lng": 10.6708365
   },
@@ -6199,6 +7023,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "17869961007",
+    "name": "AnVedi",
+    "nome": "AnVedi",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -6214,6 +7040,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "09825040968",
+    "name": "La Medina Milano",
+    "nome": "La Medina Milano",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -6229,6 +7057,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "07125220488",
+    "name": "Taverna del Porto ",
+    "nome": "Taverna del Porto ",
     "lat": 42.0937524,
     "lng": 11.7922462
   },
@@ -6244,6 +7074,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "03787190127",
+    "name": "Alma Pasticceria",
+    "nome": "Alma Pasticceria",
     "lat": 45.898911,
     "lng": 8.6607384
   },
@@ -6259,6 +7091,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "00850420183",
+    "name": "Il Melograno",
+    "nome": "Il Melograno",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -6274,6 +7108,8 @@
     "region": "Lazio",
     "indirizzo": "",
     "piva_clean": "15463491009",
+    "name": "Snug The comfort Cafè",
+    "nome": "Snug The comfort Cafè",
     "lat": 41.8933203,
     "lng": 12.4829321
   },
@@ -6289,6 +7125,8 @@
     "region": "Campania",
     "indirizzo": "",
     "piva_clean": "04011430040",
+    "name": "Officina del mare",
+    "nome": "Officina del mare",
     "lat": 40.8358846,
     "lng": 14.2487679
   },
@@ -6304,6 +7142,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "04359320985",
+    "name": "I Porticcioli",
+    "nome": "I Porticcioli",
     "lat": 45.5951737,
     "lng": 10.552052
   },
@@ -6319,6 +7159,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02704650346",
+    "name": "Otto Mulini",
+    "nome": "Otto Mulini",
     "lat": 44.9362237,
     "lng": 10.2702605
   },
@@ -6334,6 +7176,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "125652410012",
+    "name": "Jungle",
+    "nome": "Jungle",
     "lat": 44.2227278,
     "lng": 12.041273
   },
@@ -6349,6 +7193,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02929810840",
+    "name": "Gusto Siciliano",
+    "nome": "Gusto Siciliano",
     "lat": 44.5384728,
     "lng": 10.9359609
   },
@@ -6364,6 +7210,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "01001210036",
+    "name": "Ristorante SS Trinità",
+    "nome": "Ristorante SS Trinità",
     "lat": 46.0135287,
     "lng": 10.1391747
   },
@@ -6379,6 +7227,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "02827370418",
+    "name": "Ristorante Il Galeone",
+    "nome": "Ristorante Il Galeone",
     "lat": 45.0775473,
     "lng": 7.5724262
   },
@@ -6394,6 +7244,8 @@
     "region": "Veneto",
     "indirizzo": "",
     "piva_clean": "04088460235",
+    "name": "Corte Pellegrini",
+    "nome": "Corte Pellegrini",
     "lat": 45.4275708,
     "lng": 11.0958165
   },
@@ -6409,6 +7261,8 @@
     "region": "Lombardia",
     "indirizzo": "",
     "piva_clean": "06636430487",
+    "name": "Pizza Napoli 1955",
+    "nome": "Pizza Napoli 1955",
     "lat": 45.4641943,
     "lng": 9.1896346
   },
@@ -6424,6 +7278,8 @@
     "region": "Friuli-Venezia Giulia",
     "indirizzo": "",
     "piva_clean": "01690060932",
+    "name": "Caffe pasticceria del Cuore",
+    "nome": "Caffe pasticceria del Cuore",
     "lat": 46.0094105,
     "lng": 12.6038808
   },
@@ -6439,6 +7295,8 @@
     "region": "Emilia-Romagna",
     "indirizzo": "",
     "piva_clean": "02996810905",
+    "name": "Bar Paguro",
+    "nome": "Bar Paguro",
     "lat": 44.6086674,
     "lng": 10.5940667
   },
@@ -6454,6 +7312,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01461530915",
+    "name": "Mario Miele - Sapori di Casa",
+    "nome": "Mario Miele - Sapori di Casa",
     "lat": 39.9266045,
     "lng": 9.6591551
   },
@@ -6469,6 +7329,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01535540916",
+    "name": "Geppos",
+    "nome": "Geppos",
     "lat": 39.9266045,
     "lng": 9.6591551
   },
@@ -6484,6 +7346,8 @@
     "region": "Sardigna/Sardegna",
     "indirizzo": "",
     "piva_clean": "01444290918",
+    "name": "Sa Pezza Orrostu",
+    "nome": "Sa Pezza Orrostu",
     "lat": 39.9266045,
     "lng": 9.6591551
   },
@@ -6499,6 +7363,8 @@
     "region": "Liguria",
     "indirizzo": "",
     "piva_clean": "01452040452",
+    "name": "El Toros",
+    "nome": "El Toros",
     "lat": 44.1131762,
     "lng": 9.9599823
   },
@@ -6514,6 +7380,8 @@
     "region": "Piemonte",
     "indirizzo": "",
     "piva_clean": "02828640041",
+    "name": "SaboCafe",
+    "nome": "SaboCafe",
     "lat": 44.6138134,
     "lng": 7.6412661
   },
@@ -6529,13 +7397,15 @@
     "region": "Marche",
     "indirizzo": "",
     "piva_clean": "04007070966",
+    "name": "Altro",
+    "nome": "Altro",
     "lat": 42.8834204,
     "lng": 13.539593
   },
   {
     "row_number": 437,
     "status": "STAND BY",
-    "nome_locale": "",
+    "nome_locale": "Pico Pallino Srl",
     "nome_contatto": "",
     "ragione_sociale": "Pico Pallino Srl",
     "P.IVA": "",
@@ -6544,6 +7414,8 @@
     "region": "",
     "indirizzo": "",
     "piva_clean": "",
+    "name": "Pico Pallino Srl",
+    "nome": "Pico Pallino Srl",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6559,6 +7431,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "01247900226",
+    "name": "Biba's Restaurant - gelateria",
+    "nome": "Biba's Restaurant - gelateria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6574,6 +7448,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "01247900226",
+    "name": "Biba's Restaurant - gelateria",
+    "nome": "Biba's Restaurant - gelateria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6589,6 +7465,8 @@
     "region": "Cagliari",
     "indirizzo": "",
     "piva_clean": "03645890926",
+    "name": "Kindalu Lounge bar",
+    "nome": "Kindalu Lounge bar",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6604,6 +7482,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01246770075",
+    "name": "Paninoteca Al Panino",
+    "nome": "Paninoteca Al Panino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6619,6 +7499,8 @@
     "region": "Cagliari",
     "indirizzo": "",
     "piva_clean": "03818010922",
+    "name": "Pessina 140 gr",
+    "nome": "Pessina 140 gr",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6634,6 +7516,8 @@
     "region": "Sassari",
     "indirizzo": "",
     "piva_clean": "02807970906",
+    "name": "Carbonazzi 140 gr",
+    "nome": "Carbonazzi 140 gr",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6649,6 +7533,8 @@
     "region": "Sestu",
     "indirizzo": "",
     "piva_clean": "04048120929",
+    "name": "Sestu 140 gr",
+    "nome": "Sestu 140 gr",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6664,6 +7550,8 @@
     "region": "Colle Umberto",
     "indirizzo": "",
     "piva_clean": "05017170266",
+    "name": "Birrificio Barch",
+    "nome": "Birrificio Barch",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6679,6 +7567,8 @@
     "region": "Livorno",
     "indirizzo": "",
     "piva_clean": "01621800490",
+    "name": "Pizzeria Mattarello 22",
+    "nome": "Pizzeria Mattarello 22",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6694,6 +7584,8 @@
     "region": "Quarto d'Altino",
     "indirizzo": "",
     "piva_clean": "04803800277",
+    "name": "Ristorante da Odino",
+    "nome": "Ristorante da Odino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6709,6 +7601,8 @@
     "region": "Lecco",
     "indirizzo": "",
     "piva_clean": "02397360971",
+    "name": "Floret artisan Kitchen and bar",
+    "nome": "Floret artisan Kitchen and bar",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6724,6 +7618,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04397380405",
+    "name": "Al Sangiò - Magna e Bè",
+    "nome": "Al Sangiò - Magna e Bè",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6739,6 +7635,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "16744651007",
+    "name": "Caligola Osteria Sincera",
+    "nome": "Caligola Osteria Sincera",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6754,6 +7652,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "16159951009",
+    "name": "Locanda Dorica",
+    "nome": "Locanda Dorica",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6769,6 +7669,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "06975820488",
+    "name": "Mr Pizza (catena)",
+    "nome": "Mr Pizza (catena)",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6784,6 +7686,8 @@
     "region": "Venezia",
     "indirizzo": "",
     "piva_clean": "04550640272",
+    "name": "Mr Pizza (catena)",
+    "nome": "Mr Pizza (catena)",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6799,6 +7703,8 @@
     "region": "Como",
     "indirizzo": "",
     "piva_clean": "01637330133",
+    "name": "Ristorante il Don Rodrigo",
+    "nome": "Ristorante il Don Rodrigo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6814,6 +7720,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17063221000",
+    "name": "Bar Hazon Pastrengo",
+    "nome": "Bar Hazon Pastrengo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6829,6 +7737,8 @@
     "region": "Terni",
     "indirizzo": "",
     "piva_clean": "01228600555",
+    "name": "Umbro Churrascaria, Fratini 54 e Hotel del Lago",
+    "nome": "Umbro Churrascaria, Fratini 54 e Hotel del Lago",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6844,6 +7754,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "18152081008",
+    "name": "Pizzeria Zeza",
+    "nome": "Pizzeria Zeza",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6859,6 +7771,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "10186070016",
+    "name": "MBun",
+    "nome": "MBun",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6874,6 +7788,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "13954321009",
+    "name": "Osteria Trecca",
+    "nome": "Osteria Trecca",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6889,6 +7805,8 @@
     "region": "Lodi",
     "indirizzo": "",
     "piva_clean": "04143800987",
+    "name": "Fam Lifestyle",
+    "nome": "Fam Lifestyle",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6904,6 +7822,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "11983080018",
+    "name": "Khami Lab",
+    "nome": "Khami Lab",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6919,6 +7839,8 @@
     "region": "Lignano Sabbiadoro",
     "indirizzo": "",
     "piva_clean": "02814060303",
+    "name": "Shaker Lignano - Camisa",
+    "nome": "Shaker Lignano - Camisa",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6934,6 +7856,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "14749601002",
+    "name": "Bocamora",
+    "nome": "Bocamora",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6949,6 +7873,8 @@
     "region": "Trapani",
     "indirizzo": "",
     "piva_clean": "02888660814",
+    "name": "Assatrasi - Dispensa Sicana",
+    "nome": "Assatrasi - Dispensa Sicana",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6964,6 +7890,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "07185770828",
+    "name": "Al Brigantino - Villa Montalbano",
+    "nome": "Al Brigantino - Villa Montalbano",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6979,6 +7907,8 @@
     "region": "Busalla",
     "indirizzo": "",
     "piva_clean": "03762770109",
+    "name": "Birreria Busalla",
+    "nome": "Birreria Busalla",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -6994,6 +7924,8 @@
     "region": "Mantova",
     "indirizzo": "",
     "piva_clean": "02686670205",
+    "name": "45esimo Parallelo",
+    "nome": "45esimo Parallelo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7009,6 +7941,8 @@
     "region": "Cremona",
     "indirizzo": "",
     "piva_clean": "00938430196",
+    "name": "Pizzeria Scoiattolo - RiPizziCo",
+    "nome": "Pizzeria Scoiattolo - RiPizziCo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7024,6 +7958,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17559851005",
+    "name": "Metodo Classico",
+    "nome": "Metodo Classico",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7039,6 +7975,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "06284320824",
+    "name": "Cocorita Beach",
+    "nome": "Cocorita Beach",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7054,6 +7992,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "12618971001",
+    "name": "Satiricus - Gran Caffè Rossetti",
+    "nome": "Satiricus - Gran Caffè Rossetti",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7069,6 +8009,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "06692650481",
+    "name": "Easy living in fattoria",
+    "nome": "Easy living in fattoria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7084,6 +8026,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "07155060010",
+    "name": "2ue punto zero",
+    "nome": "2ue punto zero",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7099,6 +8043,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "32294308341",
+    "name": "Comparello Bello",
+    "nome": "Comparello Bello",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7114,6 +8060,8 @@
     "region": "Oristano",
     "indirizzo": "",
     "piva_clean": "01251170955",
+    "name": "Ros'è Mari Farm",
+    "nome": "Ros'è Mari Farm",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7129,6 +8077,8 @@
     "region": "Spinea",
     "indirizzo": "",
     "piva_clean": "03547990279",
+    "name": "Trattoria da Gelindo",
+    "nome": "Trattoria da Gelindo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7144,6 +8094,8 @@
     "region": "Venezia",
     "indirizzo": "",
     "piva_clean": "04883480271",
+    "name": "Caffe pasticceria Nelly",
+    "nome": "Caffe pasticceria Nelly",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7159,6 +8111,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "26477004141",
+    "name": "Squaqua 2.0",
+    "nome": "Squaqua 2.0",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7174,6 +8128,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "12671561004",
+    "name": "Tonnarello Calisto - Tonnarello San Pietro",
+    "nome": "Tonnarello Calisto - Tonnarello San Pietro",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7189,6 +8145,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "02895140230",
+    "name": "Quinto miglio - veneranda",
+    "nome": "Quinto miglio - veneranda",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7204,6 +8162,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "07291570484",
+    "name": "Osteria Montellori",
+    "nome": "Osteria Montellori",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7219,6 +8179,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "03730721200",
+    "name": "Sapory",
+    "nome": "Sapory",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7234,6 +8196,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "07513171210",
+    "name": "Casa caponi",
+    "nome": "Casa caponi",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7249,6 +8213,8 @@
     "region": "Pordenone",
     "indirizzo": "",
     "piva_clean": "01854770938",
+    "name": "Corner cocktail and Restaurant",
+    "nome": "Corner cocktail and Restaurant",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7264,6 +8230,8 @@
     "region": "Latina",
     "indirizzo": "",
     "piva_clean": "03166520597",
+    "name": "Giurges Pub",
+    "nome": "Giurges Pub",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7279,6 +8247,8 @@
     "region": "Avellino",
     "indirizzo": "",
     "piva_clean": "02984900643",
+    "name": "Ponte Temete",
+    "nome": "Ponte Temete",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7294,6 +8264,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "07432931215",
+    "name": "Pizzeria Zero Otto Uno",
+    "nome": "Pizzeria Zero Otto Uno",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7309,6 +8281,8 @@
     "region": "Castelmaggiore",
     "indirizzo": "",
     "piva_clean": "01347950527",
+    "name": "Il Cervo - Casa Newton",
+    "nome": "Il Cervo - Casa Newton",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7324,6 +8298,8 @@
     "region": "Ferrara",
     "indirizzo": "",
     "piva_clean": "01994420386",
+    "name": "Osteria pizzeria Montebello",
+    "nome": "Osteria pizzeria Montebello",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7339,6 +8315,8 @@
     "region": "Ferrara",
     "indirizzo": "",
     "piva_clean": "02121980383",
+    "name": "Seven Fun around the corner",
+    "nome": "Seven Fun around the corner",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7354,6 +8332,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "07063650829",
+    "name": "Basilico Pizzeria e Braceria siciilina - Basilico asporto",
+    "nome": "Basilico Pizzeria e Braceria siciilina - Basilico asporto",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7369,6 +8349,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "07021830828",
+    "name": "Le savocherie",
+    "nome": "Le savocherie",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7384,6 +8366,8 @@
     "region": "Napoli",
     "indirizzo": "",
     "piva_clean": "05676470635",
+    "name": "Bagno Corrado",
+    "nome": "Bagno Corrado",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7399,6 +8383,8 @@
     "region": "Camino",
     "indirizzo": "",
     "piva_clean": "03594840161",
+    "name": "Trex Ristoforno Caffè",
+    "nome": "Trex Ristoforno Caffè",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7414,6 +8400,8 @@
     "region": "Varese",
     "indirizzo": "",
     "piva_clean": "02313170124",
+    "name": "Mazzardit - Tratturì",
+    "nome": "Mazzardit - Tratturì",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7429,6 +8417,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "07132580486",
+    "name": "Pizzeria Bellagrò",
+    "nome": "Pizzeria Bellagrò",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7444,6 +8434,8 @@
     "region": "Lodi",
     "indirizzo": "",
     "piva_clean": "02968110987",
+    "name": "La locanda del Vegnot",
+    "nome": "La locanda del Vegnot",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7459,6 +8451,8 @@
     "region": "Lodi",
     "indirizzo": "",
     "piva_clean": "02966190981",
+    "name": "Puntagro Bistrot Cafè",
+    "nome": "Puntagro Bistrot Cafè",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7474,6 +8468,8 @@
     "region": "Cagliari",
     "indirizzo": "",
     "piva_clean": "03984400923",
+    "name": "Dulvi's Pizza e Poke",
+    "nome": "Dulvi's Pizza e Poke",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7489,6 +8485,8 @@
     "region": "Bergamo",
     "indirizzo": "",
     "piva_clean": "03796440166",
+    "name": "L'oster",
+    "nome": "L'oster",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7504,6 +8502,8 @@
     "region": "Frosinone",
     "indirizzo": "",
     "piva_clean": "02949660605",
+    "name": "Uane gusto Italia",
+    "nome": "Uane gusto Italia",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7519,6 +8519,8 @@
     "region": "Mantova",
     "indirizzo": "",
     "piva_clean": "02673390205",
+    "name": "Tre Garibaldini",
+    "nome": "Tre Garibaldini",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7534,6 +8536,8 @@
     "region": "Venezia",
     "indirizzo": "",
     "piva_clean": "03009530274",
+    "name": "MuroFrari - MuroSanStae",
+    "nome": "MuroFrari - MuroSanStae",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7549,6 +8553,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "05712560282",
+    "name": "Nosh Verona - Nosh Padova",
+    "nome": "Nosh Verona - Nosh Padova",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7564,6 +8570,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "03464021207",
+    "name": "La Frasca - La Frasca al vicolo",
+    "nome": "La Frasca - La Frasca al vicolo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7579,6 +8587,8 @@
     "region": "Treviso",
     "indirizzo": "",
     "piva_clean": "04158530263",
+    "name": "Enfant Prodige Brasserie",
+    "nome": "Enfant Prodige Brasserie",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7594,6 +8604,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "10850590968",
+    "name": "Bolle Pizzeria",
+    "nome": "Bolle Pizzeria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7609,6 +8621,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "11755530968",
+    "name": "Bolle Pizzeria",
+    "nome": "Bolle Pizzeria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7624,6 +8638,8 @@
     "region": "Pescara",
     "indirizzo": "",
     "piva_clean": "02361860683",
+    "name": "Coce Pescara  - DOC",
+    "nome": "Coce Pescara  - DOC",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7639,6 +8655,8 @@
     "region": "Siena",
     "indirizzo": "",
     "piva_clean": "01325240529",
+    "name": "La solita zuppa",
+    "nome": "La solita zuppa",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7654,6 +8672,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04691210407",
+    "name": "Primo Miglio - Caffè Cavour",
+    "nome": "Primo Miglio - Caffè Cavour",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7669,6 +8689,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "15240111003",
+    "name": "Cibus Hostaria Romana",
+    "nome": "Cibus Hostaria Romana",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7684,6 +8706,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01296280074",
+    "name": "La Caves Des Amis",
+    "nome": "La Caves Des Amis",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7699,6 +8723,8 @@
     "region": "Varese",
     "indirizzo": "",
     "piva_clean": "03383500125",
+    "name": "Ristorante Pizzeria Bellavita - Enoteca 25-12",
+    "nome": "Ristorante Pizzeria Bellavita - Enoteca 25-12",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7714,6 +8740,8 @@
     "region": "Pordenone",
     "indirizzo": "",
     "piva_clean": "01427270937",
+    "name": "Bowman Pub",
+    "nome": "Bowman Pub",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7729,6 +8757,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "16448711008",
+    "name": "The Gelatist Appia Nuova",
+    "nome": "The Gelatist Appia Nuova",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7744,6 +8774,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "16429461003",
+    "name": "The Gelatist Torino",
+    "nome": "The Gelatist Torino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7759,6 +8791,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "12446891009",
+    "name": "The Gelatist Corso 74 - The Gelatist Nazionale 19 - The Gelatisti Quattrofontane",
+    "nome": "The Gelatist Corso 74 - The Gelatist Nazionale 19 - The Gelatisti Quattrofontane",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7774,6 +8808,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "16560191005",
+    "name": "The Gelatist Corso 294 - The Gelatist Trevi 95",
+    "nome": "The Gelatist Corso 294 - The Gelatist Trevi 95",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7789,6 +8825,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "05911080488",
+    "name": "Largo Galeffi Firenze",
+    "nome": "Largo Galeffi Firenze",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7804,6 +8842,8 @@
     "region": "Novara",
     "indirizzo": "",
     "piva_clean": "02110680036",
+    "name": "Tenuta Monticello e Turnaindrè",
+    "nome": "Tenuta Monticello e Turnaindrè",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7819,6 +8859,8 @@
     "region": "Ragusa",
     "indirizzo": "",
     "piva_clean": "01723920888",
+    "name": "Fermento Officina Zero",
+    "nome": "Fermento Officina Zero",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7834,6 +8876,8 @@
     "region": "Foggia",
     "indirizzo": "",
     "piva_clean": "04450530714",
+    "name": "Birrovagando",
+    "nome": "Birrovagando",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7849,6 +8893,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "09060061216",
+    "name": "Riserva Roof Top",
+    "nome": "Riserva Roof Top",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7864,6 +8910,8 @@
     "region": "Cuneo",
     "indirizzo": "",
     "piva_clean": "03669720041",
+    "name": "Locanda Terramare",
+    "nome": "Locanda Terramare",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7879,6 +8927,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "06947820822",
+    "name": "Biga genio e farina - Madonnina",
+    "nome": "Biga genio e farina - Madonnina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7894,6 +8944,8 @@
     "region": "Saronno",
     "indirizzo": "",
     "piva_clean": "13205840963",
+    "name": "Makai Saronno",
+    "nome": "Makai Saronno",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7909,6 +8961,8 @@
     "region": "Treviso",
     "indirizzo": "",
     "piva_clean": "05028140266",
+    "name": "Treviso Tiramisù",
+    "nome": "Treviso Tiramisù",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7924,6 +8978,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "02670150222",
+    "name": "Pizza Bon Ton",
+    "nome": "Pizza Bon Ton",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7939,6 +8995,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "15259531000",
+    "name": "Raffaello's Street Cafè",
+    "nome": "Raffaello's Street Cafè",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7954,6 +9012,8 @@
     "region": "Lodi",
     "indirizzo": "",
     "piva_clean": "00585040983",
+    "name": "Turista - Molo - Hostaria - Gian Martin - Magazzino centrale",
+    "nome": "Turista - Molo - Hostaria - Gian Martin - Magazzino centrale",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7969,6 +9029,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "04993050238",
+    "name": "Hosteria Il Punto Rosa",
+    "nome": "Hosteria Il Punto Rosa",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7984,6 +9046,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "10318450961",
+    "name": "Basara Sushi",
+    "nome": "Basara Sushi",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -7999,6 +9063,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "02810820221",
+    "name": "Verd&acqua",
+    "nome": "Verd&acqua",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8014,6 +9080,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "03401360833",
+    "name": "L'Orso - L'Orso in Duomo - L'Orso in Teglia",
+    "nome": "L'Orso - L'Orso in Duomo - L'Orso in Teglia",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8029,6 +9097,8 @@
     "region": "Catanzaro",
     "indirizzo": "",
     "piva_clean": "03603790795",
+    "name": "Brezza fish and chill",
+    "nome": "Brezza fish and chill",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8044,6 +9114,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "15093641007",
+    "name": "Alla Magnatora",
+    "nome": "Alla Magnatora",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8059,6 +9131,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "06509581218",
+    "name": "Filicrudi - Sirena - Cocktail Bar - Enoteca",
+    "nome": "Filicrudi - Sirena - Cocktail Bar - Enoteca",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8074,6 +9148,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "03643490484",
+    "name": "La vaca loka",
+    "nome": "La vaca loka",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8089,6 +9165,8 @@
     "region": "Siena",
     "indirizzo": "",
     "piva_clean": "00631440526",
+    "name": "Magnino Bistrot",
+    "nome": "Magnino Bistrot",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8104,6 +9182,8 @@
     "region": "Massa",
     "indirizzo": "",
     "piva_clean": "01354240457",
+    "name": "La Peniche - Meat Mama",
+    "nome": "La Peniche - Meat Mama",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8119,6 +9199,8 @@
     "region": "Aprilia",
     "indirizzo": "",
     "piva_clean": "02972780593",
+    "name": "Solo da Manduca",
+    "nome": "Solo da Manduca",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8134,6 +9216,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "07083730825",
+    "name": "Pasticceria Magrì",
+    "nome": "Pasticceria Magrì",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8149,6 +9233,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "06863130826",
+    "name": "R2M Capital",
+    "nome": "R2M Capital",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8164,6 +9250,8 @@
     "region": "Pisa",
     "indirizzo": "",
     "piva_clean": "02234490502",
+    "name": "Alpemare beach",
+    "nome": "Alpemare beach",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8179,6 +9267,8 @@
     "region": "Cosenza",
     "indirizzo": "",
     "piva_clean": "03292610783",
+    "name": "Dalla Birra alla brace - La Botanica - Pub Birreria",
+    "nome": "Dalla Birra alla brace - La Botanica - Pub Birreria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8194,6 +9284,8 @@
     "region": "Lerici",
     "indirizzo": "",
     "piva_clean": "01554900116",
+    "name": "Mitili&Mitili Spezia - Mitili&Mitili Lerici",
+    "nome": "Mitili&Mitili Spezia - Mitili&Mitili Lerici",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8209,6 +9301,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "15501171001",
+    "name": "MT Pizza Via Deledda",
+    "nome": "MT Pizza Via Deledda",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8224,6 +9318,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "16761801006",
+    "name": "MT Pizza Via Acqui",
+    "nome": "MT Pizza Via Acqui",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8239,6 +9335,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "11194760960",
+    "name": "Sushi and Sound",
+    "nome": "Sushi and Sound",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8254,6 +9352,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "06886980488",
+    "name": "L'Bacaro de' Bischeri",
+    "nome": "L'Bacaro de' Bischeri",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8269,6 +9369,8 @@
     "region": "Messina",
     "indirizzo": "",
     "piva_clean": "03602240834",
+    "name": "Verace Elettrica",
+    "nome": "Verace Elettrica",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8284,6 +9386,8 @@
     "region": "Cuneo",
     "indirizzo": "",
     "piva_clean": "04137750040",
+    "name": "Osteria Poi Ti Dico - Bar caffè Carillon",
+    "nome": "Osteria Poi Ti Dico - Bar caffè Carillon",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8299,6 +9403,8 @@
     "region": "Parma",
     "indirizzo": "",
     "piva_clean": "02754080345",
+    "name": "La Picara",
+    "nome": "La Picara",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8314,6 +9420,8 @@
     "region": "Bareggio",
     "indirizzo": "",
     "piva_clean": "12214630969",
+    "name": "La Pescheria Bareggio - La Pescheria Rho",
+    "nome": "La Pescheria Bareggio - La Pescheria Rho",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8329,6 +9437,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01294750078",
+    "name": "Sorso, Birra e cucina",
+    "nome": "Sorso, Birra e cucina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8344,6 +9454,8 @@
     "region": "Vercelli",
     "indirizzo": "",
     "piva_clean": "02749610024",
+    "name": "Laboratorio + Casa Mainente",
+    "nome": "Laboratorio + Casa Mainente",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8359,6 +9471,8 @@
     "region": "Monterotondo",
     "indirizzo": "",
     "piva_clean": "16145001000",
+    "name": "Casa Ruggeri Monterotondo",
+    "nome": "Casa Ruggeri Monterotondo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8374,6 +9488,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "12091220967",
+    "name": "Pastificio Ratanà",
+    "nome": "Pastificio Ratanà",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8389,6 +9505,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "12411880961",
+    "name": "Silvano Vini e Cibi al banco",
+    "nome": "Silvano Vini e Cibi al banco",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8404,6 +9522,8 @@
     "region": "Catania",
     "indirizzo": "",
     "piva_clean": "05064060873",
+    "name": "Cuti Lisci",
+    "nome": "Cuti Lisci",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8419,6 +9539,8 @@
     "region": "Chieti",
     "indirizzo": "",
     "piva_clean": "25978770696",
+    "name": "Caffè Racer - Meat & Friends",
+    "nome": "Caffè Racer - Meat & Friends",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8434,6 +9556,8 @@
     "region": "Pietrasanta",
     "indirizzo": "",
     "piva_clean": "04531400267",
+    "name": "MisCatena",
+    "nome": "MisCatena",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8449,6 +9573,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "13298920011",
+    "name": "Duccio Street Food",
+    "nome": "Duccio Street Food",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8464,6 +9590,8 @@
     "region": "Ciriè",
     "indirizzo": "",
     "piva_clean": "13140110019",
+    "name": "Trato Ciriè",
+    "nome": "Trato Ciriè",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8479,6 +9607,8 @@
     "region": "Teramo",
     "indirizzo": "",
     "piva_clean": "01735440677",
+    "name": "Old Sponge Irish Pub",
+    "nome": "Old Sponge Irish Pub",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8494,6 +9624,8 @@
     "region": "Lecce",
     "indirizzo": "",
     "piva_clean": "05072750754",
+    "name": "Bar Moro - Vineria La Marra",
+    "nome": "Bar Moro - Vineria La Marra",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8509,6 +9641,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "10632830013",
+    "name": "Porca Loca Pizzeria",
+    "nome": "Porca Loca Pizzeria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8524,6 +9658,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "11726240960",
+    "name": "Sciuè Washington",
+    "nome": "Sciuè Washington",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8539,6 +9675,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "10951500965",
+    "name": "Sciuè Premuda",
+    "nome": "Sciuè Premuda",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8554,6 +9692,8 @@
     "region": "Parma",
     "indirizzo": "",
     "piva_clean": "02003530348",
+    "name": "Casa Mariam",
+    "nome": "Casa Mariam",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8569,6 +9709,8 @@
     "region": "Salerno",
     "indirizzo": "",
     "piva_clean": "05120340657",
+    "name": "Tenuta Guerritore",
+    "nome": "Tenuta Guerritore",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8584,6 +9726,8 @@
     "region": "Modena",
     "indirizzo": "",
     "piva_clean": "04212780367",
+    "name": "Tagliatelleria",
+    "nome": "Tagliatelleria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8599,6 +9743,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01297010074",
+    "name": "The Weiss Bistrot",
+    "nome": "The Weiss Bistrot",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8614,6 +9760,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "12907241009",
+    "name": "Coaster Roma - Coaster Nettuno",
+    "nome": "Coaster Roma - Coaster Nettuno",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8629,6 +9777,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "10499540960",
+    "name": "Toast Garden",
+    "nome": "Toast Garden",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8644,6 +9794,8 @@
     "region": "Mantova",
     "indirizzo": "",
     "piva_clean": "02376400202",
+    "name": "Alla corte dei Bicchi",
+    "nome": "Alla corte dei Bicchi",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8659,6 +9811,8 @@
     "region": "Lodi",
     "indirizzo": "",
     "piva_clean": "03666000983",
+    "name": "Birreria 7 Luppoli",
+    "nome": "Birreria 7 Luppoli",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8674,6 +9828,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17270411006",
+    "name": "Birradrome",
+    "nome": "Birradrome",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8689,6 +9845,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "13153160968",
+    "name": "Fresh Ramen",
+    "nome": "Fresh Ramen",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8704,6 +9862,8 @@
     "region": "Bolzano",
     "indirizzo": "",
     "piva_clean": "03231930219",
+    "name": "Pizzeria Kreuzwirt",
+    "nome": "Pizzeria Kreuzwirt",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8719,6 +9879,8 @@
     "region": "Alessandria",
     "indirizzo": "",
     "piva_clean": "02498980065",
+    "name": "Bar dal Tubo",
+    "nome": "Bar dal Tubo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8734,6 +9896,8 @@
     "region": "Ancona",
     "indirizzo": "",
     "piva_clean": "02968790424",
+    "name": "Il Batti becco",
+    "nome": "Il Batti becco",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8749,6 +9913,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04736030406",
+    "name": "Bottega Morri",
+    "nome": "Bottega Morri",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8764,6 +9930,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "18171821004",
+    "name": "Ciuri - cucina siciliana",
+    "nome": "Ciuri - cucina siciliana",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8779,6 +9947,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17243541004",
+    "name": "Boma Mare Club",
+    "nome": "Boma Mare Club",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8794,6 +9964,8 @@
     "region": "Salerno",
     "indirizzo": "",
     "piva_clean": "02718880657",
+    "name": "Cica Pescheria con cucina",
+    "nome": "Cica Pescheria con cucina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8809,6 +9981,8 @@
     "region": "Sassari",
     "indirizzo": "",
     "piva_clean": "02942790904",
+    "name": "Paghe Eco Luxury Exeperience",
+    "nome": "Paghe Eco Luxury Exeperience",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8824,6 +9998,8 @@
     "region": "Oristano",
     "indirizzo": "",
     "piva_clean": "01221620956",
+    "name": "Il Lido Torre Grande - Il Lido Oristano",
+    "nome": "Il Lido Torre Grande - Il Lido Oristano",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8839,6 +10015,8 @@
     "region": "Ancona",
     "indirizzo": "",
     "piva_clean": "02474690423",
+    "name": "Pizzeria avalon centro - Pizzeria avalon Baraccola",
+    "nome": "Pizzeria avalon centro - Pizzeria avalon Baraccola",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8854,6 +10032,8 @@
     "region": "Pesaro",
     "indirizzo": "",
     "piva_clean": "02738770417",
+    "name": "Pizzeria Da Roby's",
+    "nome": "Pizzeria Da Roby's",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8869,6 +10049,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "02285730228",
+    "name": "Panificio Bellotti",
+    "nome": "Panificio Bellotti",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8884,6 +10066,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "10394811129",
+    "name": "Piacere Totò - Burger Bros",
+    "nome": "Piacere Totò - Burger Bros",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8899,6 +10083,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "CHE - 445.077.604",
+    "name": "Basara Sushi",
+    "nome": "Basara Sushi",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8914,6 +10100,8 @@
     "region": "Rocca Priora",
     "indirizzo": "",
     "piva_clean": "16850471000",
+    "name": "Fondi dal 1936 Rocca priora, Frascati, Grottaferrata",
+    "nome": "Fondi dal 1936 Rocca priora, Frascati, Grottaferrata",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8929,6 +10117,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "03409520404",
+    "name": "Rumagna trattoria contemporanea",
+    "nome": "Rumagna trattoria contemporanea",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8944,6 +10134,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04003800408",
+    "name": "La Tavolaccia - Bagno isola",
+    "nome": "La Tavolaccia - Bagno isola",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8959,6 +10151,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "06576370487",
+    "name": "Insolita Trattoria",
+    "nome": "Insolita Trattoria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8974,6 +10168,8 @@
     "region": "Confienza",
     "indirizzo": "",
     "piva_clean": "01674030059",
+    "name": "I Bugianen",
+    "nome": "I Bugianen",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -8989,6 +10185,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "14827311003",
+    "name": "Famelico Restaurant",
+    "nome": "Famelico Restaurant",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9004,6 +10202,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01298330075",
+    "name": "Taverne Du Caferin",
+    "nome": "Taverne Du Caferin",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9019,6 +10219,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "16051921002",
+    "name": "Ristorante Carnosa",
+    "nome": "Ristorante Carnosa",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9034,6 +10236,8 @@
     "region": "Ancona",
     "indirizzo": "",
     "piva_clean": "02831130428",
+    "name": "Fish Ham Burger & Fry",
+    "nome": "Fish Ham Burger & Fry",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9049,6 +10253,8 @@
     "region": "Cuneo",
     "indirizzo": "",
     "piva_clean": "03928060049",
+    "name": "De Lab Fermentazioni",
+    "nome": "De Lab Fermentazioni",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9064,6 +10270,8 @@
     "region": "Pordenone",
     "indirizzo": "",
     "piva_clean": "01031320938",
+    "name": "Pasticceria Stradella",
+    "nome": "Pasticceria Stradella",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9079,6 +10287,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "12534720011",
+    "name": "Novabé",
+    "nome": "Novabé",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9094,6 +10304,8 @@
     "region": "Cosenza",
     "indirizzo": "",
     "piva_clean": "03845620784",
+    "name": "Lorenzo Fortuna - Pizza chef",
+    "nome": "Lorenzo Fortuna - Pizza chef",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9109,6 +10321,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "06853860481",
+    "name": "Quercia Matta",
+    "nome": "Quercia Matta",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9124,6 +10338,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "13278110013",
+    "name": "Trattoria Cirio",
+    "nome": "Trattoria Cirio",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9139,6 +10355,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "13516730960",
+    "name": "Chef Vincenzio",
+    "nome": "Chef Vincenzio",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9154,6 +10372,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "12548791008",
+    "name": "Ilios Chiabrera - Ilios Colli Albani",
+    "nome": "Ilios Chiabrera - Ilios Colli Albani",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9169,6 +10389,8 @@
     "region": "Reggio Emilia",
     "indirizzo": "",
     "piva_clean": "02691180356",
+    "name": "Pirru Pizza & Drink",
+    "nome": "Pirru Pizza & Drink",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9184,6 +10406,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "03041421201",
+    "name": "Ristorante Vicolo Colombina - Zarden - Ristorante Serra Sole - Circolo Bononia",
+    "nome": "Ristorante Vicolo Colombina - Zarden - Ristorante Serra Sole - Circolo Bononia",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9199,6 +10423,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17672151002",
+    "name": "Ti Puglio",
+    "nome": "Ti Puglio",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9214,6 +10440,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "04251230233",
+    "name": "Bei Signori",
+    "nome": "Bei Signori",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9229,6 +10457,8 @@
     "region": "Rimini",
     "indirizzo": "",
     "piva_clean": "03024470993",
+    "name": "FOC Comfort food",
+    "nome": "FOC Comfort food",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9244,6 +10474,8 @@
     "region": "Sondrio",
     "indirizzo": "",
     "piva_clean": "01051840146",
+    "name": "Locanda Via Priula",
+    "nome": "Locanda Via Priula",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9259,6 +10491,8 @@
     "region": "Salerno",
     "indirizzo": "",
     "piva_clean": "05214330655",
+    "name": "La Gavitella Restaurant & Beach",
+    "nome": "La Gavitella Restaurant & Beach",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9274,6 +10508,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "12571840961",
+    "name": "Chepopodipizza",
+    "nome": "Chepopodipizza",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9289,6 +10525,8 @@
     "region": "Ascoli Piceno",
     "indirizzo": "",
     "piva_clean": "02508160443",
+    "name": "Shelter - Harbour cocktail bar - Edelweiss",
+    "nome": "Shelter - Harbour cocktail bar - Edelweiss",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9304,6 +10542,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "12342650152",
+    "name": "Jodok - Bistrolinda - Mosso",
+    "nome": "Jodok - Bistrolinda - Mosso",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9319,6 +10559,8 @@
     "region": "La Spezia",
     "indirizzo": "",
     "piva_clean": "01469220113",
+    "name": "Bif La Fiorentina",
+    "nome": "Bif La Fiorentina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9334,6 +10576,8 @@
     "region": "Grosseto",
     "indirizzo": "",
     "piva_clean": "01316990538",
+    "name": "Osteria Il Viandante",
+    "nome": "Osteria Il Viandante",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9349,6 +10593,8 @@
     "region": "Savona",
     "indirizzo": "",
     "piva_clean": "01910740099",
+    "name": "Il Santo mica tanto",
+    "nome": "Il Santo mica tanto",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9364,6 +10610,8 @@
     "region": "Campobasso",
     "indirizzo": "",
     "piva_clean": "01488340702",
+    "name": "Rist. pizz Fornaro - Le Coccole",
+    "nome": "Rist. pizz Fornaro - Le Coccole",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9379,6 +10627,8 @@
     "region": "Chieti",
     "indirizzo": "",
     "piva_clean": "02676880699",
+    "name": "Le Terrazze al Colosseo - MC Chef Restaurant",
+    "nome": "Le Terrazze al Colosseo - MC Chef Restaurant",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9394,6 +10644,8 @@
     "region": "Ossimo Inferiore",
     "indirizzo": "",
     "piva_clean": "03825630274",
+    "name": "Ristorante interno camping Marina di Venezia",
+    "nome": "Ristorante interno camping Marina di Venezia",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9409,6 +10661,8 @@
     "region": "Ossimo Inferiore",
     "indirizzo": "",
     "piva_clean": "04647720277",
+    "name": "Ristorante Bar inerno camping Sant'Angelo Village",
+    "nome": "Ristorante Bar inerno camping Sant'Angelo Village",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9424,6 +10678,8 @@
     "region": "Brindisi",
     "indirizzo": "",
     "piva_clean": "02555720743",
+    "name": "XXL Live Music bistrot",
+    "nome": "XXL Live Music bistrot",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9439,6 +10695,8 @@
     "region": "Savona",
     "indirizzo": "",
     "piva_clean": "01093790093",
+    "name": "Pilade Pub",
+    "nome": "Pilade Pub",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9454,6 +10712,8 @@
     "region": "Cremona",
     "indirizzo": "",
     "piva_clean": "01753840196",
+    "name": "Osteria Muschirola",
+    "nome": "Osteria Muschirola",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9469,6 +10729,8 @@
     "region": "Agrigento",
     "indirizzo": "",
     "piva_clean": "03140000849",
+    "name": "Granofino Food House",
+    "nome": "Granofino Food House",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9484,6 +10746,8 @@
     "region": "Macerata",
     "indirizzo": "",
     "piva_clean": "01547270437",
+    "name": "Ristorante GLU Le Mimose",
+    "nome": "Ristorante GLU Le Mimose",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9499,6 +10763,8 @@
     "region": "Catania",
     "indirizzo": "",
     "piva_clean": "05716820872",
+    "name": "Tap House",
+    "nome": "Tap House",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9514,6 +10780,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17099571006",
+    "name": "RistoAllegretti",
+    "nome": "RistoAllegretti",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9529,6 +10797,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04146110400",
+    "name": "I Due Carrettieri Pizza & Cucina",
+    "nome": "I Due Carrettieri Pizza & Cucina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9544,6 +10814,8 @@
     "region": "Savona",
     "indirizzo": "",
     "piva_clean": "01803760097",
+    "name": "Bali Beach",
+    "nome": "Bali Beach",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9559,6 +10831,8 @@
     "region": "Lucca",
     "indirizzo": "",
     "piva_clean": "00340030469",
+    "name": "Ristorante La Risacca - Gastronomia Giannoni",
+    "nome": "Ristorante La Risacca - Gastronomia Giannoni",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9574,6 +10848,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "12614560964",
+    "name": "Tokyo Express",
+    "nome": "Tokyo Express",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9589,6 +10865,8 @@
     "region": "Caserta",
     "indirizzo": "",
     "piva_clean": "04570890618",
+    "name": "Fina Fì",
+    "nome": "Fina Fì",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9604,6 +10882,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04121830402",
+    "name": "Cala Madonnina",
+    "nome": "Cala Madonnina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9619,6 +10899,8 @@
     "region": "Messina",
     "indirizzo": "",
     "piva_clean": "03229430834",
+    "name": "Comparello Bello",
+    "nome": "Comparello Bello",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9634,6 +10916,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "17367101007",
+    "name": "Rovèscio - food and lounge",
+    "nome": "Rovèscio - food and lounge",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9649,6 +10933,8 @@
     "region": "Pesaro",
     "indirizzo": "",
     "piva_clean": "01118210416",
+    "name": "Al Mandriano - Rifugio Capinera",
+    "nome": "Al Mandriano - Rifugio Capinera",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9664,6 +10950,8 @@
     "region": "Caserta",
     "indirizzo": "",
     "piva_clean": "04855740611",
+    "name": "Bufala Bar",
+    "nome": "Bufala Bar",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9679,6 +10967,8 @@
     "region": "Catanzaro",
     "indirizzo": "",
     "piva_clean": "03215200795",
+    "name": "Le Pietre Volte - Le Mura",
+    "nome": "Le Pietre Volte - Le Mura",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9694,6 +10984,8 @@
     "region": "Livorno",
     "indirizzo": "",
     "piva_clean": "01883210492",
+    "name": "Guglie Enoteca ristorante",
+    "nome": "Guglie Enoteca ristorante",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9709,6 +11001,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "05561151001",
+    "name": "Ciao! La Bruschetta",
+    "nome": "Ciao! La Bruschetta",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9724,6 +11018,8 @@
     "region": "Grosseto",
     "indirizzo": "",
     "piva_clean": "01757510530",
+    "name": "Il Sal8 - Bar agricolo",
+    "nome": "Il Sal8 - Bar agricolo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9739,6 +11035,8 @@
     "region": "Modena",
     "indirizzo": "",
     "piva_clean": "03504170360",
+    "name": "Bistrot Il Battistero - Enoteca Sotto al Duomo",
+    "nome": "Bistrot Il Battistero - Enoteca Sotto al Duomo",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9754,6 +11052,8 @@
     "region": "Cagliari",
     "indirizzo": "",
     "piva_clean": "04182700924",
+    "name": "Free times Pub",
+    "nome": "Free times Pub",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9769,6 +11069,8 @@
     "region": "Tortolì",
     "indirizzo": "",
     "piva_clean": "01419970916",
+    "name": "Mai Tai Porto Frailis",
+    "nome": "Mai Tai Porto Frailis",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9784,6 +11086,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01222720078",
+    "name": "Tanpì",
+    "nome": "Tanpì",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9799,6 +11103,8 @@
     "region": "Treviso",
     "indirizzo": "",
     "piva_clean": "05577110264",
+    "name": "Pepe Nero - Pepe in Loggia - Kokos",
+    "nome": "Pepe Nero - Pepe in Loggia - Kokos",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9814,6 +11120,8 @@
     "region": "Malcesine",
     "indirizzo": "",
     "piva_clean": "00601590987",
+    "name": "Bar Scaloni - Piasarot Limone - Piasarot Malcesine - Casa L'andrunel - Hotel Mercedes",
+    "nome": "Bar Scaloni - Piasarot Limone - Piasarot Malcesine - Casa L'andrunel - Hotel Mercedes",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9829,6 +11137,8 @@
     "region": "Lodi",
     "indirizzo": "",
     "piva_clean": "04230260988",
+    "name": "Ristorante dal Bigarola - Dalco",
+    "nome": "Ristorante dal Bigarola - Dalco",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9844,6 +11154,8 @@
     "region": "Lucca",
     "indirizzo": "",
     "piva_clean": "02531380463",
+    "name": "Ristorante Lidino",
+    "nome": "Ristorante Lidino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9859,6 +11171,8 @@
     "region": "Alessandria",
     "indirizzo": "",
     "piva_clean": "02526160060",
+    "name": "Lounge Cafe Santero",
+    "nome": "Lounge Cafe Santero",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9874,6 +11188,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "11547020013",
+    "name": "Associazione Culturale Comala ETS",
+    "nome": "Associazione Culturale Comala ETS",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9889,6 +11205,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "03174600233",
+    "name": "Araldo Arte del gusto",
+    "nome": "Araldo Arte del gusto",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9904,6 +11222,8 @@
     "region": "Messina",
     "indirizzo": "",
     "piva_clean": "02576920835",
+    "name": "Antonio Il Macellaio",
+    "nome": "Antonio Il Macellaio",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9919,6 +11239,8 @@
     "region": "Chieti",
     "indirizzo": "",
     "piva_clean": "02718820695",
+    "name": "Sant'Alegria",
+    "nome": "Sant'Alegria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9934,6 +11256,8 @@
     "region": "Laveno-Mombello",
     "indirizzo": "",
     "piva_clean": "04135610121",
+    "name": "Ku Laveno Club",
+    "nome": "Ku Laveno Club",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9949,6 +11273,8 @@
     "region": "Ravenna",
     "indirizzo": "",
     "piva_clean": "02507770390",
+    "name": "Soul Club Spirits & food",
+    "nome": "Soul Club Spirits & food",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9964,6 +11290,8 @@
     "region": "Sassari",
     "indirizzo": "",
     "piva_clean": "02978670905",
+    "name": "Algonet Park Village",
+    "nome": "Algonet Park Village",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9979,6 +11307,8 @@
     "region": "Sassari",
     "indirizzo": "",
     "piva_clean": "02982320901",
+    "name": "De king's - Rio Praia",
+    "nome": "De king's - Rio Praia",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -9994,6 +11324,8 @@
     "region": "Catania",
     "indirizzo": "",
     "piva_clean": "06268600878",
+    "name": "Ammari",
+    "nome": "Ammari",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10009,6 +11341,8 @@
     "region": "Nuoro",
     "indirizzo": "",
     "piva_clean": "00725050918",
+    "name": "Su Mediacru",
+    "nome": "Su Mediacru",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10024,6 +11358,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "04109240715",
+    "name": "Ristorante Cantine Milano",
+    "nome": "Ristorante Cantine Milano",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10039,6 +11375,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "03372620231",
+    "name": "Tenuta agricola Buglioni - Locanda Buglioni - Osteria Porta Borsari - Bacaro Del Mona - Archivio - Osteria Curtina",
+    "nome": "Tenuta agricola Buglioni - Locanda Buglioni - Osteria Porta Borsari - Bacaro Del Mona - Archivio - Osteria Curtina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10054,6 +11392,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "04413740236",
+    "name": "Risotteria Porto Mancino",
+    "nome": "Risotteria Porto Mancino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10069,6 +11409,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "04777660236",
+    "name": "Risotteria Porto Mancino",
+    "nome": "Risotteria Porto Mancino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10084,6 +11426,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "11713780960",
+    "name": "Gli Imperfetti",
+    "nome": "Gli Imperfetti",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10099,6 +11443,8 @@
     "region": "Bari",
     "indirizzo": "",
     "piva_clean": "08159910721",
+    "name": "20MQ",
+    "nome": "20MQ",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10114,6 +11460,8 @@
     "region": "Sondrio",
     "indirizzo": "",
     "piva_clean": "01087130140",
+    "name": "La Trela",
+    "nome": "La Trela",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10129,6 +11477,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "06269040967",
+    "name": "Ristorante pizzeria Poss",
+    "nome": "Ristorante pizzeria Poss",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10144,6 +11494,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "01589800224",
+    "name": "Loto - Tipico",
+    "nome": "Loto - Tipico",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10159,6 +11511,8 @@
     "region": "Ferrara",
     "indirizzo": "",
     "piva_clean": "01235670385",
+    "name": "Gastronomia Bergoli",
+    "nome": "Gastronomia Bergoli",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10174,6 +11528,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "06605071213",
+    "name": "Ai Giardini dei Cesari",
+    "nome": "Ai Giardini dei Cesari",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10189,6 +11545,8 @@
     "region": "Biella",
     "indirizzo": "",
     "piva_clean": "08869780968",
+    "name": "Impaste",
+    "nome": "Impaste",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10204,6 +11562,8 @@
     "region": "Caserta",
     "indirizzo": "",
     "piva_clean": "04461230619",
+    "name": "Hollyfood",
+    "nome": "Hollyfood",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10219,6 +11579,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "07181550489",
+    "name": "La Pinna Rossa",
+    "nome": "La Pinna Rossa",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10234,6 +11596,8 @@
     "region": "Firenze",
     "indirizzo": "",
     "piva_clean": "07249180485",
+    "name": "Duccio Street Food",
+    "nome": "Duccio Street Food",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10249,6 +11613,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "01338920224",
+    "name": "Nicky's alchimia del gusto - Forstbrau Trento",
+    "nome": "Nicky's alchimia del gusto - Forstbrau Trento",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10264,6 +11630,8 @@
     "region": "Messina",
     "indirizzo": "",
     "piva_clean": "03387080835",
+    "name": "Comparello Bello sulla spiaggia",
+    "nome": "Comparello Bello sulla spiaggia",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10279,6 +11647,8 @@
     "region": "Massa",
     "indirizzo": "",
     "piva_clean": "01483610455",
+    "name": "Ristorante Bagno Delfino",
+    "nome": "Ristorante Bagno Delfino",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10294,6 +11664,8 @@
     "region": "Santu Lussurzu/Santu Lussurgiu",
     "indirizzo": "",
     "piva_clean": "02122100676",
+    "name": "Tagliato Mare",
+    "nome": "Tagliato Mare",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10309,6 +11681,8 @@
     "region": "Bergamo",
     "indirizzo": "",
     "piva_clean": "04240340168",
+    "name": "BVB Sport - Food & Event",
+    "nome": "BVB Sport - Food & Event",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10324,6 +11698,8 @@
     "region": "Brembate",
     "indirizzo": "",
     "piva_clean": "02723060741",
+    "name": "Babagrill Brembate - Carlinga",
+    "nome": "Babagrill Brembate - Carlinga",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10339,6 +11715,8 @@
     "region": "Cremona",
     "indirizzo": "",
     "piva_clean": "01546670198",
+    "name": "Sciaff",
+    "nome": "Sciaff",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10354,6 +11732,8 @@
     "region": "Salerno",
     "indirizzo": "",
     "piva_clean": "06316340659",
+    "name": "Agriconvivio",
+    "nome": "Agriconvivio",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10369,6 +11749,8 @@
     "region": "Lecce",
     "indirizzo": "",
     "piva_clean": "05389890756",
+    "name": "Palazzo Presta",
+    "nome": "Palazzo Presta",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10384,6 +11766,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "13043341000",
+    "name": "Foodisfaction",
+    "nome": "Foodisfaction",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10399,6 +11783,8 @@
     "region": "Forlì",
     "indirizzo": "",
     "piva_clean": "04797670405",
+    "name": "Macaco Vibes",
+    "nome": "Macaco Vibes",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10414,6 +11800,8 @@
     "region": "Parma",
     "indirizzo": "",
     "piva_clean": "03039700343",
+    "name": "Talea58",
+    "nome": "Talea58",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10429,6 +11817,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "09168291210",
+    "name": "Pizzeria Giovanni Grimaldi",
+    "nome": "Pizzeria Giovanni Grimaldi",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10444,6 +11834,8 @@
     "region": "Rimini",
     "indirizzo": "",
     "piva_clean": "01534930118",
+    "name": "The frame - Mirage beach club - Villa Conti - San Giorgio - Octopus - Cardinale Vino e Cucina",
+    "nome": "The frame - Mirage beach club - Villa Conti - San Giorgio - Octopus - Cardinale Vino e Cucina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10459,6 +11851,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "12266890016",
+    "name": "Fiorio - Remember - De Amicis",
+    "nome": "Fiorio - Remember - De Amicis",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10474,6 +11868,8 @@
     "region": "Verona",
     "indirizzo": "",
     "piva_clean": "04724740230",
+    "name": "Hotel Villa Bella",
+    "nome": "Hotel Villa Bella",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10489,6 +11885,8 @@
     "region": "Aosta",
     "indirizzo": "",
     "piva_clean": "01296280074",
+    "name": "La Caves Des Amis",
+    "nome": "La Caves Des Amis",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10504,6 +11902,8 @@
     "region": "Palermo",
     "indirizzo": "",
     "piva_clean": "06947820822",
+    "name": "Biga genio e farina - Madonnina",
+    "nome": "Biga genio e farina - Madonnina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10519,6 +11919,8 @@
     "region": "Trapani",
     "indirizzo": "",
     "piva_clean": "02888660814",
+    "name": "Assatrasi - Dispensa Sicana",
+    "nome": "Assatrasi - Dispensa Sicana",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10534,6 +11936,8 @@
     "region": "Lucca",
     "indirizzo": "",
     "piva_clean": "01663220463",
+    "name": "Magazzino - Bar - Lammari - Maltagliata - Pizzeria",
+    "nome": "Magazzino - Bar - Lammari - Maltagliata - Pizzeria",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10549,6 +11953,8 @@
     "region": "Roma",
     "indirizzo": "",
     "piva_clean": "10394811129",
+    "name": "Piacere Totò - Burger Bros",
+    "nome": "Piacere Totò - Burger Bros",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10564,6 +11970,8 @@
     "region": "Milano",
     "indirizzo": "",
     "piva_clean": "05139760283",
+    "name": "Spiller Beer",
+    "nome": "Spiller Beer",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10579,6 +11987,8 @@
     "region": "Massa",
     "indirizzo": "",
     "piva_clean": "01420030452",
+    "name": "Fermento Social Bistrot",
+    "nome": "Fermento Social Bistrot",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10594,6 +12004,8 @@
     "region": "Trento",
     "indirizzo": "",
     "piva_clean": "02670150222",
+    "name": "Pizza Bon Ton",
+    "nome": "Pizza Bon Ton",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10609,6 +12021,8 @@
     "region": "La Spezia",
     "indirizzo": "",
     "piva_clean": "01493950115",
+    "name": "Il Gambero - Antica osteria Caran",
+    "nome": "Il Gambero - Antica osteria Caran",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10624,6 +12038,8 @@
     "region": "Brindisi",
     "indirizzo": "",
     "piva_clean": "02555720743",
+    "name": "XXL live music bistrot",
+    "nome": "XXL live music bistrot",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10639,6 +12055,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "09587141210",
+    "name": "Griffin pub & grill",
+    "nome": "Griffin pub & grill",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10654,6 +12072,8 @@
     "region": "Torino",
     "indirizzo": "",
     "piva_clean": "12890150019",
+    "name": "Ciccia Sfizi Gourmet",
+    "nome": "Ciccia Sfizi Gourmet",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10669,6 +12089,8 @@
     "region": "Da verificare",
     "indirizzo": "",
     "piva_clean": "08486091211",
+    "name": "Cantina U' Scilatur",
+    "nome": "Cantina U' Scilatur",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10684,6 +12106,8 @@
     "region": "Modena",
     "indirizzo": "",
     "piva_clean": "04058290364",
+    "name": "Pizzeria Luigi Teperino 2.0",
+    "nome": "Pizzeria Luigi Teperino 2.0",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10699,6 +12123,8 @@
     "region": "Ancona",
     "indirizzo": "",
     "piva_clean": "01560930420",
+    "name": "Ristorante da Giustina",
+    "nome": "Ristorante da Giustina",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10714,6 +12140,8 @@
     "region": "Pesaro",
     "indirizzo": "",
     "piva_clean": "02738770417",
+    "name": "Pizzeria Da Roby's",
+    "nome": "Pizzeria Da Roby's",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10729,6 +12157,8 @@
     "region": "Ravenna",
     "indirizzo": "",
     "piva_clean": "02507770390",
+    "name": "Soul Club Spirits & Food",
+    "nome": "Soul Club Spirits & Food",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10744,6 +12174,8 @@
     "region": "Prato",
     "indirizzo": "",
     "piva_clean": "14650141006",
+    "name": "Il Ninfeo - Terme di Stigliano",
+    "nome": "Il Ninfeo - Terme di Stigliano",
     "lat": 42.6384261,
     "lng": 12.674297
   },
@@ -10759,6 +12191,8 @@
     "region": "Livorno",
     "indirizzo": "",
     "piva_clean": "02004070492",
+    "name": "Batticarne",
+    "nome": "Batticarne",
     "lat": 42.6384261,
     "lng": 12.674297
   }
