@@ -19,7 +19,7 @@ const els = {
   reset: document.getElementById("resetFilters"),
   fitAll: document.getElementById("fitAllButton"),
   lastUpdated: document.getElementById("lastUpdated"),
-  pill: document.getElementById("statusPill")
+  pill: document.getElementById("els.pill")
 };
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([42.5, 12.5], 6);
@@ -269,7 +269,7 @@ function syncStats(rows = customers, visibleRows = filteredCustomers) {
 }
 
 async function loadData() {
-  els.statusPill.textContent = "Caricamento database…";
+  els.pill.textContent = "Caricamento database…";
   const response = await fetch(DATA_URL, { cache: "no-store" });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const data = await response.json();
@@ -319,6 +319,6 @@ function wireUI() {
 wireUI();
 loadData().catch((err) => {
   console.error(err);
-  els.statusPill.textContent = "Errore caricamento";
+  els.pill.textContent = "Errore caricamento";
   els.lastUpdated.textContent = "Impossibile caricare customers.json";
 });
