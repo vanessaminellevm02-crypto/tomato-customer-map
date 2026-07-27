@@ -19,7 +19,7 @@ const els = {
   reset: document.getElementById("resetFilters"),
   fitAll: document.getElementById("fitAllButton"),
   lastUpdated: document.getElementById("lastUpdated"),
-  pill: document.getElementById("els.pill")
+  pill: document.getElementById("statusPill")
 };
 
 const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([42.5, 12.5], 6);
