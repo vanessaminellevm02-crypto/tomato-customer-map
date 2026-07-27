@@ -20,7 +20,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 3,
@@ -43,7 +46,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 4,
@@ -66,7 +72,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 5,
@@ -89,7 +98,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 6,
@@ -112,7 +124,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 7,
@@ -135,7 +150,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 8,
@@ -158,7 +176,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 9,
@@ -181,7 +202,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 10,
@@ -204,7 +228,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 11,
@@ -227,7 +254,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 12,
@@ -250,7 +280,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 13,
@@ -273,7 +306,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 14,
@@ -296,7 +332,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 15,
@@ -319,7 +358,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 16,
@@ -342,7 +384,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 17,
@@ -365,7 +410,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 18,
@@ -388,7 +436,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 19,
@@ -411,7 +462,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 20,
@@ -434,7 +488,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 21,
@@ -457,7 +514,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 22,
@@ -480,7 +540,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 23,
@@ -503,7 +566,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 24,
@@ -526,7 +592,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 25,
@@ -549,7 +618,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 26,
@@ -572,7 +644,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 27,
@@ -595,7 +670,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 28,
@@ -618,7 +696,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 29,
@@ -641,7 +722,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 30,
@@ -664,7 +748,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 31,
@@ -687,7 +774,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 32,
@@ -710,7 +800,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 33,
@@ -733,7 +826,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 34,
@@ -756,7 +852,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 35,
@@ -779,7 +878,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 36,
@@ -802,7 +904,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 37,
@@ -825,7 +930,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 38,
@@ -848,7 +956,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 39,
@@ -871,7 +982,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 40,
@@ -894,7 +1008,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 41,
@@ -917,7 +1034,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 42,
@@ -940,7 +1060,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 43,
@@ -963,7 +1086,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 44,
@@ -986,7 +1112,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 45,
@@ -1009,7 +1138,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 46,
@@ -1032,7 +1164,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 47,
@@ -1055,7 +1190,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 48,
@@ -1078,7 +1216,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 49,
@@ -1101,7 +1242,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 50,
@@ -1124,7 +1268,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 51,
@@ -1147,7 +1294,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 52,
@@ -1170,7 +1320,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 53,
@@ -1193,7 +1346,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 54,
@@ -1216,7 +1372,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 55,
@@ -1239,7 +1398,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 56,
@@ -1262,7 +1424,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 57,
@@ -1285,7 +1450,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 58,
@@ -1308,7 +1476,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 59,
@@ -1331,7 +1502,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 60,
@@ -1354,7 +1528,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 61,
@@ -1377,7 +1554,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 62,
@@ -1400,7 +1580,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 63,
@@ -1423,7 +1606,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 64,
@@ -1446,7 +1632,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 65,
@@ -1469,7 +1658,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 66,
@@ -1492,7 +1684,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 67,
@@ -1515,7 +1710,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 68,
@@ -1538,7 +1736,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 69,
@@ -1561,7 +1762,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 70,
@@ -1584,7 +1788,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 71,
@@ -1607,7 +1814,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 72,
@@ -1630,7 +1840,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 73,
@@ -1653,7 +1866,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 74,
@@ -1676,7 +1892,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 75,
@@ -1699,7 +1918,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 76,
@@ -1722,7 +1944,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 77,
@@ -1745,7 +1970,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 78,
@@ -1768,7 +1996,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 79,
@@ -1791,7 +2022,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 80,
@@ -1814,7 +2048,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 81,
@@ -1837,7 +2074,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 82,
@@ -1860,7 +2100,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 83,
@@ -1883,7 +2126,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 84,
@@ -1906,7 +2152,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 85,
@@ -1929,7 +2178,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 86,
@@ -1952,7 +2204,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 87,
@@ -1975,7 +2230,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 88,
@@ -1998,7 +2256,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 89,
@@ -2021,7 +2282,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 90,
@@ -2044,7 +2308,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 91,
@@ -2067,7 +2334,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 92,
@@ -2090,7 +2360,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 93,
@@ -2113,7 +2386,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 94,
@@ -2136,7 +2412,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 95,
@@ -2159,7 +2438,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 96,
@@ -2182,7 +2464,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 97,
@@ -2205,7 +2490,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 98,
@@ -2228,7 +2516,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 99,
@@ -2251,7 +2542,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 100,
@@ -2274,7 +2568,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 101,
@@ -2297,7 +2594,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 102,
@@ -2320,7 +2620,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 103,
@@ -2343,7 +2646,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 104,
@@ -2366,7 +2672,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 105,
@@ -2389,7 +2698,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 106,
@@ -2412,7 +2724,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 107,
@@ -2435,7 +2750,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 108,
@@ -2458,7 +2776,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 109,
@@ -2481,7 +2802,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 110,
@@ -2504,7 +2828,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 111,
@@ -2527,7 +2854,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 112,
@@ -2550,7 +2880,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 113,
@@ -2573,7 +2906,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 114,
@@ -2596,7 +2932,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 115,
@@ -2619,7 +2958,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 116,
@@ -2642,7 +2984,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 117,
@@ -2665,7 +3010,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 118,
@@ -2688,7 +3036,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 119,
@@ -2711,7 +3062,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 120,
@@ -2734,7 +3088,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 121,
@@ -2757,7 +3114,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 122,
@@ -2780,7 +3140,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 123,
@@ -2803,7 +3166,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 124,
@@ -2826,7 +3192,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 125,
@@ -2849,7 +3218,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 126,
@@ -2872,7 +3244,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 127,
@@ -2895,7 +3270,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 128,
@@ -2918,7 +3296,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 129,
@@ -2941,7 +3322,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 130,
@@ -2964,7 +3348,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 131,
@@ -2987,7 +3374,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 132,
@@ -3010,7 +3400,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 133,
@@ -3033,7 +3426,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 134,
@@ -3056,7 +3452,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 135,
@@ -3079,7 +3478,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 136,
@@ -3102,7 +3504,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 137,
@@ -3125,7 +3530,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 138,
@@ -3148,7 +3556,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 139,
@@ -3171,7 +3582,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 140,
@@ -3194,7 +3608,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 141,
@@ -3217,7 +3634,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 142,
@@ -3240,7 +3660,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 143,
@@ -3263,7 +3686,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 144,
@@ -3286,7 +3712,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 145,
@@ -3309,7 +3738,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 146,
@@ -3332,7 +3764,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 147,
@@ -3355,7 +3790,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 148,
@@ -3378,7 +3816,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 149,
@@ -3401,7 +3842,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 150,
@@ -3424,7 +3868,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 151,
@@ -3447,7 +3894,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 152,
@@ -3470,7 +3920,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 153,
@@ -3493,7 +3946,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 154,
@@ -3516,7 +3972,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 155,
@@ -3539,7 +3998,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 156,
@@ -3562,7 +4024,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 157,
@@ -3585,7 +4050,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 158,
@@ -3608,7 +4076,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 159,
@@ -3631,7 +4102,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 160,
@@ -3654,7 +4128,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 161,
@@ -3677,7 +4154,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 162,
@@ -3700,7 +4180,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 163,
@@ -3723,7 +4206,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 164,
@@ -3746,7 +4232,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 165,
@@ -3769,7 +4258,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 166,
@@ -3792,7 +4284,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 167,
@@ -3815,7 +4310,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 168,
@@ -3838,7 +4336,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 169,
@@ -3861,7 +4362,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 170,
@@ -3884,7 +4388,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 171,
@@ -3907,7 +4414,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 172,
@@ -3930,7 +4440,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 173,
@@ -3953,7 +4466,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 174,
@@ -3976,7 +4492,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 175,
@@ -3999,7 +4518,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 176,
@@ -4022,7 +4544,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 177,
@@ -4045,7 +4570,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 178,
@@ -4068,7 +4596,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 179,
@@ -4091,7 +4622,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 180,
@@ -4114,7 +4648,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 181,
@@ -4137,7 +4674,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 182,
@@ -4160,7 +4700,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 183,
@@ -4183,7 +4726,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 184,
@@ -4206,7 +4752,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 185,
@@ -4229,7 +4778,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 186,
@@ -4252,7 +4804,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 187,
@@ -4275,7 +4830,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 188,
@@ -4298,7 +4856,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 189,
@@ -4321,7 +4882,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 190,
@@ -4344,7 +4908,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 191,
@@ -4367,7 +4934,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 192,
@@ -4390,7 +4960,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 193,
@@ -4413,7 +4986,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 194,
@@ -4436,7 +5012,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 195,
@@ -4459,7 +5038,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 196,
@@ -4482,7 +5064,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 197,
@@ -4505,7 +5090,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 198,
@@ -4528,7 +5116,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 199,
@@ -4551,7 +5142,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 200,
@@ -4574,7 +5168,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 201,
@@ -4597,7 +5194,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 202,
@@ -4620,7 +5220,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 203,
@@ -4643,7 +5246,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 204,
@@ -4666,7 +5272,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 205,
@@ -4689,7 +5298,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 206,
@@ -4712,7 +5324,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 207,
@@ -4735,7 +5350,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 208,
@@ -4758,7 +5376,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 209,
@@ -4781,7 +5402,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 210,
@@ -4804,7 +5428,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 211,
@@ -4827,7 +5454,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 212,
@@ -4850,7 +5480,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 213,
@@ -4873,7 +5506,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 214,
@@ -4896,7 +5532,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 215,
@@ -4919,7 +5558,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 216,
@@ -4942,7 +5584,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 217,
@@ -4965,7 +5610,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 218,
@@ -4988,7 +5636,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 219,
@@ -5011,7 +5662,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 220,
@@ -5034,7 +5688,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 221,
@@ -5057,7 +5714,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 222,
@@ -5080,7 +5740,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 223,
@@ -5103,7 +5766,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 224,
@@ -5126,7 +5792,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 225,
@@ -5149,7 +5818,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 226,
@@ -5172,7 +5844,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 227,
@@ -5195,7 +5870,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 228,
@@ -5218,7 +5896,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 229,
@@ -5241,7 +5922,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 230,
@@ -5264,7 +5948,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 231,
@@ -5287,7 +5974,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 232,
@@ -5310,7 +6000,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 233,
@@ -5333,7 +6026,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 234,
@@ -5356,7 +6052,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 235,
@@ -5379,7 +6078,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 236,
@@ -5402,7 +6104,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 237,
@@ -5425,7 +6130,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 238,
@@ -5448,7 +6156,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 239,
@@ -5471,7 +6182,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 240,
@@ -5494,7 +6208,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 241,
@@ -5517,7 +6234,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 242,
@@ -5540,7 +6260,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 243,
@@ -5563,7 +6286,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 244,
@@ -5586,7 +6312,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 245,
@@ -5609,7 +6338,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 246,
@@ -5632,7 +6364,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 247,
@@ -5655,7 +6390,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 248,
@@ -5678,7 +6416,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 249,
@@ -5701,7 +6442,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 250,
@@ -5724,7 +6468,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 251,
@@ -5747,7 +6494,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 252,
@@ -5770,7 +6520,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 253,
@@ -5793,7 +6546,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 254,
@@ -5816,7 +6572,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 255,
@@ -5839,7 +6598,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 256,
@@ -5862,7 +6624,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 257,
@@ -5885,7 +6650,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 258,
@@ -5908,7 +6676,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 259,
@@ -5931,7 +6702,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 260,
@@ -5954,7 +6728,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 261,
@@ -5977,7 +6754,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 262,
@@ -6000,7 +6780,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 263,
@@ -6023,7 +6806,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 264,
@@ -6046,7 +6832,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 265,
@@ -6069,7 +6858,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 266,
@@ -6092,7 +6884,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 267,
@@ -6115,7 +6910,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 268,
@@ -6138,7 +6936,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 269,
@@ -6161,7 +6962,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 270,
@@ -6184,7 +6988,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 271,
@@ -6207,7 +7014,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 272,
@@ -6230,7 +7040,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 273,
@@ -6253,7 +7066,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 274,
@@ -6276,7 +7092,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 275,
@@ -6299,7 +7118,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 276,
@@ -6322,7 +7144,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 277,
@@ -6345,7 +7170,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 278,
@@ -6368,7 +7196,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 279,
@@ -6391,7 +7222,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 280,
@@ -6414,7 +7248,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 281,
@@ -6437,7 +7274,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 282,
@@ -6460,7 +7300,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 283,
@@ -6483,7 +7326,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 284,
@@ -6506,7 +7352,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 285,
@@ -6529,7 +7378,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 286,
@@ -6552,7 +7404,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 287,
@@ -6575,7 +7430,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 288,
@@ -6598,7 +7456,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 289,
@@ -6621,7 +7482,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 290,
@@ -6644,7 +7508,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 291,
@@ -6667,7 +7534,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 292,
@@ -6690,7 +7560,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 293,
@@ -6713,7 +7586,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 294,
@@ -6736,7 +7612,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 295,
@@ -6759,7 +7638,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 296,
@@ -6782,7 +7664,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 297,
@@ -6805,7 +7690,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 298,
@@ -6828,7 +7716,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 299,
@@ -6851,7 +7742,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 300,
@@ -6874,7 +7768,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 301,
@@ -6897,7 +7794,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 302,
@@ -6920,7 +7820,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 303,
@@ -6943,7 +7846,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 304,
@@ -6966,7 +7872,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 305,
@@ -6989,7 +7898,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 306,
@@ -7012,7 +7924,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 307,
@@ -7035,7 +7950,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 308,
@@ -7058,7 +7976,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 309,
@@ -7081,7 +8002,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 310,
@@ -7104,7 +8028,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 311,
@@ -7127,7 +8054,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 312,
@@ -7150,7 +8080,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 313,
@@ -7173,7 +8106,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 314,
@@ -7196,7 +8132,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 315,
@@ -7219,7 +8158,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 316,
@@ -7242,7 +8184,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 317,
@@ -7265,7 +8210,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 318,
@@ -7288,7 +8236,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 319,
@@ -7311,7 +8262,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 320,
@@ -7334,7 +8288,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 321,
@@ -7357,7 +8314,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 322,
@@ -7380,7 +8340,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 323,
@@ -7403,7 +8366,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 324,
@@ -7426,7 +8392,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 325,
@@ -7449,7 +8418,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 326,
@@ -7472,7 +8444,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 327,
@@ -7495,7 +8470,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 328,
@@ -7518,7 +8496,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 329,
@@ -7541,7 +8522,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 330,
@@ -7564,7 +8548,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 331,
@@ -7587,7 +8574,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 332,
@@ -7610,7 +8600,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 333,
@@ -7633,7 +8626,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 334,
@@ -7656,7 +8652,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 335,
@@ -7679,7 +8678,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 336,
@@ -7702,7 +8704,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 337,
@@ -7725,7 +8730,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 338,
@@ -7748,7 +8756,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 339,
@@ -7771,7 +8782,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 340,
@@ -7794,7 +8808,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 341,
@@ -7817,7 +8834,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 342,
@@ -7840,7 +8860,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 343,
@@ -7863,7 +8886,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 344,
@@ -7886,7 +8912,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 345,
@@ -7909,7 +8938,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 346,
@@ -7932,7 +8964,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 347,
@@ -7955,7 +8990,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 348,
@@ -7978,7 +9016,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 349,
@@ -8001,7 +9042,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 350,
@@ -8024,7 +9068,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 351,
@@ -8047,7 +9094,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 352,
@@ -8070,7 +9120,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 353,
@@ -8093,7 +9146,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 354,
@@ -8116,7 +9172,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 355,
@@ -8139,7 +9198,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 356,
@@ -8162,7 +9224,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 357,
@@ -8185,7 +9250,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 358,
@@ -8208,7 +9276,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 359,
@@ -8231,7 +9302,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 360,
@@ -8254,7 +9328,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 361,
@@ -8277,7 +9354,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 362,
@@ -8300,7 +9380,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 363,
@@ -8323,7 +9406,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 364,
@@ -8346,7 +9432,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 365,
@@ -8369,7 +9458,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 366,
@@ -8392,7 +9484,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 367,
@@ -8415,7 +9510,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 368,
@@ -8438,7 +9536,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 369,
@@ -8461,7 +9562,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 370,
@@ -8484,7 +9588,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 371,
@@ -8507,7 +9614,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 372,
@@ -8530,7 +9640,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 373,
@@ -8553,7 +9666,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 374,
@@ -8576,7 +9692,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 375,
@@ -8599,7 +9718,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 376,
@@ -8622,7 +9744,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 377,
@@ -8645,7 +9770,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 378,
@@ -8668,7 +9796,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 379,
@@ -8691,7 +9822,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 380,
@@ -8714,7 +9848,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 381,
@@ -8737,7 +9874,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 382,
@@ -8760,7 +9900,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 383,
@@ -8783,7 +9926,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 384,
@@ -8806,7 +9952,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 385,
@@ -8829,7 +9978,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 386,
@@ -8852,7 +10004,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 387,
@@ -8875,7 +10030,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 388,
@@ -8898,7 +10056,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 389,
@@ -8921,7 +10082,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 390,
@@ -8944,7 +10108,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 391,
@@ -8967,7 +10134,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 392,
@@ -8990,7 +10160,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 393,
@@ -9013,7 +10186,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 394,
@@ -9036,7 +10212,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 395,
@@ -9059,7 +10238,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 396,
@@ -9082,7 +10264,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 397,
@@ -9105,7 +10290,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 398,
@@ -9128,7 +10316,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 399,
@@ -9151,7 +10342,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 400,
@@ -9174,7 +10368,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 401,
@@ -9197,7 +10394,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 402,
@@ -9220,7 +10420,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 403,
@@ -9243,7 +10446,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 404,
@@ -9266,7 +10472,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 405,
@@ -9289,7 +10498,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 406,
@@ -9312,7 +10524,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 407,
@@ -9335,7 +10550,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 408,
@@ -9358,7 +10576,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 409,
@@ -9381,7 +10602,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 410,
@@ -9404,7 +10628,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 411,
@@ -9427,7 +10654,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 412,
@@ -9450,7 +10680,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 413,
@@ -9473,7 +10706,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 414,
@@ -9496,7 +10732,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 415,
@@ -9519,7 +10758,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 416,
@@ -9542,7 +10784,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 417,
@@ -9565,7 +10810,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 418,
@@ -9588,7 +10836,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 419,
@@ -9611,7 +10862,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 420,
@@ -9634,7 +10888,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 421,
@@ -9657,7 +10914,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 422,
@@ -9680,7 +10940,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 423,
@@ -9703,7 +10966,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 424,
@@ -9726,7 +10992,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 425,
@@ -9749,7 +11018,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 426,
@@ -9772,7 +11044,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 427,
@@ -9795,7 +11070,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 428,
@@ -9818,7 +11096,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 429,
@@ -9841,7 +11122,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 430,
@@ -9864,7 +11148,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 431,
@@ -9887,7 +11174,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 432,
@@ -9910,7 +11200,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 433,
@@ -9933,7 +11226,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 434,
@@ -9956,7 +11252,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 435,
@@ -9979,7 +11278,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 436,
@@ -10002,7 +11304,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 437,
@@ -10025,7 +11330,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 438,
@@ -10048,7 +11356,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 439,
@@ -10071,7 +11382,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 440,
@@ -10094,7 +11408,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 441,
@@ -10117,7 +11434,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 442,
@@ -10140,7 +11460,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 443,
@@ -10163,7 +11486,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 444,
@@ -10186,7 +11512,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 445,
@@ -10209,7 +11538,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 446,
@@ -10232,7 +11564,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 447,
@@ -10255,7 +11590,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 448,
@@ -10278,7 +11616,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 449,
@@ -10301,7 +11642,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 450,
@@ -10324,7 +11668,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 451,
@@ -10347,7 +11694,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 452,
@@ -10370,7 +11720,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 453,
@@ -10393,7 +11746,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 454,
@@ -10416,7 +11772,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 455,
@@ -10439,7 +11798,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 456,
@@ -10462,7 +11824,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 457,
@@ -10485,7 +11850,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 458,
@@ -10508,7 +11876,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 459,
@@ -10531,7 +11902,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 460,
@@ -10554,7 +11928,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 461,
@@ -10577,7 +11954,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 462,
@@ -10600,7 +11980,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 463,
@@ -10623,7 +12006,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 464,
@@ -10646,7 +12032,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 465,
@@ -10669,7 +12058,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 466,
@@ -10692,7 +12084,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 467,
@@ -10715,7 +12110,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 468,
@@ -10738,7 +12136,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 469,
@@ -10761,7 +12162,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 470,
@@ -10784,7 +12188,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 471,
@@ -10807,7 +12214,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 472,
@@ -10830,7 +12240,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 473,
@@ -10853,7 +12266,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 474,
@@ -10876,7 +12292,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 475,
@@ -10899,7 +12318,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 476,
@@ -10922,7 +12344,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 477,
@@ -10945,7 +12370,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 478,
@@ -10968,7 +12396,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 479,
@@ -10991,7 +12422,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 480,
@@ -11014,7 +12448,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 481,
@@ -11037,7 +12474,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 482,
@@ -11060,7 +12500,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 483,
@@ -11083,7 +12526,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 484,
@@ -11106,7 +12552,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 485,
@@ -11129,7 +12578,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 486,
@@ -11152,7 +12604,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 487,
@@ -11175,7 +12630,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 488,
@@ -11198,7 +12656,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 489,
@@ -11221,7 +12682,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 490,
@@ -11244,7 +12708,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 491,
@@ -11267,7 +12734,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 492,
@@ -11290,7 +12760,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 493,
@@ -11313,7 +12786,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 494,
@@ -11336,7 +12812,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 495,
@@ -11359,7 +12838,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 496,
@@ -11382,7 +12864,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 497,
@@ -11405,7 +12890,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 498,
@@ -11428,7 +12916,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 499,
@@ -11451,7 +12942,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 500,
@@ -11474,7 +12968,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 501,
@@ -11497,7 +12994,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 502,
@@ -11520,7 +13020,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 503,
@@ -11543,7 +13046,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 504,
@@ -11566,7 +13072,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 505,
@@ -11589,7 +13098,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 506,
@@ -11612,7 +13124,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 507,
@@ -11635,7 +13150,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 508,
@@ -11658,7 +13176,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 509,
@@ -11681,7 +13202,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 510,
@@ -11704,7 +13228,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 511,
@@ -11727,7 +13254,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 512,
@@ -11750,7 +13280,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 513,
@@ -11773,7 +13306,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 514,
@@ -11796,7 +13332,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 515,
@@ -11819,7 +13358,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 516,
@@ -11842,7 +13384,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 517,
@@ -11865,7 +13410,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 518,
@@ -11888,7 +13436,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 519,
@@ -11911,7 +13462,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 520,
@@ -11934,7 +13488,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 521,
@@ -11957,7 +13514,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 522,
@@ -11980,7 +13540,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 523,
@@ -12003,7 +13566,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 524,
@@ -12026,7 +13592,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 525,
@@ -12049,7 +13618,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 526,
@@ -12072,7 +13644,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 527,
@@ -12095,7 +13670,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 528,
@@ -12118,7 +13696,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 529,
@@ -12141,7 +13722,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 530,
@@ -12164,7 +13748,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 531,
@@ -12187,7 +13774,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 532,
@@ -12210,7 +13800,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 533,
@@ -12233,7 +13826,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 534,
@@ -12256,7 +13852,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 535,
@@ -12279,7 +13878,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 536,
@@ -12302,7 +13904,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 537,
@@ -12325,7 +13930,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 538,
@@ -12348,7 +13956,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 539,
@@ -12371,7 +13982,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 540,
@@ -12394,7 +14008,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 541,
@@ -12417,7 +14034,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 542,
@@ -12440,7 +14060,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 543,
@@ -12463,7 +14086,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 544,
@@ -12486,7 +14112,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 545,
@@ -12509,7 +14138,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 546,
@@ -12532,7 +14164,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 547,
@@ -12555,7 +14190,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 548,
@@ -12578,7 +14216,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 549,
@@ -12601,7 +14242,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 550,
@@ -12624,7 +14268,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 551,
@@ -12647,7 +14294,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 552,
@@ -12670,7 +14320,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 553,
@@ -12693,7 +14346,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 554,
@@ -12716,7 +14372,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 555,
@@ -12739,7 +14398,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 556,
@@ -12762,7 +14424,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 557,
@@ -12785,7 +14450,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 558,
@@ -12808,7 +14476,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 559,
@@ -12831,7 +14502,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 560,
@@ -12854,7 +14528,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 561,
@@ -12877,7 +14554,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 562,
@@ -12900,7 +14580,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 563,
@@ -12923,7 +14606,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 564,
@@ -12946,7 +14632,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 565,
@@ -12969,7 +14658,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 566,
@@ -12992,7 +14684,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 567,
@@ -13015,7 +14710,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 568,
@@ -13038,7 +14736,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 569,
@@ -13061,7 +14762,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 570,
@@ -13084,7 +14788,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 571,
@@ -13107,7 +14814,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 572,
@@ -13130,7 +14840,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 573,
@@ -13153,7 +14866,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 574,
@@ -13176,7 +14892,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 575,
@@ -13199,7 +14918,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 576,
@@ -13222,7 +14944,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 577,
@@ -13245,7 +14970,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 578,
@@ -13268,7 +14996,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 579,
@@ -13291,7 +15022,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 580,
@@ -13314,7 +15048,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 581,
@@ -13337,7 +15074,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 582,
@@ -13360,7 +15100,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 583,
@@ -13383,7 +15126,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 584,
@@ -13406,7 +15152,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 585,
@@ -13429,7 +15178,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 586,
@@ -13452,7 +15204,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 587,
@@ -13475,7 +15230,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 588,
@@ -13498,7 +15256,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 589,
@@ -13521,7 +15282,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 590,
@@ -13544,7 +15308,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 591,
@@ -13567,7 +15334,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 592,
@@ -13590,7 +15360,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 593,
@@ -13613,7 +15386,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 594,
@@ -13636,7 +15412,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 595,
@@ -13659,7 +15438,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 596,
@@ -13682,7 +15464,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 597,
@@ -13705,7 +15490,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 598,
@@ -13728,7 +15516,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 599,
@@ -13751,7 +15542,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 600,
@@ -13774,7 +15568,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 601,
@@ -13797,7 +15594,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 602,
@@ -13820,7 +15620,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 603,
@@ -13843,7 +15646,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 604,
@@ -13866,7 +15672,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 605,
@@ -13889,7 +15698,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 606,
@@ -13912,7 +15724,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 607,
@@ -13935,7 +15750,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 608,
@@ -13958,7 +15776,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 609,
@@ -13981,7 +15802,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 610,
@@ -14004,7 +15828,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 611,
@@ -14027,7 +15854,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 612,
@@ -14050,7 +15880,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 613,
@@ -14073,7 +15906,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 614,
@@ -14096,7 +15932,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 615,
@@ -14119,7 +15958,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 616,
@@ -14142,7 +15984,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 617,
@@ -14165,7 +16010,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 618,
@@ -14188,7 +16036,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 619,
@@ -14211,7 +16062,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 620,
@@ -14234,7 +16088,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 621,
@@ -14257,7 +16114,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 622,
@@ -14280,7 +16140,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 623,
@@ -14303,7 +16166,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 624,
@@ -14326,7 +16192,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 625,
@@ -14349,7 +16218,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 626,
@@ -14372,7 +16244,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 627,
@@ -14395,7 +16270,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 628,
@@ -14418,7 +16296,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 629,
@@ -14441,7 +16322,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 630,
@@ -14464,7 +16348,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 631,
@@ -14487,7 +16374,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 632,
@@ -14510,7 +16400,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 633,
@@ -14533,7 +16426,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 634,
@@ -14556,7 +16452,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 635,
@@ -14579,7 +16478,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 636,
@@ -14602,7 +16504,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 637,
@@ -14625,7 +16530,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 638,
@@ -14648,7 +16556,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 639,
@@ -14671,7 +16582,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 640,
@@ -14694,7 +16608,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 641,
@@ -14717,7 +16634,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 642,
@@ -14740,7 +16660,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 643,
@@ -14763,7 +16686,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 644,
@@ -14786,7 +16712,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 645,
@@ -14809,7 +16738,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 646,
@@ -14832,7 +16764,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 647,
@@ -14855,7 +16790,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 648,
@@ -14878,7 +16816,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 649,
@@ -14901,7 +16842,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 650,
@@ -14924,7 +16868,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 651,
@@ -14947,7 +16894,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 652,
@@ -14970,7 +16920,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 653,
@@ -14993,7 +16946,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 654,
@@ -15016,7 +16972,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 655,
@@ -15039,7 +16998,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 656,
@@ -15062,7 +17024,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 657,
@@ -15085,7 +17050,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 658,
@@ -15108,7 +17076,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 659,
@@ -15131,7 +17102,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 660,
@@ -15154,7 +17128,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 661,
@@ -15177,7 +17154,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 662,
@@ -15200,7 +17180,10 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   },
   {
     "row_number": 663,
@@ -15223,6 +17206,9 @@
     "comune": "",
     "indirizzo": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "lon": null,
+    "latitude": null,
+    "longitude": null
   }
 ]
