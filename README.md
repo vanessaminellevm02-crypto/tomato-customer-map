@@ -1,26 +1,29 @@
-# Tomato Customer Map
+# Tomato Customer Map V2
 
-Dashboard geografica interattiva per visualizzare i clienti Tomato.
+Dashboard Leaflet per la geolocalizzazione dei clienti Tomato.
 
-## Stati
-- ATTIVO: verde
-- INATTIVO: rosso
-- STAND BY: arancione
-- PAY: esclusi
+## Funzionalità
+- Sidebar con KPI
+- Ricerca full-text su nome locale, cliente, ragione sociale, via, comune, provincia e P.IVA
+- Filtri dinamici per stato, provincia e comune
+- Popup professionali con indirizzo, ragione sociale, P.IVA e numero sedi
+- Pulsanti per Google Maps e copia indirizzo
+- Cluster marker
+- Compatibile con `data/customers.json`
 
-## Struttura
-- `index.html`: pagina
-- `style.css`: grafica
-- `app.js`: logica mappa
-- `data/customers.json`: database pubblico minimo
+## Dati attesi
+Il file `data/customers.json` deve includere almeno questi campi:
+- `Nome Locale`
+- `Nome Cliente`
+- `Ragione sociale`
+- `P.IVA`
+- `N° Sedi`
+- `VIA`
+- `col_9` (comune)
+- `PROVINCIA`
+- `status`
+- `lat`
+- `lng`
 
-## Pubblicazione con GitHub Pages
-Dopo aver caricato i file:
-1. Repository → Settings → Pages
-2. Build and deployment → Source: Deploy from a branch
-3. Branch: `main`, cartella: `/ (root)`
-4. Save
-
-## Aggiornamento con n8n
-n8n dovrà generare/sostituire `data/customers.json`.
-Non pubblicare P.IVA, valori di rinnovo, note o altri dati riservati.
+## Deploy
+Pubblica il repository su GitHub Pages e lascia attivo il file `data/customers.json` generato da n8n.
