@@ -1,34 +1,217 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tomato Customer Map</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🍅 Tomato Customer Map</title>
+
+    <meta name="theme-color" content="#d92d20">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet/dist/leaflet.css"
+    />
+
+    <!-- Marker Cluster -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <div class="app">
-<aside class="sidebar">
-  <div class="brand"><span>🍅</span><div><h1>Tomato Customer Map</h1><p>Distribuzione geografica clienti</p></div></div>
-  <div class="kpis">
-    <div class="kpi"><strong id="total">0</strong><span>Totali</span></div>
-    <div class="kpi"><strong id="visible">0</strong><span>Visibili</span></div>
-    <div class="kpi green"><strong id="active">0</strong><span>Attivi</span></div>
-    <div class="kpi red"><strong id="inactive">0</strong><span>Inattivi</span></div>
-    <div class="kpi orange"><strong id="standby">0</strong><span>Stand by</span></div>
-    <div class="kpi"><strong id="mapped">0</strong><span>Localizzati</span></div>
-  </div>
-  <div class="controls">
-    <input id="search" placeholder="Cerca locale, città, provincia…">
-    <select id="status"><option value="">Tutti gli stati</option><option>ATTIVO</option><option>INATTIVO</option><option>STAND BY</option></select>
-    <select id="region"><option value="">Tutte le regioni</option></select>
-    <button id="reset">Reimposta filtri</button>
-  </div>
-  <div class="legend"><span><i class="dot green-bg"></i>Attivi</span><span><i class="dot red-bg"></i>Inattivi</span><span><i class="dot orange-bg"></i>Stand by</span></div>
-  <div id="statusBox" class="statusbox">Caricamento database…</div>
-</aside>
-<main id="map"></main>
+
+    <!-- ========================= -->
+    <!-- SIDEBAR -->
+    <!-- ========================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h1>🍅 Tomato</h1>
+            <span>Customer Map</span>
+
+        </div>
+
+        <!-- DASHBOARD -->
+
+        <section class="dashboard">
+
+            <div class="card">
+
+                <span>Clienti</span>
+
+                <strong id="totalCustomers">0</strong>
+
+            </div>
+
+            <div class="card">
+
+                <span>Attivi</span>
+
+                <strong id="activeCustomers">0</strong>
+
+            </div>
+
+            <div class="card">
+
+                <span>Geolocalizzati</span>
+
+                <strong id="geoCustomers">0</strong>
+
+            </div>
+
+            <div class="card">
+
+                <span>Visualizzati</span>
+
+                <strong id="visibleCustomers">0</strong>
+
+            </div>
+
+        </section>
+
+        <!-- SEARCH -->
+
+        <section class="search">
+
+            <input
+                id="searchInput"
+                type="text"
+                placeholder="Cerca cliente, via, città, P.IVA..."
+            >
+
+        </section>
+
+        <!-- FILTERS -->
+
+        <section class="filters">
+
+            <select id="statusFilter">
+                <option value="">Tutti gli stati</option>
+            </select>
+
+            <select id="provinceFilter">
+                <option value="">Tutte le province</option>
+            </select>
+
+            <select id="cityFilter">
+                <option value="">Tutti i comuni</option>
+            </select>
+
+        </section>
+
+        <!-- LEGEND -->
+
+        <section class="legend">
+
+            <h3>Legenda</h3>
+
+            <div class="legend-item">
+
+                <span class="dot green"></span>
+
+                Attivo
+
+            </div>
+
+            <div class="legend-item">
+
+                <span class="dot red"></span>
+
+                Inattivo
+
+            </div>
+
+            <div class="legend-item">
+
+                <span class="dot orange"></span>
+
+                Stand By
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <small>
+
+                Aggiornamento automatico da n8n
+
+            </small>
+
+        </footer>
+
+    </aside>
+
+    <!-- ========================= -->
+    <!-- MAIN -->
+    <!-- ========================= -->
+
+    <main>
+
+        <!-- HEADER -->
+
+        <header>
+
+            <div>
+
+                <h2>Tomato Customer Map</h2>
+
+                <p>
+
+                    Gestione clienti geolocalizzati
+
+                </p>
+
+            </div>
+
+            <button id="fitButton">
+
+                📍 Mostra tutti
+
+            </button>
+
+        </header>
+
+        <!-- MAP -->
+
+        <section id="map"></section>
+
+    </main>
+
 </div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Leaflet -->
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Marker Cluster -->
+
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+<!-- App -->
+
 <script src="app.js"></script>
-</body></html>
+
+</body>
+</html>
