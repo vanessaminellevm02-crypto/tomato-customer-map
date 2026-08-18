@@ -12,12 +12,12 @@ permissions:
 jobs:
   geocode:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Geocode addresses
+      - name: Geocode ALL customer addresses
         env:
           NOMINATIM_URL: https://nominatim.openstreetmap.org/search
         run: |
@@ -54,128 +54,176 @@ jobs:
           def street_from_row(row):
               return str(row.get('indirizzo') or row.get('VIA') or row.get('Indirizzo cliente') or '').strip()
 
-          def query_for(row):
-              parts = [
-                  street_from_row(row),
-                  cap5(row.get('CAP')),
-                  city_from_row(row),
-                  province_from_row(row),
-                  'Italia'
-              ]
-              return ', '.join(x for x in parts if x)
-
           def house_number(street):
               match = re.search(r'\b(\d+[A-Za-z]?(?:[/-]\d+[A-Za-z]?)?)\b', street or '')
               return norm(match.group(1)) if match else ''
 
           def street_words(street):
               text = norm(street)
-              for prefix in ('via ', 'viale ', 'piazza ', 'corso ', 'largo ', 'strada ', 'localita '):
+              for prefix in ('via ', 'viale ', 'piazza ', 'corso ', 'largo ', 'strada ', 'localita ', 'località '):
                   if text.startswith(prefix):
                       text = text[len(prefix):]
-              return {word for word in re.findall(r'[a-z0-9]+', text) if len(word) > 1}
+                      break
+              return {word for word in re.findall(r'[a-z0-9]+', text) if len(word) > 1 and not word.isdigit()}
 
+          def candidate_city(address):
+              return norm(
+                  address.get('city') or
+                  address.get('town') or
+                  address.get('village') or
+                  address.get('municipality') or
+                  address.get('suburb') or
+                  address.get('city_district') or ''
+              )
+
+          def candidate_road(address):
+              return norm(address.get('road') or address.get('pedestrian') or address.get('street') or '')
+
+          def request_json(params):
+              query = urlencode(params)
+              request = Request(
+                  f'{__import__("os").environ["NOMINATIM_URL"]}?{query}',
+                  headers={'User-Agent': 'TomatoCustomerMap/1.0 (customer database geocoder)'}
+              )
+              try:
+                  with urlopen(request, timeout=30) as response:
+                      return json.loads(response.read().decode('utf-8'))
+              except Exception as exc:
+                  print(f'Geocoding error: {params} -> {type(exc).__name__}')
+                  return []
+
+          # Cache identical addresses so chains / duplicate locations are requested only once.
           cache = {}
           geocoded = 0
           unresolved = 0
+          no_address = 0
 
-          for row in customers:
-              if row.get('lat') is not None and row.get('lng') is not None:
-                  continue
-
+          for index, row in enumerate(customers, start=1):
               street = street_from_row(row)
               city = city_from_row(row)
               cap = cap5(row.get('CAP'))
-              query = query_for(row)
+              province = province_from_row(row)
+              target_house = house_number(street)
+              target_words = street_words(street)
 
+              # No usable address: keep the record in the database but without coordinates.
               if not street and not city and not cap:
                   row['lat'] = None
                   row['lng'] = None
                   row['geocode_status'] = 'SENZA_INDIRIZZO'
                   row['geocode_reason'] = 'Indirizzo insufficiente'
-                  unresolved += 1
+                  row['geocode_query'] = ''
+                  row['geocode_display_name'] = ''
+                  no_address += 1
                   continue
 
-              if query not in cache:
-                  params = urlencode({
-                      'q': query,
-                      'format': 'jsonv2',
-                      'addressdetails': 1,
-                      'limit': 3,
-                      'countrycodes': 'it'
-                  })
-                  request = Request(
-                      f'{__import__("os").environ["NOMINATIM_URL"]}?{params}',
-                      headers={'User-Agent': 'TomatoCustomerMap/1.0 (customer database geocoder)'}
-                  )
-                  try:
-                      with urlopen(request, timeout=30) as response:
-                          cache[query] = json.loads(response.read().decode('utf-8'))
-                  except Exception as exc:
-                      cache[query] = []
-                      print(f'Geocoding error: {query} -> {type(exc).__name__}')
-                  time.sleep(1.1)
+              cache_key = '|'.join([norm(street), cap, norm(city), norm(province)])
 
-              candidates = cache[query]
-              target_city = norm(city)
-              target_cap = cap
-              target_house = house_number(street)
-              target_words = street_words(street)
+              if cache_key not in cache:
+                  candidates = []
 
+                  # First attempt: structured search. This is safer than a single free-text query
+                  # because street, CAP and city are supplied as separate fields.
+                  if street or city or cap:
+                      structured = {
+                          'format': 'jsonv2',
+                          'addressdetails': 1,
+                          'limit': 5,
+                          'countrycodes': 'it',
+                          'country': 'Italia'
+                      }
+                      if street:
+                          structured['street'] = street
+                      if city:
+                          structured['city'] = city
+                      if cap:
+                          structured['postalcode'] = cap
+
+                      candidates = request_json(structured)
+                      time.sleep(1.1)
+
+                  # Fallback: free-text query, still restricted to Italy.
+                  if not candidates:
+                      query = ', '.join(x for x in [street, cap, city, province, 'Italia'] if x)
+                      candidates = request_json({
+                          'q': query,
+                          'format': 'jsonv2',
+                          'addressdetails': 1,
+                          'limit': 5,
+                          'countrycodes': 'it'
+                      })
+                      time.sleep(1.1)
+
+                  cache[cache_key] = candidates if isinstance(candidates, list) else []
+
+              candidates = cache[cache_key]
               best = None
               best_score = -1
 
-              for candidate in candidates if isinstance(candidates, list) else []:
+              target_city = norm(city)
+              target_cap = cap
+
+              for candidate in candidates:
+                  if not isinstance(candidate, dict) or not candidate.get('lat') or not candidate.get('lon'):
+                      continue
+
                   address = candidate.get('address') or {}
                   result_cap = cap5(address.get('postcode'))
-                  result_city = norm(
-                      address.get('city') or
-                      address.get('town') or
-                      address.get('village') or
-                      address.get('municipality') or
-                      address.get('suburb') or ''
-                  )
-                  result_road = norm(address.get('road') or address.get('pedestrian') or address.get('street') or '')
+                  result_city = candidate_city(address)
+                  result_road = candidate_road(address)
                   result_house = norm(address.get('house_number') or '')
                   result_words = set(re.findall(r'[a-z0-9]+', result_road))
 
                   score = 0
+
+                  # CAP and city are the strongest locality checks.
                   if target_cap and result_cap == target_cap:
-                      score += 50
+                      score += 60
+                  elif target_cap and result_cap and result_cap != target_cap:
+                      score -= 80
+
                   if target_city and result_city == target_city:
-                      score += 35
+                      score += 50
+                  elif target_city and result_city and target_city not in result_city and result_city not in target_city:
+                      score -= 70
+
+                  # Street and house number prevent a result elsewhere in the same city.
                   if target_house and result_house == target_house:
-                      score += 25
+                      score += 35
+                  elif target_house and result_house and result_house != target_house:
+                      score -= 30
+
                   overlap = len(target_words.intersection(result_words))
                   if overlap >= 1:
-                      score += 20
+                      score += 30
                   if overlap >= 2:
-                      score += 15
+                      score += 20
+
+                  if norm(street) and result_road and norm(street) == result_road:
+                      score += 30
 
                   if score > best_score:
                       best_score = score
                       best = candidate
 
-              if best and best.get('lat') and best.get('lon'):
+              # Acceptance rules: never write a coordinate unless locality is sufficiently verified.
+              if best and best_score >= 80:
                   address = best.get('address') or {}
                   result_cap = cap5(address.get('postcode'))
-                  result_city = norm(
-                      address.get('city') or
-                      address.get('town') or
-                      address.get('village') or
-                      address.get('municipality') or
-                      address.get('suburb') or ''
-                  )
+                  result_city = candidate_city(address)
 
-                  cap_ok = not target_cap or not result_cap or target_cap == result_cap
-                  city_ok = not target_city or not result_city or target_city == result_city
+                  cap_ok = not target_cap or result_cap == target_cap
+                  city_ok = not target_city or result_city == target_city or target_city in result_city or result_city in target_city
 
-                  if cap_ok and city_ok and best_score >= 70:
+                  # If we have a street name, require at least one street-word match.
+                  street_ok = not target_words or bool(target_words.intersection(set(re.findall(r'[a-z0-9]+', candidate_road(address)))))
+
+                  if cap_ok and city_ok and street_ok:
                       row['lat'] = float(best['lat'])
                       row['lng'] = float(best['lon'])
                       row['geocode_status'] = 'VERIFICATO'
-                      row['geocode_reason'] = 'Indirizzo verificato con CAP/comune e risultato geocoder'
-                      row['geocode_query'] = query
+                      row['geocode_reason'] = 'Coordinate verificate con CAP/comune/via'
+                      row['geocode_query'] = ', '.join(x for x in [street, cap, city, province, 'Italia'] if x)
                       row['geocode_display_name'] = best.get('display_name', '')
                       geocoded += 1
                       continue
@@ -184,14 +232,20 @@ jobs:
               row['lng'] = None
               row['geocode_status'] = 'DA_VERIFICARE'
               row['geocode_reason'] = 'Nessun risultato sufficientemente affidabile'
-              row['geocode_query'] = query
+              row['geocode_query'] = ', '.join(x for x in [street, cap, city, province, 'Italia'] if x)
+              row['geocode_display_name'] = ''
               unresolved += 1
 
+              if index % 25 == 0:
+                  print(f'Progress: {index}/{len(customers)}')
+
           path.write_text(json.dumps(customers, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('--- RISULTATO ---')
           print(f'Clienti totali: {len(customers)}')
-          print(f'Nuove coordinate verificate: {geocoded}')
-          print(f'Non verificati/senza indirizzo: {unresolved}')
-          print(f'Query uniche: {len(cache)}')
+          print(f'Coordinate verificate: {geocoded}')
+          print(f'Da verificare: {unresolved}')
+          print(f'Senza indirizzo: {no_address}')
+          print(f'Indirizzi unici geocodificati: {len(cache)}')
           PY
 
       - name: Commit database
@@ -203,5 +257,5 @@ jobs:
             echo 'Nessuna modifica al database.'
             exit 0
           fi
-          git commit -m 'Completa geolocalizzazione database clienti'
+          git commit -m 'Ricostruisce coordinate database clienti'
           git push
