@@ -1,0 +1,199 @@
+name: Complete customer geocoding
+
+on:
+  push:
+    paths:
+      - '.github/workflows/geocode-customers.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Geocode addresses
+        env:
+          NOMINATIM_URL: https://nominatim.openstreetmap.org/search
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import time
+          import unicodedata
+          from pathlib import Path
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
+
+          path = Path('data/customers.json')
+          customers = json.loads(path.read_text(encoding='utf-8'))
+
+          def norm(v):
+              s = unicodedata.normalize('NFD', str(v or ''))
+              s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
+              return re.sub(r'\\s+', ' ', s).strip().lower()
+
+          def cap5(v):
+              digits = re.sub(r'\\D', '', str(v or ''))
+              return digits.zfill(5) if digits else ''
+
+          def city_from_row(row):
+              return (row.get('comune') or row.get('col_9') or row.get('Comune') or row.get('city') or '').strip()
+
+          def province_from_row(row):
+              return (row.get('provincia') or row.get('PROVINCIA') or row.get('province') or '').strip()
+
+          def street_from_row(row):
+              return (row.get('indirizzo') or row.get('VIA') or row.get('Indirizzo cliente') or '').strip()
+
+          def query_for(row):
+              street = street_from_row(row)
+              cap = cap5(row.get('CAP'))
+              city = city_from_row(row)
+              province = province_from_row(row)
+              parts = [street, cap, city, province, 'Italia']
+              return ', '.join(x for x in parts if x)
+
+          def house_number(street):
+              m = re.search(r'\\b(\\d+[A-Za-z]?(?:[/-]\\d+[A-Za-z]?)?)\\b', street or '')
+              return norm(m.group(1)) if m else ''
+
+          def street_tokens(street):
+              s = norm(street)
+              s = re.sub(r'\\b(via|viale|piazza|corso|largo|strada|localita|localita\\')\\b', ' ', s)
+              return {x for x in re.findall(r'[a-z0-9]+', s) if len(x) > 1}
+
+          cache = {}
+          changed = 0
+          geocoded = 0
+          unresolved = 0
+
+          for idx, row in enumerate(customers):
+              if row.get('lat') is not None and row.get('lng') is not None:
+                  continue
+
+              street = street_from_row(row)
+              cap = cap5(row.get('CAP'))
+              city = city_from_row(row)
+              province = province_from_row(row)
+
+              if not street and not city and not cap:
+                  row['lat'] = None
+                  row['lng'] = None
+                  row['geocode_status'] = 'SENZA_INDIRIZZO'
+                  row['geocode_reason'] = 'Indirizzo insufficiente'
+                  unresolved += 1
+                  continue
+
+              query = query_for(row)
+
+              if query in cache:
+                  result = cache[query]
+              else:
+                  params = urlencode({
+                      'q': query,
+                      'format': 'jsonv2',
+                      'addressdetails': 1,
+                      'limit': 3,
+                      'countrycodes': 'it'
+                  })
+                  req = Request(
+                      f'{__import__("os").environ["NOMINATIM_URL"]}?{params}',
+                      headers={'User-Agent': 'TomatoCustomerMap/1.0 (customer database geocoder)'}
+                  )
+                  try:
+                      with urlopen(req, timeout=30) as resp:
+                          result = json.loads(resp.read().decode('utf-8'))
+                  except Exception as exc:
+                      result = []
+                      row['geocode_status'] = 'DA_VERIFICARE'
+                      row['geocode_reason'] = f'Errore geocoding: {type(exc).__name__}'
+                  cache[query] = result
+                  time.sleep(1.1)
+
+              best = None
+              best_score = -1
+              target_city = norm(city)
+              target_cap = cap
+              target_house = house_number(street)
+              target_tokens = street_tokens(street)
+
+              for candidate in result if isinstance(result, list) else []:
+                  addr = candidate.get('address') or {}
+                  ccap = cap5(addr.get('postcode'))
+                  ccity = norm(addr.get('city') or addr.get('town') or addr.get('village') or addr.get('municipality') or addr.get('suburb'))
+                  croad = norm(addr.get('road') or addr.get('pedestrian') or addr.get('street'))
+                  chouse = norm(addr.get('house_number'))
+                  display = norm(candidate.get('display_name'))
+
+                  score = 0
+                  if target_cap and ccap == target_cap:
+                      score += 50
+                  if target_city and ccity == target_city:
+                      score += 35
+                  if target_house and chouse == target_house:
+                      score += 25
+                  if target_tokens:
+                      overlap = len(target_tokens.intersection(set(re.findall(r'[a-z0-9]+', croad))))
+                      if overlap >= 1:
+                          score += 20
+                      if overlap >= 2:
+                          score += 15
+                  if 'italy' in display or 'italia' in display:
+                      score += 5
+
+                  if score > best_score:
+                      best_score = score
+                      best = candidate
+
+              if best is not None and best.get('lat') and best.get('lon'):
+                  addr = best.get('address') or {}
+                  ccap = cap5(addr.get('postcode'))
+                  ccity = norm(addr.get('city') or addr.get('town') or addr.get('village') or addr.get('municipality') or addr.get('suburb'))
+
+                  # Never accept a result that conflicts with a known CAP.
+                  cap_ok = (not target_cap) or (not ccap) or target_cap == ccap
+                  # If both city values are known, require a city match.
+                  city_ok = (not target_city) or (not ccity) or target_city == ccity
+
+                  if cap_ok and city_ok and best_score >= 70:
+                      row['lat'] = float(best['lat'])
+                      row['lng'] = float(best['lon'])
+                      row['geocode_status'] = 'VERIFICATO'
+                      row['geocode_reason'] = 'Indirizzo verificato con CAP/comune e risultato geocoder'
+                      row['geocode_query'] = query
+                      row['geocode_display_name'] = best.get('display_name', '')
+                      geocoded += 1
+                      changed += 1
+                      continue
+
+              row['lat'] = None
+              row['lng'] = None
+              row['geocode_status'] = 'DA_VERIFICARE'
+              row['geocode_reason'] = 'Nessun risultato sufficientemente affidabile'
+              row['geocode_query'] = query
+              unresolved += 1
+
+          path.write_text(json.dumps(customers, ensure_ascii=False, indent=2) + '\\n', encoding='utf-8')
+          print(f'Clienti totali: {len(customers)}')
+          print(f'Nuove coordinate verificate: {geocoded}')
+          print(f'Non verificati/senza indirizzo: {unresolved}')
+          print(f'Query uniche: {len(cache)}')
+          PY
+
+      - name: Commit database
+        run: |
+          git config user.name 'tomato-map-bot'
+          git config user.email 'tomato-map-bot@users.noreply.github.com'
+          git add data/customers.json
+          if git diff --cached --quiet; then
+            echo 'Nessuna modifica al database.'
+            exit 0
+          fi
+          git commit -m 'Completa geolocalizzazione database clienti'
+          git push
