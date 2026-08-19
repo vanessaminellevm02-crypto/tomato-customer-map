@@ -17,13 +17,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Geocode by municipality
-        env:
-          NOMINATIM_URL: https://nominatim.openstreetmap.org/search
+      - name: Geocode customers by municipality
         run: |
           python - <<'PY'
           import json
-          import re
           import time
           import unicodedata
           from pathlib import Path
@@ -32,21 +29,21 @@ jobs:
 
           path = Path('data/customers.json')
           customers = json.loads(path.read_text(encoding='utf-8'))
+          if isinstance(customers, dict) and isinstance(customers.get('content'), str):
+              customers = json.loads(customers['content'])
+          if not isinstance(customers, list):
+              raise RuntimeError('customers.json non contiene un array di clienti')
 
-          def norm(v):
-              s = unicodedata.normalize('NFD', str(v or ''))
-              s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
-              return ' '.join(s.lower().split())
-
-          def cap5(v):
-              d = ''.join(c for c in str(v or '') if c.isdigit())
-              return d.zfill(5) if d else ''
+          def norm(value):
+              text = unicodedata.normalize('NFD', str(value or ''))
+              text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+              return ' '.join(text.lower().split())
 
           def get(row, *keys):
-              for k in keys:
-                  v = row.get(k)
-                  if v is not None and str(v).strip():
-                      return str(v).strip()
+              for key in keys:
+                  value = row.get(key)
+                  if value is not None and str(value).strip():
+                      return str(value).strip()
               return ''
 
           def municipality(row):
@@ -55,94 +52,101 @@ jobs:
           def province(row):
               return get(row, 'provincia', 'PROVINCIA', 'province', 'Province')
 
-          # We deliberately geocode at MUNICIPALITY level. The goal is the
-          # correct town, not the exact street number.
+          def cap5(value):
+              digits = ''.join(c for c in str(value or '') if c.isdigit())
+              return digits.zfill(5) if digits else ''
+
+          def photon(query):
+              url = 'https://photon.komoot.io/api/?' + urlencode({'q': query, 'limit': 8, 'lang': 'it'})
+              request = Request(url, headers={'User-Agent': 'TomatoCustomerMap/1.3'})
+              with urlopen(request, timeout=30) as response:
+                  return json.loads(response.read().decode('utf-8'))
+
+          def feature_city(feature):
+              props = feature.get('properties') or {}
+              return norm(props.get('city') or props.get('town') or props.get('village') or props.get('municipality') or props.get('locality') or '')
+
+          def feature_country(feature):
+              props = feature.get('properties') or {}
+              return norm(props.get('countrycode') or props.get('country') or '')
+
+          def feature_type(feature):
+              props = feature.get('properties') or {}
+              return norm(props.get('osm_value') or props.get('type') or '')
+
+          # One lookup per distinct municipality+province, then reuse the
+          # coordinates for every customer in that municipality.
           cache = {}
-          stats = {'COMUNE': 0, 'KEEP': 0, 'DA_VERIFICARE': 0, 'SENZA_INDIRIZZO': 0}
-
-          def fetch(params):
-              req = Request(
-                  f'{__import__("os").environ["NOMINATIM_URL"]}?{urlencode(params)}',
-                  headers={'User-Agent': 'TomatoCustomerMap/1.2 (municipality geocoder)'}
-              )
-              try:
-                  with urlopen(req, timeout=30) as r:
-                      return json.loads(r.read().decode('utf-8'))
-              except Exception as e:
-                  print('Geocoding error:', type(e).__name__)
-                  return []
-
-          def result_city(address):
-              return norm(address.get('city') or address.get('town') or address.get('village') or address.get('municipality') or '')
+          stats = {'COMUNE': 0, 'DA_VERIFICARE': 0, 'SENZA_COMUNE': 0}
 
           for row in customers:
-              c = municipality(row)
-              p = province(row)
-              cp = cap5(row.get('CAP'))
+              city = municipality(row)
+              prov = province(row)
+              cap = cap5(row.get('CAP'))
 
-              if not c:
-                  # Preserve the customer, but never invent a position.
-                  row['lat'] = None
-                  row['lng'] = None
-                  row['geocode_status'] = 'SENZA_INDIRIZZO'
-                  row['geocode_precision'] = 'NESSUNA'
-                  row['geocode_reason'] = 'Comune assente nel database'
-                  stats['SENZA_INDIRIZZO'] += 1
+              if not city:
+                  row.update(lat=None, lng=None, geocode_status='SENZA_INDIRIZZO', geocode_precision='NESSUNA', geocode_reason='Comune assente nel database', geocode_query='', geocode_display_name='')
+                  stats['SENZA_COMUNE'] += 1
                   continue
 
-              key = f'{norm(c)}|{norm(p)}'
+              key = norm(city) + '|' + norm(prov)
               if key not in cache:
-                  candidates = fetch({
-                      'q': ', '.join(x for x in [c, p, 'Italia'] if x),
-                      'format': 'jsonv2',
-                      'addressdetails': 1,
-                      'limit': 10,
-                      'countrycodes': 'it'
-                  })
-                  time.sleep(1.1)
+                  candidates = []
+                  queries = [
+                      ', '.join(x for x in [city, prov, 'Italia'] if x),
+                      ', '.join(x for x in [city, 'Italia'] if x)
+                  ]
+                  for query in queries:
+                      try:
+                          data = photon(query)
+                          candidates = data.get('features', []) if isinstance(data, dict) else []
+                      except Exception as exc:
+                          print('Geocoder error:', type(exc).__name__, query)
+                          candidates = []
+                      if candidates:
+                          break
+                      time.sleep(0.4)
 
-                  target = norm(c)
+                  target = norm(city)
                   best = None
                   best_score = -1
 
-                  for candidate in candidates if isinstance(candidates, list) else []:
-                      if not candidate.get('lat') or not candidate.get('lon'):
+                  for feature in candidates:
+                      coords = (feature.get('geometry') or {}).get('coordinates') or []
+                      if len(coords) < 2:
                           continue
-                      address = candidate.get('address') or {}
-                      rc = result_city(address)
-                      country = norm(address.get('country_code'))
-                      typ = norm(candidate.get('type'))
-                      cls = norm(candidate.get('class'))
-
-                      if country and country != 'it':
+                      fc = feature_city(feature)
+                      country = feature_country(feature)
+                      ftype = feature_type(feature)
+                      if country and country not in ('it', 'italy', 'italia'):
                           continue
-                      if not rc or not (rc == target or rc in target or target in rc):
+                      if not fc or not (fc == target or target in fc or fc in target):
                           continue
-
-                      # Do not use polygons/boundaries as a marker position.
-                      if cls == 'boundary' or typ in {'boundary', 'administrative'}:
+                      if ftype in ('administrative', 'boundary'):
                           continue
 
-                      score = 100 if rc == target else 80
-                      if cp and cap5(address.get('postcode')) == cp:
+                      score = 100 if fc == target else 80
+                      props = feature.get('properties') or {}
+                      postcode = cap5(props.get('postcode'))
+                      if cap and postcode == cap:
                           score += 20
-
                       if score > best_score:
-                          best = candidate
+                          best = feature
                           best_score = score
 
                   cache[key] = best
+                  time.sleep(0.25)
 
               best = cache[key]
-
               if best:
-                  row['lat'] = float(best['lat'])
-                  row['lng'] = float(best['lon'])
+                  coords = best['geometry']['coordinates']
+                  row['lat'] = float(coords[1])
+                  row['lng'] = float(coords[0])
                   row['geocode_status'] = 'VERIFICATO'
                   row['geocode_precision'] = 'COMUNE'
                   row['geocode_reason'] = 'Posizione del Comune/località; non è richiesto il civico'
-                  row['geocode_query'] = ', '.join(x for x in [c, p, 'Italia'] if x)
-                  row['geocode_display_name'] = best.get('display_name', '')
+                  row['geocode_query'] = ', '.join(x for x in [city, prov, 'Italia'] if x)
+                  row['geocode_display_name'] = best.get('properties', {}).get('name', city)
                   stats['COMUNE'] += 1
               else:
                   row['lat'] = None
@@ -150,7 +154,7 @@ jobs:
                   row['geocode_status'] = 'DA_VERIFICARE'
                   row['geocode_precision'] = 'NESSUNA'
                   row['geocode_reason'] = 'Comune non trovato con sufficiente certezza'
-                  row['geocode_query'] = ', '.join(x for x in [c, p, 'Italia'] if x)
+                  row['geocode_query'] = ', '.join(x for x in [city, prov, 'Italia'] if x)
                   row['geocode_display_name'] = ''
                   stats['DA_VERIFICARE'] += 1
 
@@ -158,9 +162,24 @@ jobs:
           print('--- RISULTATO ---')
           print('Clienti totali:', len(customers))
           print('Posizionati per Comune:', stats['COMUNE'])
-          print('Senza Comune:', stats['SENZA_INDIRIZZO'])
+          print('Senza Comune:', stats['SENZA_COMUNE'])
           print('Da verificare:', stats['DA_VERIFICARE'])
           print('Comuni geocodificati:', len(cache))
+          PY
+
+      - name: Validate database
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/customers.json').read_text(encoding='utf-8'))
+          if not isinstance(data, list):
+              raise SystemExit('customers.json non è un array')
+          valid = sum(1 for r in data if isinstance(r, dict) and isinstance(r.get('lat'), (int,float)) and isinstance(r.get('lng'), (int,float)))
+          print(f'Clienti nel database: {len(data)}')
+          print(f'Clienti con coordinate: {valid}')
+          if valid == 0:
+              raise SystemExit('ERRORE: nessuna coordinata generata')
           PY
 
       - name: Commit database
@@ -172,5 +191,5 @@ jobs:
             echo 'Nessuna modifica al database.'
             exit 0
           fi
-          git commit -m 'Geolocalizza clienti per Comune'
+          git commit -m 'Geolocalizza clienti per Comune con Photon'
           git push
