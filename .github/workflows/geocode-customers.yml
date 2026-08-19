@@ -1,10 +1,11 @@
-name: Complete customer geocoding
+name: Geocode customers by municipality
 
 on:
   workflow_dispatch:
   push:
     paths:
       - '.github/workflows/geocode-customers.yml'
+      - 'data/customers.json'
 
 permissions:
   contents: write
@@ -13,73 +14,185 @@ jobs:
   geocode:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+
     steps:
       - uses: actions/checkout@v4
-      - name: Geocode municipalities safely
+
+      - name: Assign verified municipality centroids
         run: |
           python - <<'PY'
-          import json,re,time,unicodedata
+          import csv
+          import io
+          import json
+          import re
+          import unicodedata
           from pathlib import Path
-          from urllib.parse import urlencode
-          from urllib.request import Request,urlopen
-          path=Path('data/customers.json')
-          raw=json.loads(path.read_text(encoding='utf-8'))
-          if isinstance(raw,dict):
-              raw=raw.get('customers') or raw.get('data') or raw.get('content')
-              if isinstance(raw,str): raw=json.loads(raw)
-          if not isinstance(raw,list) or not raw: raise SystemExit('Database non valido/vuoto: STOP')
-          def norm(v):
-              s=unicodedata.normalize('NFD',str(v or '')); s=''.join(c for c in s if unicodedata.category(c)!='Mn'); return ' '.join(s.lower().split())
-          def get(r,*ks):
-              for k in ks:
-                  if r.get(k) not in (None,''): return str(r[k]).strip()
+          from urllib.request import Request, urlopen
+
+          DATA = Path('data/customers.json')
+          COMMUNI_URL = 'https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/comuni.csv'
+          COORD_URL = 'https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/coordinate.csv'
+
+          def norm(value):
+              s = unicodedata.normalize('NFKD', str(value or ''))
+              s = ''.join(c for c in s if not unicodedata.combining(c))
+              s = s.upper().replace('’', "'")
+              s = re.sub(r"[^A-Z0-9]+", ' ', s)
+              return ' '.join(s.split())
+
+          def get(row, *keys):
+              for key in keys:
+                  value = row.get(key)
+                  if value not in (None, ''):
+                      return str(value).strip()
               return ''
-          def city(r): return get(r,'comune','col_9','Comune','city')
-          def prov(r): return get(r,'provincia','PROVINCIA','province','Province')
-          groups={}
-          for r in raw:
-              c,p=city(r),prov(r)
-              if c: groups.setdefault((norm(c),norm(p)),(c,p))
-          cache={}
-          def fetch(q):
-              req=Request('https://nominatim.openstreetmap.org/search?'+urlencode({'q':q,'format':'jsonv2','addressdetails':1,'limit':5,'countrycodes':'it'}),headers={'User-Agent':'TomatoCustomerMap/1.4'})
+
+          def download(url):
+              req = Request(url, headers={'User-Agent': 'TomatoCustomerMap/2.0'})
+              with urlopen(req, timeout=30) as response:
+                  return response.read().decode('utf-8-sig')
+
+          def read_csv(text):
+              sample = text[:5000]
               try:
-                  with urlopen(req,timeout=20) as x:return json.loads(x.read().decode())
-              except Exception as e: print('lookup failed',q,type(e).__name__);return []
-          for key,(c,p) in groups.items():
-              candidates=fetch(', '.join(x for x in (c,p,'Italia') if x)); target=norm(c); best=None; score=-1
-              for x in candidates if isinstance(candidates,list) else []:
-                  a=x.get('address') or {}; rc=norm(a.get('city') or a.get('town') or a.get('village') or a.get('municipality') or '')
-                  if not rc or not(rc==target or rc in target or target in rc):continue
-                  if norm(a.get('country_code')) not in ('','it'):continue
-                  if norm(x.get('class'))=='boundary' or norm(x.get('type')) in ('boundary','administrative'):continue
-                  s=100 if rc==target else 70
-                  if s>score:best,score=x,s
-              cache[key]=best;time.sleep(1.05)
-          verified=missing=0
-          for r in raw:
-              c,p=city(r),prov(r); best=cache.get((norm(c),norm(p)))
-              if best and best.get('lat') and best.get('lon'):
-                  r['lat']=float(best['lat']);r['lng']=float(best['lon']);r['geocode_status']='VERIFICATO';r['geocode_precision']='COMUNE';r['geocode_reason']='Posizione del Comune/localita';r['geocode_query']=', '.join(x for x in (c,p,'Italia') if x);r['geocode_display_name']=best.get('display_name','');verified+=1
+                  dialect = csv.Sniffer().sniff(sample, delimiters=',;|\t')
+              except csv.Error:
+                  dialect = csv.excel
+              return list(csv.DictReader(io.StringIO(text), dialect=dialect))
+
+          raw = json.loads(DATA.read_text(encoding='utf-8'))
+          if isinstance(raw, dict):
+              raw = raw.get('customers') or raw.get('data') or raw.get('content')
+              if isinstance(raw, str):
+                  raw = json.loads(raw)
+          if not isinstance(raw, list) or not raw:
+              raise SystemExit('Database clienti non valido o vuoto: STOP')
+
+          comuni_rows = read_csv(download(COMMUNI_URL))
+          coord_rows = read_csv(download(COORD_URL))
+          if not comuni_rows or not coord_rows:
+              raise SystemExit('Database Comuni/coordinate non scaricato: STOP')
+
+          comuni_by_code = {}
+          comuni_by_name_prov = {}
+          comuni_by_name = {}
+          for r in comuni_rows:
+              code = get(r, 'pro_com_t', 'codice_istat', 'codice')
+              name = get(r, 'comune', 'Comune')
+              prov = get(r, 'sigla', 'provincia', 'Provincia')
+              if not code or not name:
+                  continue
+              item = {'code': code.zfill(6), 'name': name, 'prov': prov}
+              comuni_by_code[item['code']] = item
+              comuni_by_name_prov.setdefault((norm(name), norm(prov)), []).append(item)
+              comuni_by_name.setdefault(norm(name), []).append(item)
+
+          coords_by_code = {}
+          for r in coord_rows:
+              code = get(r, 'pro_com_t', 'codice_istat', 'codice')
+              lat = get(r, 'lat', 'latitude')
+              lng = get(r, 'long', 'lon', 'lng', 'longitude')
+              if not code or not lat or not lng:
+                  continue
+              try:
+                  coords_by_code[code.zfill(6)] = (float(lat), float(lng))
+              except ValueError:
+                  continue
+
+          if len(comuni_by_code) < 7000 or len(coords_by_code) < 7000:
+              raise SystemExit(f'Sorgenti incomplete: comuni={len(comuni_by_code)} coordinate={len(coords_by_code)}')
+
+          verified = 0
+          missing = []
+          ambiguous = []
+          for row in raw:
+              comune = get(row, 'comune', 'col_9', 'Comune', 'city')
+              provincia = get(row, 'provincia', 'PROVINCIA', 'province', 'Province')
+              indirizzo = get(row, 'indirizzo', 'VIA', 'address')
+
+              # We only require geocoding when an address exists.
+              if not indirizzo:
+                  row['lat'] = None
+                  row['lng'] = None
+                  row['geocode_status'] = 'NESSUN_INDIRIZZO'
+                  row['geocode_precision'] = 'NESSUNA'
+                  row['geocode_reason'] = 'Nessun indirizzo presente'
+                  continue
+
+              candidates = comuni_by_name_prov.get((norm(comune), norm(provincia)), [])
+              if len(candidates) == 1:
+                  municipality = candidates[0]
+              elif len(candidates) > 1:
+                  ambiguous.append((row.get('row_number'), comune, provincia, 'nome+provincia non univoco'))
+                  continue
               else:
-                  r['lat']=None;r['lng']=None;r['geocode_status']='DA_VERIFICARE';r['geocode_precision']='NESSUNA';missing+=1
-          if verified==0: raise SystemExit('ZERO NUOVE COORDINATE: STOP')
-          path.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print('TOTAL',len(raw),'NEW_COORDS',verified,'WITHOUT_COORDS',missing,'MUNICIPALITIES',len(cache))
+                  name_candidates = comuni_by_name.get(norm(comune), [])
+                  if len(name_candidates) == 1:
+                      municipality = name_candidates[0]
+                  else:
+                      ambiguous.append((row.get('row_number'), comune, provincia, 'comune non trovato/univoco'))
+                      continue
+
+              coords = coords_by_code.get(municipality['code'])
+              if not coords:
+                  missing.append((row.get('row_number'), comune, provincia, 'coordinate mancanti nella fonte'))
+                  continue
+
+              lat, lng = coords
+              row['lat'] = lat
+              row['lng'] = lng
+              row['geocode_status'] = 'VERIFICATO'
+              row['geocode_precision'] = 'COMUNE_CENTROIDE'
+              row['geocode_reason'] = 'Centroide del Municipio del Comune di appartenenza'
+              row['geocode_query'] = f"{municipality['name']}, {municipality['prov']}, Italia"
+              row['geocode_display_name'] = municipality['name']
+              row['geocode_istat'] = municipality['code']
+              row['geocode_source'] = 'Open Data Sicilia - comuni italiani / coordinate.csv'
+              verified += 1
+
+          # Hard safety check: every customer row that has an address MUST have a verified coordinate.
+          address_rows = [r for r in raw if get(r, 'indirizzo', 'VIA', 'address')]
+          unresolved = [r for r in address_rows if r.get('geocode_status') != 'VERIFICATO' or not isinstance(r.get('lat'), (int, float)) or not isinstance(r.get('lng'), (int, float))]
+
+          print(f'TOTAL_RIGHE={len(raw)}')
+          print(f'RIGHE_CON_INDIRIZZO={len(address_rows)}')
+          print(f'GEOCODIFICATE_COMUNE={verified}')
+          print(f'NON_RISOLTE={len(unresolved)}')
+          print(f'AMBIGUE={len(ambiguous)}')
+          print(f'COORDINATE_MUNICIPI_DISPONIBILI={len(coords_by_code)}')
+
+          if ambiguous:
+              print('AMBIGUE_SAMPLE', ambiguous[:20])
+          if missing:
+              print('COORDINATE_MANCANTI_SAMPLE', missing[:20])
+          if unresolved:
+              sample = [(r.get('row_number'), r.get('comune'), r.get('provincia'), r.get('indirizzo') or r.get('VIA')) for r in unresolved[:20]]
+              print('NON_RISOLTE_SAMPLE', sample)
+              raise SystemExit('STOP: non tutti i clienti con indirizzo hanno un Comune verificato')
+
+          DATA.write_text(json.dumps(raw, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
-      - name: Validate database
+
+      - name: Validate every addressed customer
         run: |
           python - <<'PY'
           import json
-          d=json.load(open('data/customers.json',encoding='utf-8'))
-          if not isinstance(d,list) or not d: raise SystemExit('Database non valido')
-          c=[r for r in d if isinstance(r.get('lat'),(int,float)) and isinstance(r.get('lng'),(int,float))]
-          print('TOTAL',len(d),'WITH_COORDS',len(c))
-          if not c: raise SystemExit('Nessuna coordinata')
+          d = json.load(open('data/customers.json', encoding='utf-8'))
+          if not isinstance(d, list) or not d:
+              raise SystemExit('Database non valido')
+          addressed = [r for r in d if str(r.get('indirizzo') or r.get('VIA') or r.get('address') or '').strip()]
+          bad = [r for r in addressed if r.get('geocode_status') != 'VERIFICATO' or r.get('geocode_precision') != 'COMUNE_CENTROIDE' or not isinstance(r.get('lat'), (int,float)) or not isinstance(r.get('lng'), (int,float))]
+          print('RIGHE_TOTALI', len(d))
+          print('RIGHE_CON_INDIRIZZO', len(addressed))
+          print('RIGHE_VERIFICATE', len(addressed) - len(bad))
+          print('RIGHE_NON_VERIFICATE', len(bad))
+          if bad:
+              raise SystemExit('VALIDAZIONE FALLITA: esistono clienti con indirizzo senza coordinate di Comune')
           PY
-      - name: Commit database
+
+      - name: Commit corrected database
         run: |
           git config user.name 'tomato-map-bot'
           git config user.email 'tomato-map-bot@users.noreply.github.com'
           git add data/customers.json
-          git diff --cached --quiet || (git commit -m 'Geolocalizza clienti per Comune' && git push)
+          git diff --cached --quiet || (git commit -m 'Correggi geolocalizzazione clienti per Comune' && git push)
