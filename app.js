@@ -1,4 +1,5 @@
 const DATA_URL = "data/customers.json?ts=" + Date.now();
+const MUNICIPALITY_DATA_URL = "https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv?ts=" + Date.now();
 const STATUS_COLORS = { ATTIVO: "green", INATTIVO: "red", "STAND BY": "orange" };
 
 const els = {
@@ -20,6 +21,7 @@ let customers = [], filteredCustomers = [];
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (m) => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[m]));
 function getField(row, keys, fallback = "") { for (const key of keys) { const value = row?.[key]; if (value !== undefined && value !== null && String(value).trim() !== "") return String(value).trim(); } return fallback; }
 function normalizeText(value) { return String(value ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim(); }
+function normalizeMunicipality(value) { return normalizeText(value).replace(/\bSAINT\b/g,"SAN"); }
 function getStatus(row) { return getField(row, ["status", "Status"], "ATTIVO").toUpperCase(); }
 function getName(row) { return getField(row, ["Nome Locale", "nome_locale", "name", "Nome Cliente"], "Locale"); }
 function getAddress(row) { return getField(row, ["VIA", "indirizzo", "Indirizzo cliente", "Address"], ""); }
@@ -45,21 +47,87 @@ function renderMap() { clusterGroup.clearLayers(); filteredCustomers.forEach(row
 function fitAll() { const valid=customers.filter(hasCoordinates); if(!valid.length)return; map.fitBounds(L.latLngBounds(valid.map(r=>[Number(r.lat),Number(r.lng)])).pad(0.12)); }
 function syncStats(rows=customers,visibleRows=filteredCustomers) { els.total.textContent=String(rows.length); els.active.textContent=String(rows.filter(r=>getStatus(r)==="ATTIVO").length); els.inactive.textContent=String(rows.filter(r=>getStatus(r)==="INATTIVO").length); els.standby.textContent=String(rows.filter(r=>getStatus(r)==="STAND BY").length); els.geo.textContent=String(rows.filter(hasCoordinates).length); els.visible.textContent=String(visibleRows.length); }
 
+function parseCSVLine(line) {
+  const out=[]; let cur="", quoted=false;
+  for(let i=0;i<line.length;i++){
+    const ch=line[i];
+    if(ch==='"'){
+      if(quoted && line[i+1]==='"'){cur+='"';i++;}
+      else quoted=!quoted;
+    } else if(ch===',' && !quoted){ out.push(cur);cur=""; }
+    else cur+=ch;
+  }
+  out.push(cur);
+  return out;
+}
+async function loadMunicipalityIndex(){
+  const response=await fetch(MUNICIPALITY_DATA_URL,{cache:"no-store"});
+  if(!response.ok)throw new Error(`Impossibile caricare il database ufficiale dei Comuni (HTTP ${response.status})`);
+  const text=await response.text();
+  const lines=text.split(/\r?\n/).filter(Boolean);
+  if(lines.length<7000)throw new Error("Database dei Comuni incompleto");
+  const headers=parseCSVLine(lines[0]);
+  const idx=Object.fromEntries(headers.map((h,i)=>[h.trim(),i]));
+  const byNameProv=new Map(), byName=new Map(), byCap=new Map();
+  for(let i=1;i<lines.length;i++){
+    const c=parseCSVLine(lines[i]);
+    const name=c[idx.comune]||"", prov=c[idx.sigla]||"", cap=String(c[idx.cap]||"").trim(), lat=Number(c[idx.lat]), lng=Number(c[idx.long]);
+    if(!name||!Number.isFinite(lat)||!Number.isFinite(lng))continue;
+    const item={name,prov,cap,lat,lng,istat:c[idx.pro_com_t]||""};
+    const np=`${normalizeMunicipality(name)}|${normalizeText(prov)}`;
+    if(!byNameProv.has(np))byNameProv.set(np,[]);byNameProv.get(np).push(item);
+    const nn=normalizeMunicipality(name);
+    if(!byName.has(nn))byName.set(nn,[]);byName.get(nn).push(item);
+    if(cap){if(!byCap.has(cap))byCap.set(cap,[]);byCap.get(cap).push(item);}
+  }
+  return {byNameProv,byName,byCap};
+}
+function applyVerifiedMunicipalityCoordinates(index){
+  const unresolved=[];
+  for(const row of customers){
+    const address=getAddress(row);
+    if(!address)continue;
+    const city=normalizeMunicipality(getCity(row));
+    const prov=normalizeText(getProvince(row));
+    const cap=String(getField(row,["CAP","cap","CAP cliente"])).replace(/\D/g,"");
+    let candidates=index.byNameProv.get(`${city}|${prov}`)||[];
+    if(candidates.length!==1)candidates=index.byName.get(city)||[];
+    if(candidates.length!==1 && cap)candidates=index.byCap.get(cap)||[];
+    if(candidates.length===1){
+      const m=candidates[0];
+      row.lat=m.lat; row.lng=m.lng;
+      row.geocode_status="VERIFICATO";
+      row.geocode_precision="COMUNE_CENTROIDE";
+      row.geocode_reason="Centroide del Municipio del Comune di appartenenza";
+      row.geocode_display_name=m.name;
+      row.geocode_istat=m.istat;
+      row.geocode_source="Open Data Sicilia - main.csv";
+    } else {
+      unresolved.push({row,city:getCity(row),prov:getProvince(row),cap,address});
+    }
+  }
+  if(unresolved.length){
+    const sample=unresolved.slice(0,15).map(x=>`${x.row.row_number||"?"}: ${x.city} (${x.prov}) - ${x.address}`).join(" | ");
+    throw new Error(`Non riesco a verificare il Comune di ${unresolved.length} clienti con indirizzo. Esempi: ${sample}`);
+  }
+}
+
 async function loadData(){
   els.pill.textContent="Caricamento database…";
-  const response=await fetch(DATA_URL,{cache:"no-store"});
+  const [response, municipalityIndex]=await Promise.all([
+    fetch(DATA_URL,{cache:"no-store"}),
+    loadMunicipalityIndex()
+  ]);
   if(!response.ok)throw new Error(`HTTP ${response.status}`);
   let data=await response.json();
 
-  // Compatibilità con il formato errato scritto dall'ultimo workflow:
-  // { content: "[ ... ]", encoding: "utf-8", ... }
-  // La mappa deve accettare sia il normale array JSON sia questo wrapper.
   if(!Array.isArray(data) && data && typeof data.content === "string") {
     try { data=JSON.parse(data.content); } catch(err) { throw new Error("customers.json contiene un wrapper non valido: " + err.message); }
   }
   if(!Array.isArray(data)) throw new Error("customers.json non contiene un array di clienti");
 
   customers=data;
+  applyVerifiedMunicipalityCoordinates(municipalityIndex);
   filteredCustomers=customers.filter(hasCoordinates);
   updateFiltersOptions(customers);
   syncStats(customers,filteredCustomers);
