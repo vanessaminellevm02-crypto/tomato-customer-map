@@ -42,7 +42,6 @@ jobs:
               raw=raw.get('content') or raw.get('customers') or raw.get('data')
               if isinstance(raw,str): raw=json.loads(raw)
           if not isinstance(raw,list) or len(raw)!=662: raise SystemExit('customers.json non valido')
-
           updates=[]
           for fn in ['data/address_updates.json','data/address_updates_2.json','data/address_updates_3.json']:
               updates += json.loads(Path(fn).read_text(encoding='utf-8'))
@@ -52,16 +51,14 @@ jobs:
               payload=(t(u.get('indirizzo')),c(u.get('CAP')),n(u.get('comune')),n(u.get('provincia')))
               if key in src:
                   old=src[key]
-                  # Same customer can appear twice with a locality/frazione name in one copy and the official municipality in another.
-                  # Require address/CAP/province to agree; fill blank fields from the other copy.
+                  # Duplicate rows may differ only because one gives a locality/fraction name and another gives the official municipality.
                   for idx in (0,1,3):
-                      if old[idx] and payload[idx] and old[idx] != payload[idx]:
+                      if old[idx] and payload[idx] and old[idx]!=payload[idx]:
                           raise SystemExit(f'Conflitto reale per {key}: {old} vs {payload}')
                   src[key]=tuple(old[i] or payload[i] for i in range(4))
               else:
                   src[key]=payload
-
-          req=Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/10.0'})
+          req=Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/10.1'})
           towns=list(csv.DictReader(io.StringIO(urlopen(req,timeout=45).read().decode('utf-8-sig'))))
           if len(towns)<7000: raise SystemExit(f'Fonte Comuni incompleta: {len(towns)}')
           by_np={}; by_name={}; by_cp={}; by_cap={}
