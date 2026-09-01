@@ -49,9 +49,15 @@ jobs:
           for u in updates:
               key=(p(u.get('piva')),n(u.get('nome_locale')))
               payload=(t(u.get('indirizzo')),c(u.get('CAP')),n(u.get('comune')),n(u.get('provincia')))
-              if key in src and src[key]!=payload: raise SystemExit(f'Conflitto per {key}')
-              src[key]=payload
-          req=Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/8.1'})
+              if key in src:
+                  old=src[key]
+                  for oldv,newv in zip(old,payload):
+                      if oldv and newv and oldv != newv:
+                          raise SystemExit(f'Conflitto per {key}: {old} vs {payload}')
+                  src[key]=tuple(oldv or newv for oldv,newv in zip(old,payload))
+              else:
+                  src[key]=payload
+          req=Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/9.0'})
           towns=list(csv.DictReader(io.StringIO(urlopen(req,timeout=45).read().decode('utf-8-sig'))))
           if len(towns)<7000: raise SystemExit(f'Fonte Comuni incompleta: {len(towns)}')
           by_np={}; by_name={}; by_cp={}; by_cap={}
