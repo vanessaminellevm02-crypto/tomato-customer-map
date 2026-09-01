@@ -48,8 +48,10 @@ jobs:
           src={}
           for u in updates:
               key=(p(u.get('piva')),n(u.get('nome_locale')))
-              src[key]={'indirizzo':t(u.get('indirizzo')),'cap':c(u.get('CAP')),'comune':n(u.get('comune')),'provincia':n(u.get('provincia'))}
-          req=Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/7.1'})
+              payload=(t(u.get('indirizzo')),c(u.get('CAP')),n(u.get('comune')),n(u.get('provincia')))
+              if key in src and src[key]!=payload: raise SystemExit(f'Conflitto per {key}')
+              src[key]=payload
+          req=Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/8.1'})
           towns=list(csv.DictReader(io.StringIO(urlopen(req,timeout=45).read().decode('utf-8-sig'))))
           if len(towns)<7000: raise SystemExit(f'Fonte Comuni incompleta: {len(towns)}')
           by_np={}; by_name={}; by_cp={}; by_cap={}
@@ -63,13 +65,13 @@ jobs:
               if cc: by_cp.setdefault((cc,n(prov)),[]).append(x); by_cap.setdefault(cc,[]).append(x)
           def choose(name,prov,cc):
               q=by_cp.get((c(cc),n(prov)),[]) if c(cc) and n(prov) else []
-              if len(q)==1: return q[0]
+              if len(q)==1:return q[0]
               q=by_np.get((n(name),n(prov)),[]) if n(name) and n(prov) else []
-              if len(q)==1: return q[0]
+              if len(q)==1:return q[0]
               q=by_name.get(n(name),[]) if n(name) else []
-              if len(q)==1: return q[0]
+              if len(q)==1:return q[0]
               q=by_cap.get(c(cc),[]) if c(cc) else []
-              if len(q)==1: return q[0]
+              if len(q)==1:return q[0]
               return None
           def row_key(r): return (p(get(r,'P.IVA','piva')),n(get(r,'Nome Locale','nome_locale','name')))
           def has_addr(r): return bool(get(r,'VIA','via','indirizzo'))
@@ -78,13 +80,13 @@ jobs:
               k=row_key(r)
               if k not in src: continue
               if has_addr(r): already+=1; continue
-              u=src[k]; x=choose(u['comune'],u['provincia'],u['cap'])
+              u=src[k]; x=choose(u[2],u[3],u[1])
               if not x:
-                  unresolved.append({'piva':k[0],'nome_locale':k[1],'indirizzo':u['indirizzo'],'CAP':u['cap'],'comune':u['comune'],'provincia':u['provincia']}); continue
-              r['VIA']=u['indirizzo']; r['CAP']=int(x['cap']) if x['cap'] else ''; r['col_9']=x['name']; r['PROVINCIA']=x['prov']; r['indirizzo']=u['indirizzo']; r['comune']=x['name']; r['provincia']=x['prov']; r['address']=', '.join(v for v in [u['indirizzo'],x['cap'],x['name'],x['prov'],'Italia'] if v); r['lat']=x['lat']; r['lng']=x['lng']; r['geocode_status']='VERIFICATO'; r['geocode_precision']='COMUNE_CENTROIDE'; r['geocode_reason']='Coordinate del Comune di appartenenza'; r['geocode_query']=f"{x['name']}, {x['prov']}, Italia"; r['geocode_display_name']=x['name']; r['geocode_istat']=x['istat']; r['geocode_source']='Open Data Sicilia - main.csv'; updated+=1
+                  unresolved.append({'piva':k[0],'nome_locale':k[1],'indirizzo':u[0],'CAP':u[1],'comune':u[2],'provincia':u[3]}); continue
+              r['VIA']=u[0]; r['CAP']=int(x['cap']) if x['cap'] else ''; r['col_9']=x['name']; r['PROVINCIA']=x['prov']; r['indirizzo']=u[0]; r['comune']=x['name']; r['provincia']=x['prov']; r['address']=', '.join(v for v in [u[0],x['cap'],x['name'],x['prov'],'Italia'] if v); r['lat']=x['lat']; r['lng']=x['lng']; r['geocode_status']='VERIFICATO'; r['geocode_precision']='COMUNE_CENTROIDE'; r['geocode_reason']='Coordinate del Comune di appartenenza'; r['geocode_query']=f"{x['name']}, {x['prov']}, Italia"; r['geocode_display_name']=x['name']; r['geocode_istat']=x['istat']; r['geocode_source']='Open Data Sicilia - main.csv'; updated+=1
           print(f'CLIENTI_TOTALI={len(raw)}'); print(f'SENZA_INDIRIZZO_PRIMA={before}'); print(f'SORGENTE_RIGHE={len(updates)}'); print(f'CHIAVI_UNICHE={len(src)}'); print(f'NUOVI_AGGIORNATI={updated}'); print(f'GIA_PRESENTI={already}'); print(f'NON_RISOLTI={len(unresolved)}')
           if unresolved:
-              for x in unresolved: print('NON_RISOLTO',x)
+              for z in unresolved: print('NON_RISOLTO',z)
               raise SystemExit('STOP: impossibile determinare il Comune')
           if updated+already != 90: raise SystemExit(f'STOP: {updated+already} record abbinati, attesi 90')
           data.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -95,9 +97,9 @@ jobs:
           import json
           d=json.load(open('data/customers.json',encoding='utf-8'))
           assert len(d)==662
-          v=[r for r in d if r.get('geocode_status')=='VERIFICATO' and r.get('geocode_precision')=='COMUNE_CENTROIDE']
-          assert len(v)>=90
-          print(f'VALIDO: {len(d)} clienti; {len(v)} coordinate verificate')
+          v=sum(1 for r in d if r.get('geocode_status')=='VERIFICATO' and r.get('geocode_precision')=='COMUNE_CENTROIDE')
+          assert v>=90
+          print(f'VALIDO: {len(d)} clienti; {v} coordinate verificate')
           PY
       - name: Commit database
         run: |
