@@ -1,2 +1,20 @@
 [
+  {
+    "piva": "04868180268",
+    "nome_locale": "Osteria Bastian",
+    "indirizzo": "VIA DEI DA PRATA, 24",
+    "CAP": "31100",
+    "comune_hint": "TREVISO",
+    "provincia_hint": "TV",
+    "raw_address": "VIA DEI DA PRATA, 24, 31100.0 TREVISO (TV)"
+  },
+  {
+    "piva": "02932580356",
+    "nome_locale": "Bolle Quadre",
+    "indirizzo": "VIA GUAZZATOIO, 6/A",
+    "CAP": "42121",
+    "comune_hint": "REGGIO NELL'EMILIA",
+    "provincia_hint": "RE",
+    "raw_address": "VIA GUAZZATOIO, 6/A, 42121.0 REGGIO NELL'EMILIA (RE)"
+  }
 ]
