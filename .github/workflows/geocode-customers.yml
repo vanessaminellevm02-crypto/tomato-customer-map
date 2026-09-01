@@ -5,10 +5,10 @@ on:
   push:
     paths:
       - '.github/workflows/geocode-customers.yml'
-      - 'data/customers.json'
       - 'data/address_updates.json'
       - 'data/address_updates_2.json'
       - 'data/address_updates_3.json'
+      - 'data/customers.json'
 
 permissions:
   contents: write
@@ -19,82 +19,175 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Import only the 90 supplied missing addresses
+
+      - name: Import supplied addresses only
+        shell: bash
         run: |
           python - <<'PY'
-          import csv,io,json,re,unicodedata
+          import csv, io, json, re, unicodedata
           from pathlib import Path
-          from urllib.request import Request,urlopen
-          DATA=Path('data/customers.json')
+          from urllib.request import Request, urlopen
+
+          DATA = Path('data/customers.json')
+          FILES = [Path('data/address_updates.json'), Path('data/address_updates_2.json'), Path('data/address_updates_3.json')]
+
           def t(v): return str(v or '').strip()
-          def n(v):
-              s=unicodedata.normalize('NFKD',t(v)); s=''.join(c for c in s if not unicodedata.combining(c)); s=s.upper().replace('’',"'")
-              return ' '.join(re.sub(r'[^A-Z0-9]+',' ',s).split())
-          def p(v):
-              d=re.sub(r'\D','',t(v)); return d.zfill(11) if d else ''
-          def c(v):
-              d=re.sub(r'\D','',t(v)); return d.zfill(5) if d else ''
-          def get(r,*ks):
-              for k in ks:
+          def norm(v):
+              s = unicodedata.normalize('NFKD', t(v))
+              s = ''.join(ch for ch in s if not unicodedata.combining(ch))
+              s = s.upper().replace('’', "'")
+              return ' '.join(re.sub(r'[^A-Z0-9]+', ' ', s).split())
+          def piva(v):
+              d = re.sub(r'\D', '', t(v))
+              return d.zfill(11) if d else ''
+          def cap(v):
+              d = re.sub(r'\D', '', t(v))
+              return d.zfill(5) if d else ''
+          def get(r, *keys):
+              for k in keys:
                   if k in r and t(r[k]): return t(r[k])
               return ''
-          raw=json.loads(DATA.read_text(encoding='utf-8'))
-          if isinstance(raw,dict):
-              raw=raw.get('content') or raw.get('customers') or raw.get('data'); raw=json.loads(raw) if isinstance(raw,str) else raw
-          if not isinstance(raw,list) or len(raw)!=662: raise SystemExit('customers.json non valido')
-          updates=[]
-          for fn in ['data/address_updates.json','data/address_updates_2.json','data/address_updates_3.json']:
-              updates += json.loads(Path(fn).read_text(encoding='utf-8'))
-          src={}
-          for u in updates: src[(p(u.get('piva')),n(u.get('nome_locale')))] = u
-          txt=urlopen(Request('https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv',headers={'User-Agent':'TomatoCustomerMap/5.0'}),timeout=45).read().decode('utf-8-sig')
-          towns=list(csv.DictReader(io.StringIO(txt)))
-          by_np={}; by_cp={}; by_name={}; all_t=[]
+          def read_json(path):
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              if not isinstance(obj, list): raise SystemExit(f'Formato non valido: {path}')
+              return obj
+
+          raw = json.loads(DATA.read_text(encoding='utf-8'))
+          if isinstance(raw, dict):
+              raw = raw.get('content') or raw.get('customers') or raw.get('data')
+              if isinstance(raw, str): raw = json.loads(raw)
+          if not isinstance(raw, list) or len(raw) != 662:
+              raise SystemExit(f'customers.json inatteso: {type(raw).__name__}, {len(raw) if isinstance(raw,list) else "n/a"} record')
+
+          updates = []
+          for f in FILES:
+              updates.extend(read_json(f))
+          if len(updates) != 90:
+              raise SystemExit(f'Sorgente indirizzi inattesa: {len(updates)} righe, attese 90')
+
+          src = {}
+          for u in updates:
+              key = (piva(u.get('piva')), norm(u.get('nome_locale')))
+              if not key[0] or not key[1]:
+                  raise SystemExit(f'Sorgente priva di chiave: {u}')
+              prev = src.get(key)
+              payload = (t(u.get('indirizzo')), cap(u.get('CAP')), norm(u.get('comune')), norm(u.get('provincia')))
+              if prev and prev != payload:
+                  raise SystemExit(f'Conflitto sorgente per {key}: {prev} vs {payload}')
+              src[key] = payload
+
+          url = 'https://raw.githubusercontent.com/opendatasicilia/comuni-italiani/main/dati/main.csv'
+          req = Request(url, headers={'User-Agent':'TomatoCustomerMap/6.0'})
+          towns = list(csv.DictReader(io.StringIO(urlopen(req, timeout=45).read().decode('utf-8-sig'))))
+          if len(towns) < 7000:
+              raise SystemExit(f'Fonte Comuni incompleta: {len(towns)} righe')
+
+          by_np, by_cp, by_name, by_cap = {}, {}, {}, {}
+          def town(r):
+              name = get(r,'comune'); prov = get(r,'sigla'); cc = cap(get(r,'cap')); ist = get(r,'pro_com_t')
+              try: lat, lng = float(get(r,'lat')), float(get(r,'long'))
+              except: return None
+              if not name or not ist: return None
+              return {'name':name,'prov':prov,'cap':cc,'istat':ist.zfill(6),'lat':lat,'lng':lng}
+          all_t = []
           for r in towns:
-              name=get(r,'comune'); prov=get(r,'sigla'); cc=c(get(r,'cap')); ist=get(r,'pro_com_t')
-              try: lat=float(get(r,'lat')); lng=float(get(r,'long'))
-              except: continue
-              if not name or not ist: continue
-              x={'name':name,'prov':prov,'cap':cc,'istat':ist.zfill(6),'lat':lat,'lng':lng}
-              by_np.setdefault((n(name),n(prov)),[]).append(x); by_name.setdefault(n(name),[]).append(x); by_cp.setdefault((cc,n(prov)),[]).append(x); all_t.append(x)
-          def choose(name,prov,cc):
-              q=by_np.get((n(name),n(prov)),[])
-              if len(q)==1:return q[0],'COMUNE+PROVINCIA'
-              q=by_name.get(n(name),[])
-              if len(q)==1:return q[0],'COMUNE'
-              q=by_cp.get((c(cc),n(prov)),[])
-              if len(q)==1:return q[0],'CAP+PROVINCIA'
-              q=[x for x in all_t if c(x['cap'])==c(cc)] if c(cc) else []
-              if len(q)==1:return q[0],'CAP'
-              return None,None
-          def has_addr(r): return bool(get(r,'VIA','via','indirizzo'))
-          updated=0; unresolved=[]
+              x = town(r)
+              if not x: continue
+              all_t.append(x)
+              by_np.setdefault((norm(x['name']),norm(x['prov'])),[]).append(x)
+              by_name.setdefault(norm(x['name']),[]).append(x)
+              if x['cap']: by_cp.setdefault((x['cap'],norm(x['prov'])),[]).append(x)
+              if x['cap']: by_cap.setdefault(x['cap'],[]).append(x)
+
+          def choose(name, prov, cc):
+              # Prefer an official unique CAP+province match. This is more robust than a bad/free-text municipality hint.
+              q = by_cp.get((cap(cc), norm(prov)), []) if cap(cc) and norm(prov) else []
+              if len(q) == 1: return q[0], 'CAP+PROVINCIA'
+              q = by_np.get((norm(name), norm(prov)), []) if norm(name) and norm(prov) else []
+              if len(q) == 1: return q[0], 'COMUNE+PROVINCIA'
+              q = by_name.get(norm(name), []) if norm(name) else []
+              if len(q) == 1: return q[0], 'COMUNE'
+              q = by_cap.get(cap(cc), []) if cap(cc) else []
+              if len(q) == 1: return q[0], 'CAP'
+              return None, None
+
+          def row_key(r):
+              return (piva(get(r,'P.IVA','piva')), norm(get(r,'Nome Locale','nome_locale','name')))
+          def has_address(r):
+              return bool(get(r,'VIA','via','indirizzo'))
+
+          before_missing = sum(1 for r in raw if not has_address(r))
+          updated = 0
+          already = 0
+          unmatched = []
+          unresolved = []
+
           for r in raw:
-              if has_addr(r): continue
-              key=(p(get(r,'P.IVA','piva')),n(get(r,'Nome Locale','nome_locale','name')))
-              u=src.get(key)
-              if not u: continue
-              town,method=choose(u.get('comune'),u.get('provincia'),u.get('CAP'))
-              if not town:
-                  unresolved.append({**key,'indirizzo':u.get('indirizzo'),'CAP':u.get('CAP'),'comune':u.get('comune'),'provincia':u.get('provincia')}); continue
-              addr=t(u.get('indirizzo')); r['VIA']=addr; r['CAP']=int(town['cap']) if town['cap'] else ''; r['col_9']=town['name']; r['PROVINCIA']=town['prov']; r['indirizzo']=addr; r['comune']=town['name']; r['provincia']=town['prov']; r['address']=', '.join(x for x in [addr,town['cap'],town['name'],town['prov'],'Italia'] if x); r['lat']=town['lat']; r['lng']=town['lng']; r['geocode_status']='VERIFICATO'; r['geocode_precision']='COMUNE_CENTROIDE'; r['geocode_reason']=f'Coordinate del Comune di appartenenza (metodo {method})'; r['geocode_query']=f"{town['name']}, {town['prov']}, Italia"; r['geocode_display_name']=town['name']; r['geocode_istat']=town['istat']; r['geocode_source']='Open Data Sicilia - main.csv'; updated+=1
-          print('TOTALI',len(raw),'AGGIORNATI',updated,'NON_RISOLTI',len(unresolved))
-          if unresolved: print('\n'.join(map(str,unresolved))); raise SystemExit('STOP: indirizzi non verificati')
-          if updated!=90: raise SystemExit(f'STOP: aggiornati {updated}, attesi 90')
-          DATA.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              key = row_key(r)
+              if key not in src:
+                  continue
+              if has_address(r):
+                  already += 1
+                  continue
+              addr, cc, cn, pv = src[key]
+              unmatched.append(key) if not addr else None
+              x, method = choose(cn, pv, cc)
+              if not x:
+                  unresolved.append({'piva':key[0],'nome_locale':key[1],'indirizzo':addr,'CAP':cc,'comune':cn,'provincia':pv})
+                  continue
+              r['VIA'] = addr
+              r['CAP'] = int(x['cap']) if x['cap'] else ''
+              r['col_9'] = x['name']
+              r['PROVINCIA'] = x['prov']
+              r['indirizzo'] = addr
+              r['comune'] = x['name']
+              r['provincia'] = x['prov']
+              r['address'] = ', '.join(v for v in [addr, x['cap'], x['name'], x['prov'], 'Italia'] if v)
+              r['lat'], r['lng'] = x['lat'], x['lng']
+              r['geocode_status'] = 'VERIFICATO'
+              r['geocode_precision'] = 'COMUNE_CENTROIDE'
+              r['geocode_reason'] = f'Coordinate del Comune di appartenenza (metodo {method})'
+              r['geocode_query'] = f"{x['name']}, {x['prov']}, Italia"
+              r['geocode_display_name'] = x['name']
+              r['geocode_istat'] = x['istat']
+              r['geocode_source'] = 'Open Data Sicilia - main.csv'
+              updated += 1
+
+          matched = updated + already
+          print(f'CLIENTI_TOTALI={len(raw)}')
+          print(f'SENZA_INDIRIZZO_PRIMA={before_missing}')
+          print(f'SORGENTE_RIGHE={len(updates)}')
+          print(f'CHIAVI_UNICHE={len(src)}')
+          print(f'NUOVI_AGGIORNATI={updated}')
+          print(f'GIA_PRESENTI={already}')
+          print(f'NON_RISOLTI={len(unresolved)}')
+
+          if unresolved:
+              print('NON_RISOLTI_DETTAGLIO:')
+              for x in unresolved: print(x)
+              raise SystemExit('STOP: indirizzi con Comune non verificabile')
+          if matched != 90:
+              raise SystemExit(f'STOP: {matched} righe sorgente abbinate, attese 90')
+
+          DATA.write_text(json.dumps(raw, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
-      - name: Validate
+
+      - name: Validate database
         run: |
           python - <<'PY'
           import json
           d=json.load(open('data/customers.json',encoding='utf-8'))
-          assert isinstance(d,list) and len(d)==662
-          assert sum(1 for r in d if r.get('geocode_status')=='VERIFICATO' and r.get('geocode_precision')=='COMUNE_CENTROIDE') >= 90
-          print('Database valido:',len(d),'clienti')
+          if len(d)!=662: raise SystemExit(f'Totale clienti errato: {len(d)}')
+          v=[r for r in d if r.get('geocode_status')=='VERIFICATO' and r.get('geocode_precision')=='COMUNE_CENTROIDE']
+          if len(v)<90: raise SystemExit(f'Coordinate verificate insufficienti: {len(v)}')
+          print(f'Database valido: {len(d)} clienti, {len(v)} coordinate verificate')
           PY
-      - name: Commit
+
+      - name: Commit database
         run: |
           git config user.name 'tomato-map-bot'
           git config user.email 'tomato-map-bot@users.noreply.github.com'
           git add data/customers.json
-          git diff --cached --quiet || (git commit -m 'Importa indirizzi mancanti nella mappa' && git push)
+          if git diff --cached --quiet; then echo 'Nessuna modifica'; exit 0; fi
+          git commit -m 'Completa indirizzi mancanti nella mappa'
+          git push
